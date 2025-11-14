@@ -1,113 +1,88 @@
 ---
 layout: archive
-title: "Experiences"
+title: "My Experiences"
 permalink: /experiences/
 author_profile: true
 ---
 
-<!-- Back to Homepage -->
-<div style="max-width:1100px; margin:20px auto 10px auto;">
-  <a href="/" 
-     style="font-size:17px; text-decoration:none; color:#3c7dff; font-weight:600;">
+<!-- Back to home link -->
+<div style="max-width:1100px; margin:20px auto;">
+  <a href="/" style="font-size:17px; text-decoration:none; color:#3c7dff; font-weight:600;">
     ← Back to Homepage
   </a>
 </div>
 
 <style>
-/* ===========================
-   EXPERIENCE PAGE – GLOBAL STYLING
-   =========================== */
-.exp-page {
-  background: linear-gradient(180deg, #f4f5f7 0%, #eef0f3 100%);
-  padding-bottom: 50px;
+.experience-card {
+  max-width: 1100px;
+  margin: 40px auto;
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
   font-family: "Inter", sans-serif;
 }
 
-/* ===========================
-   CARD STYLE
-   =========================== */
-.exp-card {
-  background: white;
-  padding: 22px;
-  border-radius: 18px;
-  max-width: 1100px;
-  margin: 40px auto;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-}
-
-/* Title */
-.exp-title {
-  font-size: 26px;
+.experience-title {
+  text-align: center;
+  font-size: 32px;
   font-weight: 800;
   margin-bottom: 12px;
   color: #1f2d3d;
-  text-align: center;
 }
 
-/* Description */
-.exp-desc {
-  font-size: 17px;
-  line-height: 1.65;
-  color: #444;
-  margin-bottom: 25px;
+.experience-text {
   text-align: center;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 40px;
 }
 
-/* ===========================
-   MEDIA ROW (ALL IN ONE ROW)
-   =========================== */
-.exp-media-row {
+.media-row {
   display: flex;
-  gap: 20px;
   justify-content: center;
-  align-items: flex-start;
+  gap: 20px;
   flex-wrap: nowrap;
 }
 
-/* Images & Videos */
-.exp-media-row img,
-.exp-media-row iframe {
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.18);
-  flex-shrink: 0;
+.media-row img,
+.media-row iframe {
+  width: 32%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
 }
 </style>
 
-<div class="exp-page">
+<div class="experience-card">
 
-<!-- ========================================= -->
-<!-- CVPR 2025 Experience Card -->
-<!-- ========================================= -->
-<div class="exp-card">
+  <div class="experience-title">CVPR 2025 Experience</div>
 
-  <div class="exp-title">CVPR 2025 Experience</div>
-
-  <div class="exp-desc">
-    I attended <b>CVPR 2025</b> — an amazing experience to meet world-leading researchers, 
-    explore cutting-edge work in computer vision, and learn about the newest advancements 
-    in 3D vision, Gaussian Splatting, and foundation models.  
+  <div class="experience-text">
+    I attended <b>CVPR 2025</b> — an amazing opportunity to meet world-leading researchers, 
+    explore cutting-edge research in computer vision, and learn about the newest advancements 
+    in 3D vision, Gaussian Splatting, and foundation models.
     <br><br>
-    It was inspiring to talk with experts, attend workshops, and connect with innovative 
-    companies shaping the future of AI.
+    It was inspiring to talk with experts, attend workshops, and connect with innovative companies 
+    shaping the future of AI.
   </div>
 
-  <div class="exp-media-row">
+  <div class="media-row">
 
     <!-- Image 1 -->
-    <img src="/images/cvpr2025.jpg" style="width:30%; height:auto;">
+    <img src="/images/cvpr2025.jpg" alt="CVPR 2025 Image 1">
 
     <!-- Image 2 -->
-    <img src="/images/cvpr2025-image.jpg" style="width:30%; height:auto;">
+    <img src="/images/cvpr2025-image.jpg" alt="CVPR 2025 Image 2">
 
     <!-- Video -->
-    <iframe
-      src="https://drive.google.com/file/d/15ke-QNEILt5oj0dTmuEDDvFTME9xWeE9/preview"
-      style="width:35%; height:220px; border:0;"
+    <iframe 
+      src="https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/preview"
       allow="autoplay">
     </iframe>
 
   </div>
 
-</div> <!-- END CVPR card -->
-
-</div> <!-- END exp-page -->
+</div>
