@@ -5,7 +5,6 @@ permalink: /driver-behavior/
 author_profile: true
 ---
 
-
 <style>
 .project-page {
   background: #f6f7f9;
@@ -188,5 +187,4 @@ Behavior Analysis of Car Drivers Based on Computer Vision
 <div class="project-section-title">System Architecture</div>
 <img src="/images/Architecture.jpg" class="project-arch-img" alt="System architecture diagram">
 
-</div>
-
+</div> <!-- END project-page -->
