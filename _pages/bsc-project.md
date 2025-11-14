@@ -1,4 +1,3 @@
-<!--
 ---
 layout: archive
 title: "Behavior Analysis of Car Drivers Based on Computer Vision"
@@ -6,7 +5,7 @@ permalink: /driver-behavior/
 author_profile: true
 ---
 
-
+<div class="project-page">
 
 <style>
 /* ===========================
@@ -247,4 +246,4 @@ Behavior Analysis of Car Drivers Based on Computer Vision
 <img src="/images/Architecture.jpg" class="project-arch-img" alt="System architecture diagram">
 
 </div>
--->
+
