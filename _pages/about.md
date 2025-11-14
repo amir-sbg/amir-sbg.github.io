@@ -67,84 +67,26 @@ I am a first-year Ph.D. student in Computer Science at [Georgia State University
 
 # 💻 Projects and Publications
 
-
-<!--
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='/images/GaussianSplatting.png' alt="Gaussian Aplatting" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-**Submitted to CVPR 2026**
-
-**Amir Sabbaghziarani\***,...
-2025.11
-
-
-</div>
-</div>
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BSc Thesis Project</div><img src='/images/Intro.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to CVPR 2026</div><img src='/images/GS-cropped.png'  alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-BSc project: [Behavior Analysis of Cars Drivers Based-on Computer Vision](https://amir-sbg.github.io/driver-behavior/)
-
-- A computer-vision–based system for analyzing real-world driver behavior.
-- Includes head pose tracking, distraction detection, and multi-camera fusion.
-- End-to-end implementation with data collection, deep learning models, and deployment pipeline.
-2023.08
-
-</div>
-</div>
- -->
-
- <!-- AnySplat -->
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">CVPR 2026</div>
-      <img src='/images/GaussianSplatting.png' 
-           alt="Gaussian Splatting"
-           style="width:100%; height:180px; object-fit:cover; object-position:center;">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
 **Submitted to CVPR 2026**
+Amir Sabbaghziarani, ...
 
-**Amir Sabbaghziarani\***, ...
-2025.11
-  </div>
+</div>
 </div>
 
-<!-- AnySplat -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BSc Project</div><img src='/images/Intro-cropped.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-<!-- AnySplat -->
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">BSc Thesis Project</div>
-      <img src='/images/Intro.jpg' 
-           alt="Driver Behavior"
-           style="width:100%; height:180px; object-fit:cover; object-position:center;">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-BSc project: [Behavior Analysis of Cars Drivers Based-on Computer Vision](https://amir-sbg.github.io/driver-behavior/)
+**[Behavior Analysis of Cars Drivers Based-on Computer Vision](https://amir-sbg.github.io/driver-behavior/)**
 
 - A computer-vision–based system for analyzing real-world driver behavior.
 - Includes head pose tracking, distraction detection, and multi-camera fusion.
 - End-to-end implementation with data collection, deep learning models, and deployment pipeline.  
-2023.08
-  </div>
+
 </div>
-
-<!-- AnySplat -->
-
-
-
+</div>
 
 
 
