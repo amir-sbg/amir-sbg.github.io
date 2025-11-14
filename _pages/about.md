@@ -65,7 +65,44 @@ I am a first-year Ph.D. student in Computer Science at [Georgia State University
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 -->
 
-# 💻 Projects
+# 💻 Projects and Publications
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/GaussianSplatting.jpg' alt="gaussian" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**2025.11**  
+*Submitted to CVPR 2026*
+
+
+  </div>
+</div>
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/Intro.jpg' alt="driver-behavior" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**2023.08**  
+[Behavior Analysis of Cars Drivers Based-on Computer Vision](https://amir-sbg.github.io/driver-behavior/)
+
+- A computer-vision–based system for analyzing real-world driver behavior.
+- Includes head pose tracking, distraction detection, and multi-camera fusion.
+- End-to-end implementation with data collection, deep learning models, and deployment pipeline.
+
+  </div>
+</div>
+
+
 
 
 # 📖 Educations
