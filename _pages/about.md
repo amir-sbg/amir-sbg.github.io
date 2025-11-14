@@ -70,14 +70,14 @@ I am a first-year Ph.D. student in Computer Science at [Georgia State University
 
 <!-- AnySplat -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to CVPR 2026</div><img src='images/GaussianSplatting.png' alt="Gaussian Aplatting" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to CVPR 2026</div><img src='/images/GaussianSplatting.png' alt="Gaussian Aplatting" width="100%"></div></div>
   **2025.11** 
 </div>
 <!-- AnySplat -->
 
 <!-- AnySplat -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Behavior Analysis of Cars Drivers Based-on Computer Vision</div><img src='images/Intro.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Behavior Analysis of Cars Drivers Based-on Computer Vision</div><img src='/images/Intro.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **2023.08**  
 BSc project: [Behavior Analysis of Cars Drivers Based-on Computer Vision](https://amir-sbg.github.io/driver-behavior/)
