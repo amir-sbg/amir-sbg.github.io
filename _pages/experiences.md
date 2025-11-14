@@ -5,149 +5,124 @@ permalink: /experiences/
 author_profile: true
 ---
 
-<!-- Back to Home -->
-<div style="max-width:1100px; margin:20px auto 20px auto;">
-  <a href="/" 
-     style="font-size:17px; text-decoration:none; color:#3c7dff; font-weight:600;">
+<!-- Back to Homepage -->
+<div style="max-width:1100px; margin:20px auto;">
+  <a href="/" style="font-size:17px; text-decoration:none; color:#3c7dff; font-weight:600;">
     ← Back to Homepage
   </a>
 </div>
 
 <style>
-/* ===========================
-   Experiences Page Styling
-   =========================== */
-.exp-page {
+/* Page background */
+.experiences-page {
   background: linear-gradient(180deg, #f4f5f7 0%, #eef0f3 100%);
-  padding-bottom: 60px;
+  padding-bottom: 50px;
   font-family: "Inter", sans-serif;
 }
 
-/* Title */
-.exp-title {
-  text-align: center;
-  font-size: 34px;
-  font-weight: 800;
-  margin: 40px 0 25px 0;
-  color: #1f2d3d;
-}
-
-.exp-title::after {
-  content: "";
-  display: block;
-  width: 70px;
-  height: 4px;
-  background: #3c7dff;
-  margin: 12px auto 0 auto;
-  border-radius: 3px;
-}
-
-/* Grid */
-.exp-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  gap: 35px;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-/* Card */
+/* Experience Card */
 .exp-card {
   background: white;
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 25px 30px;
   border-radius: 18px;
-  padding: 22px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.10);
-  transition: transform .25s ease, box-shadow .25s ease;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.10);
 }
 
-.exp-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 26px rgba(0,0,0,0.22);
+/* Experience Title */
+.exp-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1f2d3d;
+  margin-bottom: 12px;
 }
 
-/* ===========================
-   Media layouts
-   =========================== */
+/* Date label */
+.exp-date {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3c7dff;
+  margin-bottom: 20px;
+}
 
-/* TWO IMAGES SIDE BY SIDE */
+/* Experience text */
+.exp-text {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Image Row (2 images, perfect scaling) */
 .exp-media-row {
   display: flex;
-  gap: 14px;
-  justify-content: center;
-  margin-bottom: 14px;
+  gap: 12px;
+  justify-content: space-between;
+  margin-bottom: 18px;
 }
 
 .exp-media-row img {
-  width: 100%;
+  width: 48%;               /* force equal width */
+  height: auto;
   border-radius: 12px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
   object-fit: cover;
-}
-
-/* Single media (video) */
-.exp-media iframe {
-  width: 100%;
-  height: 260px;
-  border-radius: 12px;
   box-shadow: 0 4px 14px rgba(0,0,0,0.18);
-  margin-bottom: 14px;
 }
 
-/* Text */
-.exp-card-title {
-  font-size: 22px;
-  font-weight: 700;
-  color: #1f2d3d;
-  margin-bottom: 8px;
+/* Video */
+.exp-video iframe {
+  width: 70%;               /* nicely centered */
+  height: 260px;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
 }
 
-.exp-card-text {
-  font-size: 16px;
-  color: #444;
-  line-height: 1.65;
+/* Divider */
+.exp-divider {
+  height: 1px;
+  width: 70%;
+  background: #d0d4d9;
+  margin: 40px auto;
 }
 </style>
 
-<div class="exp-page">
+<div class="experiences-page">
 
-<div class="exp-title">Experiences & Gallery</div>
+<!-- =======================
+     EXPERIENCE #1 — CVPR 2025
+     ======================= -->
+<div class="exp-card">
 
+  <div class="exp-title">Attending CVPR 2025 – Experience</div>
+  <div class="exp-date">June 2025 · Nashville, TN</div>
 
-<!-- =============================
-     EXPERIENCE CARD 1 — CVPR 2025
-     ============================= -->
-<div class="exp-grid">
-
-  <div class="exp-card">
-
-    <div class="exp-card-title">Attending CVPR 2025 — Nashville 🎉</div>
-
-    <div class="exp-card-text">
-      I attended CVPR 2025 in Nashville, which was an amazing experience.
-      I met brilliant researchers, explored cutting-edge work in computer vision,
-      learned about industry-level innovations, and gained valuable insights that
-      will guide my research journey.  
-      Connecting with people from top labs and companies was inspiring, and the
-      conference left me with new ideas, motivation, and unforgettable memories.
-    </div>
-
-    <br>
-
-    <!-- TWO IMAGES HORIZONTALLY -->
-    <div class="exp-media-row">
-      <img src="/images/cvpr2025.jpg" alt="CVPR 2025 image 1">
-      <img src="/images/cvpr2025-image.jpg" alt="CVPR 2025 image 2">
-    </div>
-
-    <!-- VIDEO -->
-    <div class="exp-media">
-      <iframe src="https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/preview"
-              allow="autoplay">
-      </iframe>
-    </div>
-
+  <div class="exp-text">
+    I attended <b>CVPR 2025</b>, one of the top computer-vision conferences in the world.  
+    It was an amazing opportunity to meet leading researchers, connect with industry teams,  
+    explore state-of-the-art work in machine learning, and learn valuable lessons that  
+    will guide my Ph.D. research.  
+    <br><br>
+    From talking to experts, attending workshops, and visiting company booths,  
+    this experience helped me understand the direction of cutting-edge research  
+    in 3D vision, neural rendering, and AI for real-world applications.
   </div>
 
-</div> <!-- END GRID -->
+  <!-- Image row -->
+  <div class="exp-media-row">
+    <img src="/images/cvpr2025.jpg" alt="CVPR 2025 photo 1">
+    <img src="/images/cvpr2025-image.jpg" alt="CVPR 2025 photo 2">
+  </div>
 
-</div> <!-- END PAGE -->
+  <!-- Video -->
+  <div class="exp-video">
+    <iframe src="https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/preview" allow="autoplay"></iframe>
+  </div>
+
+</div>
+
+<div class="exp-divider"></div>
+
+</div> <!-- END experiences-page -->
