@@ -1,9 +1,8 @@
 ---
-permalink: /
-title: ""
-excerpt: ""
+layout: archive
+title: "About Me"
+permalink: /about/
 author_profile: true
-layout: home
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
