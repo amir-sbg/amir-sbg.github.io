@@ -243,9 +243,8 @@ Behavior Analysis of Car Drivers Based on Computer Vision
 
 <div class="project-divider"></div>
 
--->
-
 <div class="project-section-title">System Architecture</div>
 <img src="/images/Architecture.jpg" class="project-arch-img" alt="System architecture diagram">
 
-</div> <!-- END project-page -->
+</div>
+-->
