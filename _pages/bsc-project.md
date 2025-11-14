@@ -253,14 +253,14 @@ Behavior Analysis of Car Drivers Based on Computer Vision
 
 <div class="project-intro">
   <img src="/images/Intro.jpg" alt="Driver project intro">
-  <div class="project-intro-text">
-    The project develops an advanced driver assistance system (ADAS) using computer vision.
-    By combining <b>YOLOv8</b>, <b>Optical Flow</b>, and <b>SSD</b> face detection, the system
-    detects objects outside the vehicle while analyzing the driver’s head pose inside the car.
-    <br><br>
-    A <b>Voice Assistant</b> module informs the driver about potential dangers and traffic
-    conditions to improve overall road safety.
-  </div>
+<div class="project-intro-text">
+  This project builds an integrated advanced driver assistance system (ADAS) powered by computer vision. 
+  It combines <b>YOLOv8</b> for exterior object detection, <b>Optical Flow</b> for motion tracking, 
+  and an <b>SSD-based</b> face detector for monitoring the driver’s head pose inside the vehicle.
+  <br><br>
+  A built-in <b>Voice Assistant</b> provides real-time alerts about hazards, surrounding traffic, 
+  and driver inattention, enhancing overall road safety.
+</div>
 </div>
 
 <div class="project-divider"></div>
@@ -301,7 +301,7 @@ Behavior Analysis of Car Drivers Based on Computer Vision
     <div class="project-video-box">
       <iframe src="https://drive.google.com/file/d/1OBGQBOWgTtPI4M-Lg9MHks1ceZ5gpF04/preview" allow="autoplay"></iframe>
     </div>
-    <div class="project-caption-title">Wake Up!</div>
+    <div class="project-caption-title">Wake Up! 😴➡️⚠️</div>
     <div class="project-caption-text">Detects drowsiness and alerts the driver.</div>
   </div>
 
@@ -309,7 +309,7 @@ Behavior Analysis of Car Drivers Based on Computer Vision
     <div class="project-video-box">
       <iframe src="https://drive.google.com/file/d/1SKdeQcPozlHjiXv1Xai9ZFWGEwpoZ0t2/preview" allow="autoplay"></iframe>
     </div>
-    <div class="project-caption-title">Traffic Light</div>
+    <div class="project-caption-title">Traffic Light 🚦</div>
     <div class="project-caption-text">Identifies traffic lights ahead and warns the driver.</div>
   </div>
 
@@ -317,7 +317,7 @@ Behavior Analysis of Car Drivers Based on Computer Vision
     <div class="project-video-box">
       <iframe src="https://drive.google.com/file/d/175rLPKxnW_U6EwKj4D845NgkOWCcjafd/preview" allow="autoplay"></iframe>
     </div>
-    <div class="project-caption-title">Pedestrian</div>
+    <div class="project-caption-title">Pedestrian 🚶‍♂️</div>
     <div class="project-caption-text">Detects nearby pedestrians for safer driving.</div>
   </div>
 
@@ -325,7 +325,7 @@ Behavior Analysis of Car Drivers Based on Computer Vision
     <div class="project-video-box">
       <iframe src="https://drive.google.com/file/d/1Xo7zvCDjAGA3eRQL3tgdRpmuObn_qE4a/preview" allow="autoplay"></iframe>
     </div>
-    <div class="project-caption-title">Look Left</div>
+    <div class="project-caption-title">Look Left 👈</div>
     <div class="project-caption-text">Warns about hazards approaching from the left side.</div>
   </div>
 
