@@ -1,4 +1,12 @@
 ---
+layout: archive
+title: "About Me"
+permalink: /about/
+author_profile: true
+---
+
+<!--
+---
 permalink: /
 title: ""
 excerpt: ""
@@ -7,16 +15,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-
-<!--
----
-layout: archive
-title: "About Me"
-permalink: /about/
-author_profile: true
----
 -->
+
+
+
 
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
