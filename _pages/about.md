@@ -46,7 +46,7 @@ I am a first-year Ph.D. student in Computer Science at Georgia State University 
 </div>
 -->
 
-
+<!--
 [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
 **Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
@@ -57,6 +57,7 @@ I am a first-year Ph.D. student in Computer Science at Georgia State University 
 </div>
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+-->
 <!--
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -64,8 +65,6 @@ I am a first-year Ph.D. student in Computer Science at Georgia State University 
 -->
 # 📖 Educations
 - *2025.01 – Present*, Georgia State University, Atlanta, GA — Doctor of Philosophy in Computer Science  
- 
-
 - *2018.09 – 2023.07*, Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran — Bachelor of Science  
   Computer Engineering (Major: Artificial Intelligence | Minor: Computer Networks)  
   BS Thesis: Behavior Analysis of Car Drivers Based on Computer Vision  ([Visit Project](#))  
