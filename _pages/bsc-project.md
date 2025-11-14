@@ -4,6 +4,7 @@ title: "Behavior Analysis of Car Drivers Based on Computer Vision"
 permalink: /driver-behavior/
 author_profile: true
 ---
+<div class="project-page">
 
 <style>
 /* SCOPE — affects only the driver page */
@@ -99,6 +100,7 @@ author_profile: true
   margin: 32px auto;
 }
 </style>
+
 
 
 <div class="project-page">
