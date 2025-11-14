@@ -112,13 +112,13 @@ author_profile: true
 
   <!-- Image row -->
   <div class="exp-media-row">
-    <img src="/images/cvpr2025.jpg" alt="CVPR 2025 photo 1" style="width:40%; height:auto;">
-    <img src="/images/cvpr2025-image.jpg" alt="CVPR 2025 photo 2" style="width:40%; height:auto;">
+    <img src="/images/cvpr2025.jpg" alt="CVPR 2025 photo 1" style="width:20%; height:auto;">
+    <img src="/images/cvpr2025-image.jpg" alt="CVPR 2025 photo 2" style="width:20%; height:auto;">
   </div>
 
   <!-- Video -->
   <div class="exp-video">
-    <iframe src="https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/preview" allow="autoplay" style="width:40%; height:auto;"></iframe>
+    <iframe src="https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/preview" allow="autoplay" style="width:20%; height:auto;"></iframe>
   </div>
 
 </div>
