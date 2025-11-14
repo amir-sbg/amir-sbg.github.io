@@ -5,6 +5,7 @@ permalink: /driver-behavior/
 author_profile: true
 ---
 
+<!--
 <style>
 .project-page {
   background: #f6f7f9;
@@ -95,6 +96,154 @@ author_profile: true
   margin: 32px auto;
 }
 </style>
+
+-->
+
+<style>
+/* ===========================
+   Global Page Styling
+   =========================== */
+.project-page {
+  background: linear-gradient(180deg, #f4f5f7 0%, #eef0f3 100%);
+  padding-bottom: 50px;
+  font-family: "Inter", sans-serif;
+}
+
+/* ===========================
+   Section Title
+   =========================== */
+.project-section-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 800;
+  margin: 40px 0 25px 0;
+  color: #1f2d3d;
+  letter-spacing: 0.3px;
+  text-transform: none;
+  position: relative;
+}
+
+/* Stylish underline */
+.project-section-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: #3c7dff;
+  margin: 12px auto 0 auto;
+  border-radius: 3px;
+}
+
+/* ===========================
+   Intro Section
+   =========================== */
+.project-intro {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 30px;
+  align-items: center;
+  background: white;
+  padding: 28px 32px;
+  margin: 0 auto 45px auto;
+  max-width: 1100px;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.09);
+}
+
+.project-intro img {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+}
+
+.project-intro-text {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* ===========================
+   Grid (2 columns)
+   =========================== */
+.project-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 35px;
+  max-width: 1100px;
+  margin: 8px auto 45px auto;
+}
+
+/* ===========================
+   Video Boxes
+   =========================== */
+.project-video-box {
+  border-radius: 14px;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover zoom effect */
+.project-video-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 26px rgba(0,0,0,0.28);
+}
+
+.project-video-box iframe {
+  width: 100%;
+  height: 260px;
+}
+
+/* ===========================
+   Captions
+   =========================== */
+.project-caption-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 12px;
+  color: #1e3a5f;
+}
+
+.project-caption-text {
+  text-align: center;
+  font-size: 15.5px;
+  max-width: 90%;
+  margin: 4px auto 0 auto;
+  color: #555;
+}
+
+/* ===========================
+   Architecture Image
+   =========================== */
+.project-arch-img {
+  display: block;
+  margin: 18px auto 35px auto;
+  max-width: 700px;
+  width: 65%;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+  transition: transform .3s ease;
+}
+
+/* Slight hover pop */
+.project-arch-img:hover {
+  transform: scale(1.02);
+}
+
+/* ===========================
+   Divider
+   =========================== */
+.project-divider {
+  height: 1px;
+  width: 70%;
+  background: #d0d4d9;
+  margin: 38px auto;
+}
+</style>
+
+
 
 <div class="project-page">
 
