@@ -14,7 +14,7 @@ I am a first-year Ph.D. student in Computer Science at [Georgia State University
 
 
 # 🔥 News
-- *2025.11*: &nbsp;🎉 One paper submitted to CVPR 2026.
+- *2025.11*: &nbsp;🎉 One paper submitted to [CVPR 2026](https://cvpr.thecvf.com/).
 - *2025.01*: &nbsp;🎉 Started my Ph.D. studies at Georgia State University.
 - *2023.08*: &nbsp;🎉 Graduated from Amirkabir University of Technology (Tehran Polytechnic).
 
@@ -24,8 +24,8 @@ I am a first-year Ph.D. student in Computer Science at [Georgia State University
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to CVPR 2026</div><img src='/images/GS-cropped.png'  alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Submitted to CVPR 2026**  
-Amir Sabbaghziarani, ...
+**Submitted to [CVPR 2026](https://cvpr.thecvf.com/)**  
+
 
 </div>
 </div>
