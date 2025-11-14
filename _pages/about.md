@@ -68,39 +68,28 @@ I am a first-year Ph.D. student in Computer Science at [Georgia State University
 # 💻 Projects and Publications
 
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/GaussianSplatting.jpg' alt="gaussian" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
+<!-- AnySplat -->
 
-**2025.11**  
-*Submitted to CVPR 2026*
-
-
-  </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to CVPR 2026</div><img src='images/GaussianSplatting.jpg' alt="Gaussian Aplatting" width="100%"></div></div>
+  **2025.11** 
 </div>
+<!-- AnySplat -->
 
+<!-- AnySplat -->
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/Intro.jpg' alt="driver-behavior" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Behavior Analysis of Cars Drivers Based-on Computer Vision</div><img src='images/Intro.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 **2023.08**  
-[Behavior Analysis of Cars Drivers Based-on Computer Vision](https://amir-sbg.github.io/driver-behavior/)
+BSc project: [Behavior Analysis of Cars Drivers Based-on Computer Vision](https://amir-sbg.github.io/driver-behavior/)
 
 - A computer-vision–based system for analyzing real-world driver behavior.
 - Includes head pose tracking, distraction detection, and multi-camera fusion.
 - End-to-end implementation with data collection, deep learning models, and deployment pipeline.
 
-  </div>
 </div>
+</div>
+<!-- AnySplat -->
+
 
 
 
