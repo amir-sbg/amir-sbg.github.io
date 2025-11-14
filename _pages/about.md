@@ -5,29 +5,10 @@ permalink: /about/
 author_profile: true
 ---
 
-<!--
----
-permalink: /
-title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
--->
-
-
-
-
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
+
+
+
 
 I am a first-year Ph.D. student in Computer Science at [Georgia State University](https://www.gsu.edu/), supervised by [Dr. Yi Ding](https://ding1.com/) in the [Assistive Intelligence Lab](https://ding1.com/lab/). My research interests include Machine Learning and Computer Vision, and my current work focuses on 3D Computer Vision, Gaussian Splatting, and neural scene representations.
 
