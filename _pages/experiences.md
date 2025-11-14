@@ -121,11 +121,11 @@ author_profile: true
     </div>
 
     <div class="exp-media">
-      <img src="https://drive.google.com/uc?export=view&id=1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX" alt="CVPR image 2">
+      <img src="https://drive.google.com/file/d/15ke-QNEILt5oj0dTmuEDDvFTME9xWeE9/preview" alt="CVPR image 2">
     </div>
 
     <div class="exp-media">
-      <iframe src="https://drive.google.com/file/d/15ke-QNEILt5oj0dTmuEDDvFTME9xWeE9/preview"
+      <iframe src="https://drive.google.com/uc?export=view&id=1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX"
               allow="autoplay">
       </iframe>
     </div>
