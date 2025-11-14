@@ -45,8 +45,8 @@ author_profile: true
 /* Cards Grid */
 .exp-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  gap: 35px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 28px;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -55,7 +55,7 @@ author_profile: true
 .exp-card {
   background: white;
   border-radius: 18px;
-  padding: 22px;
+  padding: 25px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.10);
   transition: transform .25s ease, box-shadow .25s ease;
 }
@@ -65,13 +65,17 @@ author_profile: true
   box-shadow: 0 12px 26px rgba(0,0,0,0.22);
 }
 
-/* Media */
+/* Media: vertical stack */
 .exp-media img,
 .exp-media iframe {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 14px;
   box-shadow: 0 4px 14px rgba(0,0,0,0.18);
-  margin-bottom: 14px;
+  margin-bottom: 16px;
+}
+
+.exp-media iframe {
+  height: 260px;
 }
 
 /* Card Title */
@@ -79,7 +83,7 @@ author_profile: true
   font-size: 22px;
   font-weight: 700;
   color: #1f2d3d;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 /* Card Text */
@@ -87,51 +91,53 @@ author_profile: true
   font-size: 16px;
   color: #444;
   line-height: 1.65;
+  margin-bottom: 20px;
 }
 </style>
+
 
 
 <div class="exp-page">
 
 <div class="exp-title">Experiences & Gallery</div>
 
-
-<!-- =============================
-     EXPERIENCE CARD 1 — CVPR 2025
-     ============================= -->
 <div class="exp-grid">
 
-  <div class="exp-card">
 
-    <div class="exp-card-title">Attending CVPR 2025 — Nashville 🎉</div>
+<!-- =============================
+     EXPERIENCE CARD — CVPR 2025
+     ============================= -->
+<div class="exp-card">
 
-    <div class="exp-card-text">
-      I attended CVPR 2025 in Nashville, which was an amazing experience.
-      I met brilliant researchers, explored cutting-edge work in computer vision,
-      learned about industry-level innovations, and gained valuable insights that
-      will guide my research journey.  
-      It was inspiring to connect with people from top labs and companies, and I
-      left the conference with new ideas, motivation, and unforgettable memories.
-    </div>
+  <div class="exp-card-title">Attending CVPR 2025 — Nashville 🎉</div>
 
-    <br>
-
-    <div class="exp-media">
-      <img src="https://drive.google.com/uc?export=view&id=1Vi7liHDo5CCtp2dxbt3-J1g0jk8U2Azh" alt="CVPR image 1">
-    </div>
-
-    <div class="exp-media">
-      <img src="https://drive.google.com/file/d/15ke-QNEILt5oj0dTmuEDDvFTME9xWeE9/preview" alt="CVPR image 2">
-    </div>
-
-    <div class="exp-media">
-      <iframe src="https://drive.google.com/uc?export=view&id=1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX"
-              allow="autoplay">
-      </iframe>
-    </div>
-
+  <div class="exp-card-text">
+    I attended CVPR 2025 in Nashville, which was an amazing experience.  
+    I met brilliant researchers, explored cutting-edge work in computer vision,  
+    learned about industry innovation, and gained valuable insights that will guide  
+    my research journey.  
+    It was inspiring to connect with people from top labs and companies — an event  
+    filled with ideas, motivation, and unforgettable memories.
   </div>
 
-</div> <!-- END GRID -->
+  <div class="exp-media">
+    <img src="https://drive.google.com/uc?export=view&id=15ke-QNEILt5oj0dTmuEDDvFTME9xWeE9" 
+         alt="CVPR image 1">
+  </div>
 
-</div> <!-- END PAGE -->
+  <div class="exp-media">
+    <img src="https://drive.google.com/uc?export=view&id=1Vi7liHDo5CCtp2dxbt3-J1g0jk8U2Azh" 
+         alt="CVPR image 2">
+  </div>
+
+  <div class="exp-media">
+    <iframe src="https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/preview"
+            allow="autoplay">
+    </iframe>
+  </div>
+
+</div>
+
+
+</div> <!-- end grid -->
+</div> <!-- end page -->
