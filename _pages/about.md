@@ -21,13 +21,12 @@ I am a first-year Ph.D. student in Computer Science at Georgia State University 
 
 
 
-
-
 # 🔥 News
-- *2023.09*: &nbsp;🎉 Graduated from Amirkabir University of Technology (Tehran Polytechnic).
-- *2025.01*: &nbsp;🎉 Started my Ph.D. studies at Georgia State University.
 - *2025.11*: &nbsp;🎉 One paper submitted to CVPR 2026.
+- *2025.01*: &nbsp;🎉 Started my Ph.D. studies at Georgia State University.
+- *2023.08*: &nbsp;🎉 Graduated from Amirkabir University of Technology (Tehran Polytechnic).
 
+<!--
 # 📝 Publications 
 
 <div class='paper-box'>
@@ -40,12 +39,12 @@ I am a first-year Ph.D. student in Computer Science at Georgia State University 
 
 <div class='paper-box-text' markdown="1">
 
-**FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence**  
+****  
 *Submitted to CVPR 2026*
 
 </div>
 </div>
-
+-->
 
 
 [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
@@ -58,18 +57,24 @@ I am a first-year Ph.D. student in Computer Science at Georgia State University 
 </div>
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
+<!--
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
+-->
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.01 – Present*, Georgia State University, Atlanta, GA — Doctor of Philosophy in Computer Science  
+ 
 
+- *2018.09 – 2023.07*, Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran — Bachelor of Science  
+  Computer Engineering (Major: Artificial Intelligence | Minor: Computer Networks)  
+  BS Thesis: Behavior Analysis of Car Drivers Based on Computer Vision  ([Visit Project](#))  
+
+<!--
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+-->
