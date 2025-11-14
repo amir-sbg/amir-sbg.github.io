@@ -17,7 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first-year Ph.D. student in Computer Science at Georgia State University (https://www.gsu.edu/ ), supervised by Dr. Yi Ding (https://ding1.com/ ) in the Assistive Intelligence Lab (https://ding1.com/lab/ ). My research interests include Machine Learning and Computer Vision, and my current work focuses on 3D Computer Vision, Gaussian Splatting, and neural scene representations.
+I am a first-year Ph.D. student in Computer Science at [Georgia State University](https://www.gsu.edu/), supervised by [Dr. Yi Ding](https://ding1.com/) in the [Assistive Intelligence Lab](https://ding1.com/lab/). My research interests include Machine Learning and Computer Vision, and my current work focuses on 3D Computer Vision, Gaussian Splatting, and neural scene representations.
+
 
 
 
@@ -63,6 +64,10 @@ I am a first-year Ph.D. student in Computer Science at Georgia State University 
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 -->
+
+# 💻 Projects
+
+
 # 📖 Educations
 - *2025.01 – Present*, Georgia State University, Atlanta, GA — Doctor of Philosophy in Computer Science  
 - *2018.09 – 2023.07*, Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran — Bachelor of Science  
