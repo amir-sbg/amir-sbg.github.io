@@ -42,10 +42,10 @@ author_profile: true
   border-radius: 3px;
 }
 
-/* Cards Grid */
+/* Grid */
 .exp-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 35px;
   max-width: 1100px;
   margin: 0 auto;
@@ -65,31 +65,48 @@ author_profile: true
   box-shadow: 0 12px 26px rgba(0,0,0,0.22);
 }
 
-/* Media stacked vertically */
-.exp-media img,
-.exp-media iframe {
+/* ===========================
+   Media layouts
+   =========================== */
+
+/* TWO IMAGES SIDE BY SIDE */
+.exp-media-row {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.exp-media-row img {
   width: 100%;
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(0,0,0,0.18);
-  margin: 14px 0;
+  object-fit: cover;
 }
 
-/* Card Title */
+/* Single media (video) */
+.exp-media iframe {
+  width: 100%;
+  height: 260px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+  margin-bottom: 14px;
+}
+
+/* Text */
 .exp-card-title {
   font-size: 22px;
   font-weight: 700;
   color: #1f2d3d;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
-/* Card Text */
 .exp-card-text {
   font-size: 16px;
   color: #444;
   line-height: 1.65;
 }
 </style>
-
 
 <div class="exp-page">
 
@@ -109,21 +126,20 @@ author_profile: true
       I attended CVPR 2025 in Nashville, which was an amazing experience.
       I met brilliant researchers, explored cutting-edge work in computer vision,
       learned about industry-level innovations, and gained valuable insights that
-      will guide my research journey.
-      <br><br>
-      I connected with people from top labs and companies, attended inspiring talks,
-      and left the conference with new ideas, motivation, and unforgettable memories.
+      will guide my research journey.  
+      Connecting with people from top labs and companies was inspiring, and the
+      conference left me with new ideas, motivation, and unforgettable memories.
     </div>
 
-    <!-- MEDIA SECTION (VERTICAL STACK) -->
-    <div class="exp-media">
-      <img src="/images/cvpr2025.jpg" alt="CVPR photo 1">
+    <br>
+
+    <!-- TWO IMAGES HORIZONTALLY -->
+    <div class="exp-media-row">
+      <img src="/images/cvpr2025.jpg" alt="CVPR 2025 image 1">
+      <img src="/images/cvpr2025-image.jpg" alt="CVPR 2025 image 2">
     </div>
 
-    <div class="exp-media">
-      <img src="/images/cvpr2025-image.jpg" alt="CVPR photo 2">
-    </div>
-
+    <!-- VIDEO -->
     <div class="exp-media">
       <iframe src="https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/preview"
               allow="autoplay">
