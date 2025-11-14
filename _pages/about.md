@@ -72,7 +72,7 @@ I am a first-year Ph.D. student in Computer Science at [Georgia State University
 - *2025.01 – Present*, Georgia State University, Atlanta, GA — Doctor of Philosophy in Computer Science  
 - *2018.09 – 2023.07*, Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran — Bachelor of Science  
   Computer Engineering (Major: Artificial Intelligence | Minor: Computer Networks)  
-  BS Thesis: Behavior Analysis of Car Drivers Based on Computer Vision  ([Visit Project](#))  
+  BS Thesis: [Behavior Analysis of Car Drivers Using Computer Vision](/driver-behavior/)
 
 <!--
 # 💬 Invited Talks
