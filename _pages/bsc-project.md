@@ -5,99 +5,13 @@ permalink: /driver-behavior/
 author_profile: true
 ---
 
-<!--
-<style>
-.project-page {
-  background: #f6f7f9;
-  padding-bottom: 40px;
-}
-
-/* Intro */
-.project-intro {
-  display: grid;
-  grid-template-columns: 1fr 1.3fr;
-  gap: 24px;
-  align-items: center;
-  background: #ffffff;
-  padding: 24px 28px;
-  margin: 0 auto 32px auto;
-  max-width: 1050px;
-  border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-}
-.project-intro img {
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.18);
-}
-.project-intro-text {
-  font-size: 17px;
-  line-height: 1.6;
-}
-
-/* Section title */
-.project-section-title {
-  text-align: center;
-  font-size: 28px;
-  font-weight: 700;
-  margin: 28px 0 18px 0;
-}
-
-/* Two-column grids */
-.project-grid-2 {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 32px;
-  max-width: 1050px;
-  margin: 0 auto 32px auto;
-}
-
-/* Video boxes */
-.project-video-box {
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.20);
-  background: #000;
-}
-.project-video-box iframe {
-  width: 100%;
-  height: 250px;
-}
-
-/* Captions */
-.project-caption-title {
-  text-align: center;
-  font-size: 19px;
-  font-weight: 700;
-  margin-top: 10px;
-}
-.project-caption-text {
-  text-align: center;
-  font-size: 15px;
-  margin: 0 auto;
-  max-width: 90%;
-}
-
-/* Architecture image */
-.project-arch-img {
-  display: block;
-  margin: 14px auto 28px auto;
-  max-width: 650px;
-  width: 60%;
-  border-radius: 12px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
-}
-
-/* Divider */
-.project-divider {
-  height: 1px;
-  width: 75%;
-  background: #cccccc;
-  margin: 32px auto;
-}
-</style>
-
--->
+<!-- Local back-to-home header -->
+<div style="max-width:1100px; margin:20px auto 10px auto;">
+  <a href="/" 
+     style="font-size:17px; text-decoration:none; color:#3c7dff; font-weight:600;">
+    ← Back to Homepage
+  </a>
+</div>
 
 <style>
 /* ===========================
@@ -119,11 +33,9 @@ author_profile: true
   margin: 40px 0 25px 0;
   color: #1f2d3d;
   letter-spacing: 0.3px;
-  text-transform: none;
   position: relative;
 }
 
-/* Stylish underline */
 .project-section-title::after {
   content: "";
   display: block;
@@ -184,7 +96,6 @@ author_profile: true
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* Hover zoom effect */
 .project-video-box:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 26px rgba(0,0,0,0.28);
@@ -227,7 +138,6 @@ author_profile: true
   transition: transform .3s ease;
 }
 
-/* Slight hover pop */
 .project-arch-img:hover {
   transform: scale(1.02);
 }
@@ -242,7 +152,6 @@ author_profile: true
   margin: 38px auto;
 }
 </style>
-
 
 
 <div class="project-page">
