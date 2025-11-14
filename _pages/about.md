@@ -16,12 +16,7 @@ author_profile: true
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-
-
 I am a first-year Ph.D. student in Computer Science at [Georgia State University](https://www.gsu.edu/), supervised by [Dr. Yi Ding](https://ding1.com/) in the [Assistive Intelligence Lab](https://ding1.com/lab/). My research interests include Machine Learning and Computer Vision, and my current work focuses on 3D Computer Vision, Gaussian Splatting, and neural scene representations.
-
-
-
 
 # 🔥 News
 - *2025.11*: &nbsp;🎉 One paper submitted to CVPR 2026.
@@ -71,7 +66,7 @@ I am a first-year Ph.D. student in Computer Science at [Georgia State University
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to CVPR 2026</div><img src='/images/GS-cropped.png'  alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Submitted to CVPR 2026**
+**Submitted to CVPR 2026**  
 Amir Sabbaghziarani, ...
 
 </div>
@@ -88,9 +83,6 @@ Amir Sabbaghziarani, ...
 
 </div>
 </div>
-
-
-
 
 # 📖 Educations
 - *2025.01 – Present*, Georgia State University, Atlanta, GA — Doctor of Philosophy in Computer Science  
