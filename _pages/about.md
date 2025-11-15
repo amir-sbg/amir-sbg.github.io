@@ -41,5 +41,13 @@ Computer-vision system for analyzing real-world driver behavior.
 
 
 # 📖 Educations
-- *2025.01 – Present*, Georgia State University — PhD in Computer Science  
-- *2018.09 – 2023.07*, Amirkabir University of Technology — BSc in Computer Engineering  
+
+- *2025.01 – Present*, **Georgia State University** — PhD in Computer Science  
+  GPA: 4.0 / 4.0  
+  Research Focus: 3D Computer Vision, Gaussian Splatting, Neural Rendering  
+
+- *2018.09 – 2023.07*, **Amirkabir University of Technology (Tehran Polytechnic)** — BSc in Computer Engineering  
+  Major: Artificial Intelligence | Minor: Computer Networks  
+  BS Thesis: [Behavior Analysis of Car Drivers Using Computer Vision](/driver-behavior/)  
+  GPA: 3.9 / 4.0
+
