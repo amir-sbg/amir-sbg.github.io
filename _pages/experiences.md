@@ -137,7 +137,7 @@ author_profile: true
   </div>
 
   <div class="experience-text">
-    I attended <b>CVPR 2025</b> — an incredible opportunity to meet world-class researchers, 
+    I attended <b>CVPR 2025</b> in Nashville — an incredible opportunity to meet world-class researchers, 
     explore breakthrough work in 3D Computer Vision, Gaussian Splatting, foundation models,  
     and learn about the newest progress across the vision community.
     <br><br>
