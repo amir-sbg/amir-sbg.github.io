@@ -47,8 +47,9 @@ Computer-vision system for analyzing real-world driver behavior.
   GPA: 4.0 / 4.0  
   Research Focus: 3D Computer Vision, Gaussian Splatting, Neural Rendering  
 
+
 - *2018.09 – 2023.07*, **Amirkabir University of Technology (Tehran Polytechnic)** — BSc in Computer Engineering  
   Major: Artificial Intelligence | Minor: Computer Networks  
-  BS Thesis: [Behavior Analysis of Car Drivers Using Computer Vision](/driver-behavior/)  
+  BS Thesis: [Behavior Analysis of Car Drivers Based-on Computer Vision](/driver-behavior/)  
   GPA: 3.9 / 4.0
 
