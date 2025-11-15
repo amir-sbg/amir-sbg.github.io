@@ -32,14 +32,13 @@ author_profile: true
   line-height: 1.75;
 }
 
+/* DARKER TITLE */
 .experiences-intro h2 {
   margin-top: 0;
   margin-bottom: 18px;
   font-size: 32px;
   font-weight: 800;
-  background: linear-gradient(90deg, #305eff, #0098ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #0f1c2b; /* Solid darker navy */
 }
 
 /* ===========================
@@ -56,24 +55,18 @@ author_profile: true
   box-shadow: 
       0 12px 40px rgba(0,0,0,0.08),
       0 2px 6px rgba(0,0,0,0.05);
+  font-family: "Inter", sans-serif;
   transition: transform .25s ease, box-shadow .25s ease;
 }
 
-.experience-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 
-      0 16px 46px rgba(0,0,0,0.12),
-      0 3px 8px rgba(0,0,0,0.07);
-}
-
-/* Title */
+/* STRONGER, CLEANER CARD TITLE (OLD STYLE) */
 .experience-title {
   text-align: center;
-  font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 28px;
-  color: #162738;
-  letter-spacing: 0.2px;
+  font-size: 28px;   /* slightly smaller, sharper */
+  font-weight: 700;  /* stronger classic look */
+  margin-bottom: 22px;
+  color: #16222e;
+  letter-spacing: 0.1px;
 }
 
 /* ===========================
@@ -137,7 +130,6 @@ author_profile: true
   <div class="media-row">
     <img src="/images/cvpr2025.jpg" alt="CVPR 2025 Image 1">
     <img src="/images/cvpr2025-image.jpg" alt="CVPR 2025 Image 2">
-
     <iframe 
       src="https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/preview"
       allow="autoplay">
