@@ -7,62 +7,84 @@ author_profile: true
 
 <!-- Back to home link -->
 <div style="max-width:1100px; margin:20px auto;">
-  <a href="/" style="font-size:17px; text-decoration:none; color:#3c7dff; font-weight:600;">
+  <a href="/" style="font-size:17px; text-decoration:none; color:#4a78ff; font-weight:600;">
     ← Back to Homepage
   </a>
 </div>
 
 <style>
-/* Intro box */
+/* ===========================
+   Modern Intro Styling
+   =========================== */
 .experiences-intro {
   max-width: 900px;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 50px auto;
+  padding: 35px 38px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(76,115,255,0.12), rgba(255,255,255,0.65));
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(160,175,255,0.3);
+  box-shadow: 0 10px 36px rgba(0,0,0,0.08);
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: 19px;
-  line-height: 1.7;
-  color: #2c3e50;
-  background: #ffffff;
-  padding: 28px 30px;
-  border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  color: #1d2b3a;
+  font-size: 20px;
+  line-height: 1.75;
 }
 
-/* Experience card */
+.experiences-intro h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 32px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #305eff, #0098ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===========================
+   Experience Card
+   =========================== */
 .experience-card {
   max-width: 1100px;
   margin: 45px auto;
-  background: white;
-  padding: 32px;
-  border-radius: 20px;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.10);
-  font-family: "Inter", sans-serif;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  padding: 38px 40px;
+  border-radius: 26px;
+  background: rgba(255,255,255,0.78);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(210,210,210,0.45);
+  box-shadow: 
+      0 12px 40px rgba(0,0,0,0.08),
+      0 2px 6px rgba(0,0,0,0.05);
+  transition: transform .25s ease, box-shadow .25s ease;
 }
 
-/* Hover animation */
 .experience-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 14px 32px rgba(0,0,0,0.16);
+  box-shadow: 
+      0 16px 46px rgba(0,0,0,0.12),
+      0 3px 8px rgba(0,0,0,0.07);
 }
 
 /* Title */
 .experience-title {
   text-align: center;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 800;
-  margin-bottom: 25px;
-  color: #16222e;
-  letter-spacing: 0.3px;
+  margin-bottom: 28px;
+  color: #162738;
+  letter-spacing: 0.2px;
 }
 
-/* Media row */
+/* ===========================
+   Media row (3 items)
+   =========================== */
 .media-row {
   display: flex;
   justify-content: center;
-  gap: 22px;
+  gap: 25px;
   flex-wrap: nowrap;
-  margin-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .media-row img,
@@ -70,18 +92,28 @@ author_profile: true
   width: 32%;
   height: 260px;
   object-fit: cover;
-  border-radius: 16px;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+  border-radius: 18px;
+  border: 1px solid rgba(200,200,200,0.45);
+  background: #fff;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.media-row img:hover,
+.media-row iframe:hover {
+  transform: scale(1.015);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.18);
 }
 
 /* Text */
 .experience-text {
   font-size: 18px;
   line-height: 1.75;
-  color: #333;
+  color: #2c2f36;
   text-align: left;
   max-width: 950px;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
+  padding: 0 5px;
 }
 </style>
 
@@ -89,9 +121,10 @@ author_profile: true
 <!-- Intro Section           -->
 <!-- ======================= -->
 <div class="experiences-intro">
-  Here I share my academic and professional experiences — conferences I attend,  
-  workshops I participate in, and the valuable lessons I learn along the way.  
-  I will keep adding more moments from my journey as a researcher and student. ✨
+  <h2>My Experiences</h2>
+  Here I share highlights from conferences, workshops, academic events,  
+  and meaningful moments in my research journey.  
+  These experiences help me learn, grow, and stay connected with the AI community. ✨
 </div>
 
 <!-- ======================= -->
@@ -104,6 +137,7 @@ author_profile: true
   <div class="media-row">
     <img src="/images/cvpr2025.jpg" alt="CVPR 2025 Image 1">
     <img src="/images/cvpr2025-image.jpg" alt="CVPR 2025 Image 2">
+
     <iframe 
       src="https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/preview"
       allow="autoplay">
@@ -111,13 +145,13 @@ author_profile: true
   </div>
 
   <div class="experience-text">
-    I attended <b>CVPR 2025</b> — an amazing opportunity to meet world-leading researchers, 
-    explore cutting-edge advancements in 3D vision, Gaussian Splatting, and foundation models, 
-    and see the newest breakthroughs in computer vision.
+    I attended <b>CVPR 2025</b> — an incredible opportunity to meet world-class researchers, 
+    explore breakthrough work in 3D Computer Vision, Gaussian Splatting, foundation models,  
+    and learn about the newest progress across the vision community.
     <br><br>
-    It was an inspiring experience to talk with experts, attend workshops, learn about 
-    real-world applications, and connect with innovative companies pushing the boundaries of AI.  
-    I learned a lot from the community and got valuable insights for shaping my future research.
+    It was inspiring to attend workshops, connect with companies, gain insights from top labs,  
+    and talk with experts shaping the future of AI.  
+    I came back with new ideas, motivation, and a deeper understanding of current research trends.
   </div>
 
 </div>
