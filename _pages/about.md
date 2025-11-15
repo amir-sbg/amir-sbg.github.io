@@ -15,6 +15,7 @@ I am a first-year Ph.D. student in Computer Science at [Georgia State University
 
 # 🔥 News
 - *2025.11*: &nbsp;🎉 One paper submitted to [CVPR 2026](https://cvpr.thecvf.com/).
+- *2025.06*: &nbsp;🎉 Attended [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025) in Nashville — [Experience](https://amir-sbg.github.io/experiences/)  
 - *2025.01*: &nbsp;🎉 Started my Ph.D. studies at Georgia State University.
 - *2023.08*: &nbsp;🎉 Graduated from Amirkabir University of Technology (Tehran Polytechnic).
 
