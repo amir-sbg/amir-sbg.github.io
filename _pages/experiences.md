@@ -31,6 +31,7 @@ author_profile: true
   font-size: 20px;
   line-height: 1.75;
 }
+  
 
 /* DARKER TITLE */
 .experiences-intro h2 {
