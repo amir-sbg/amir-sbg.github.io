@@ -12,10 +12,12 @@ My experiences page collects conferences, workshops, academic events, and meanin
 
 # Experiences
 
-<div class='paper-box'><div class='paper-box-image'><div class="experience-media-grid"><div class="badge">CVPR 2025</div><img src='/images/cvpr2025.jpg' alt="CVPR 2025 conference badge"><img src='/images/cvpr2025-image.jpg' alt="CVPR 2025 technical session"><a class="experience-video-tile" href="https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/view" aria-label="Open CVPR 2025 experience video"><span class="experience-video-icon">▶</span><span>CVPR 2025 video</span></a></div></div>
-<div class='paper-box-text' markdown="1">
+<div class="experience-card" markdown="1">
 
-**CVPR 2025 - Nashville, Tennessee**<br>
+## CVPR 2025 - Nashville, Tennessee
+
+<div class="experience-card-description" markdown="1">
+
 *June 2025*
 
 I attended [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025), an incredible opportunity to meet world-class researchers, explore breakthrough work in 3D Computer Vision, Gaussian Splatting, foundation models, and learn about the newest progress across the vision community.
@@ -25,4 +27,14 @@ It was inspiring to attend workshops, connect with companies, gain insights from
 The photos and short video above are all from this same CVPR experience: conference moments, technical sessions, workshops, and community interactions during the trip.
 
 </div>
+
+<div class="experience-media-row">
+  <img src="/images/cvpr2025.jpg" alt="CVPR 2025 conference badge">
+  <img src="/images/cvpr2025-image.jpg" alt="CVPR 2025 technical session">
+  <a class="experience-video-tile" href="https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/view" aria-label="Open CVPR 2025 experience video">
+    <span class="experience-video-icon"></span>
+    <span>CVPR 2025 video</span>
+  </a>
+</div>
+
 </div>
