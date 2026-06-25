@@ -12,7 +12,7 @@ My experiences page collects conferences, workshops, academic events, and meanin
 
 # Experiences
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='/images/cvpr2025.jpg' alt="CVPR 2025 conference badge" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="experience-media-grid"><div class="badge">CVPR 2025</div><img src='/images/cvpr2025.jpg' alt="CVPR 2025 conference badge"><img src='/images/cvpr2025-image.jpg' alt="CVPR 2025 technical session"><a class="experience-video-tile" href="https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/view" aria-label="Open CVPR 2025 experience video"><span class="experience-video-icon">▶</span><span>CVPR 2025 video</span></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 **CVPR 2025 - Nashville, Tennessee**<br>
@@ -22,15 +22,7 @@ I attended [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025), an incredible 
 
 It was inspiring to attend workshops, connect with companies, gain insights from top labs, and talk with experts shaping the future of AI. I came back with new ideas, motivation, and a deeper understanding of current research trends.
 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Research Community</div><img src='/images/cvpr2025-image.jpg' alt="CVPR 2025 technical session" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Workshops, sessions, and community moments**
-
-The workshops and technical sessions helped me understand current research trends in computer vision from both academic and industry perspectives. I also kept a short visual note from the trip: [CVPR 2025 media](https://drive.google.com/file/d/1FRzcL42qNmYI19X1_Nt-EjK5U6g7QZHX/view).
+The photos and short video above are all from this same CVPR experience: conference moments, technical sessions, workshops, and community interactions during the trip.
 
 </div>
 </div>
