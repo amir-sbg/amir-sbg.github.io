@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Amir Sabbaghziarani"
 description              : "PhD Student in Computer Science"
-repository               : "https://github.com/amir-sbg"
+repository               : "amir-sbg/amir-sbg.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Amir Sabbaghziarani"
-  avatar           : "images/Amir.jpeg"
+  avatar           : "/images/Amir.jpeg"
   bio              : "Georgia State University"
   location         : "Atlanta, United States"
   employer         :
