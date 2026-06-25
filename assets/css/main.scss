@@ -176,12 +176,13 @@
 }
 
 .project-section-title {
-    border-bottom: 1px solid #efefef;
     color: #494e52;
-    font-size: 1.35em;
+    font-size: 1.65em;
     font-weight: 800;
-    margin: 1.6em 0 1em;
-    padding-bottom: .6em;
+    margin: 1.7em 0 1.1em;
+    padding-bottom: .55em;
+    text-align: center;
+    border-bottom: 1px solid #efefef;
 }
 
 .project-intro {
@@ -192,7 +193,7 @@
     display: grid;
     gap: 1.5em;
     grid-template-columns: 1fr;
-    margin: 1em 0 2em;
+    margin: 0 0 2em;
     padding: 1.25em;
 
     img {
@@ -212,9 +213,14 @@
 
 .project-grid-2 {
     display: grid;
-    gap: 1.25em;
+    gap: 1.75em;
     grid-template-columns: 1fr;
     margin: 1em 0 2em;
+
+    > div {
+        display: flex;
+        flex-direction: column;
+    }
 
     @include breakpoint($medium) {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -222,6 +228,7 @@
 }
 
 .project-video-box {
+    order: 2;
     background: #f7f7f7;
     border: 1px solid #e1e4e8;
     border-radius: 4px;
@@ -238,15 +245,21 @@
 
 .project-caption-title {
     color: #494e52;
+    font-size: 1.05em;
     font-weight: 800;
-    margin-top: .75em;
+    margin: 0 0 .6em;
+    order: 1;
+    text-align: center;
 }
 
 .project-caption-text {
     color: #494e52;
     font-size: .95em;
     line-height: 1.5;
-    margin-top: .25em;
+    margin: .65em auto 0;
+    max-width: 92%;
+    order: 3;
+    text-align: center;
 }
 
 .project-arch-img {
@@ -255,11 +268,14 @@
     display: block;
     margin: 1em auto 2em;
     max-width: 720px;
-    width: 100%;
+    width: 65%;
 }
 
 .project-divider {
-    display: none;
+    background: #efefef;
+    height: 1px;
+    margin: 2em 0;
+    width: 100%;
 }
 
 $scroll_offset : 2em;
