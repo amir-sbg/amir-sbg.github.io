@@ -93,17 +93,9 @@
 }
 
 .home-intro {
-    align-items: center;
     border-bottom: 1px #efefef solid;
-    display: grid;
-    gap: 1.5em;
-    grid-template-columns: 1fr;
     margin: .5em 0 1.5em;
     padding-bottom: 1.5em;
-
-    @include breakpoint($medium) {
-        grid-template-columns: minmax(0, 1.25fr) minmax(260px, .75fr);
-    }
 }
 
 .home-intro-copy {
@@ -114,113 +106,6 @@
     p:last-child {
         margin-bottom: 0;
     }
-}
-
-.attention-loop {
-    background: linear-gradient(145deg, #f7f9fb 0%, #ffffff 58%, #f5f7f2 100%);
-    border: 1px solid #e1e4e8;
-    border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .04);
-    color: #494e52;
-    isolation: isolate;
-    overflow: hidden;
-    padding: 1em;
-    position: relative;
-
-    &:before {
-        border: 2px solid rgba(0, 54, 159, .28);
-        border-left-color: transparent;
-        border-radius: 50%;
-        content: "";
-        height: 72%;
-        position: absolute;
-        right: .75em;
-        top: 14%;
-        width: 42%;
-        z-index: 0;
-    }
-
-    &:after {
-        background: #00369f;
-        border-radius: 50%;
-        bottom: 17%;
-        content: "";
-        height: .55em;
-        position: absolute;
-        right: 28%;
-        width: .55em;
-        z-index: 0;
-    }
-}
-
-.attention-loop__tokens {
-    display: grid;
-    gap: .5em;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    margin-bottom: .9em;
-    position: relative;
-    z-index: 1;
-
-    span {
-        background: #fff;
-        border: 1px solid #d8dee6;
-        border-radius: 4px;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
-        font-size: .72em;
-        font-weight: 700;
-        padding: .55em .4em;
-        text-align: center;
-    }
-}
-
-.attention-loop__stack {
-    display: grid;
-    gap: .65em;
-    max-width: 74%;
-    position: relative;
-    z-index: 1;
-}
-
-.attention-loop__layer {
-    background: #ffffff;
-    border: 1px solid #d8dee6;
-    border-left: 4px solid #00369f;
-    border-radius: 4px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .05);
-    font-size: .78em;
-    font-weight: 800;
-    letter-spacing: 0;
-    padding: .72em .85em;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.attention-loop__layer--qkv {
-    display: grid;
-    gap: .45em;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-
-    span {
-        background: #eef3fb;
-        border-radius: 4px;
-        padding: .35em 0;
-    }
-}
-
-.attention-loop__feedback {
-    background: #ffffff;
-    border: 1px solid #d8dee6;
-    border-radius: 4px;
-    bottom: 1em;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .05);
-    color: #00369f;
-    font-size: .7em;
-    font-weight: 800;
-    padding: .55em .7em;
-    position: absolute;
-    right: 1em;
-    text-transform: uppercase;
-    z-index: 1;
 }
 
 .experience-card {

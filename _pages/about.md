@@ -13,26 +13,8 @@ redirect_from:
 <div class="home-intro">
 <div class="home-intro-copy" markdown="1">
 
-I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey Plis](https://scholar.google.com/citations?hl=en&user=nm3liowAAAAJ), at the joint Georgia State University/Georgia Institute of Technology/Emory University [Center for Translational Research in Neuroimaging and Data Science (TReNDS)](https://trendscenter.org/) at Georgia State University. My research interests include machine learning, computer vision, transformer and attention mechanisms, and neural scene representations.
+I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey Plis](https://scholar.google.com/citations?hl=en&user=nm3liowAAAAJ), at the joint Georgia State University/Georgia Institute of Technology/Emory University [Center for Translational Research in Neuroimaging and Data Science (TReNDS)](https://trendscenter.org/) at Georgia State University. My research interests include machine learning, computer vision, transformer and attention mechanisms, neural scene representations, and neuroimaging data science. I am particularly interested in looped transformer and attention-based architectures that iteratively refine visual representations for robust perception, 3D understanding, and neural rendering.
 
-</div>
-
-<div class="attention-loop" aria-label="Looped transformer and attention mechanism structure">
-  <div class="attention-loop__tokens">
-    <span>tokens</span>
-    <span>embeddings</span>
-    <span>context</span>
-  </div>
-  <div class="attention-loop__stack">
-    <div class="attention-loop__layer attention-loop__layer--qkv">
-      <span>Q</span>
-      <span>K</span>
-      <span>V</span>
-    </div>
-    <div class="attention-loop__layer">self-attention</div>
-    <div class="attention-loop__layer">feed-forward</div>
-  </div>
-  <div class="attention-loop__feedback">looped refinement</div>
 </div>
 </div>
 
