@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Amir Sabbaghziarani"
-description              : "PhD Student in Computer Science"
+description              : "Second-year PhD student in Computer Science at TReNDS, Georgia State University"
 repository               : "amir-sbg/amir-sbg.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Amir Sabbaghziarani"
   avatar           : "/images/Amir.jpeg"
-  bio              : "Georgia State University"
+  bio              : "PhD Student at TReNDS, Georgia State University"
   location         : "Atlanta, United States"
   employer         :
   pubmed           : 

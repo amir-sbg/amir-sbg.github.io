@@ -10,7 +10,31 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first-year Ph.D. student in Computer Science at [Georgia State University](https://www.gsu.edu/), supervised by [Dr. Yi Ding](https://ding1.com/) in the [Assistive Intelligence Lab](https://ding1.com/lab/). My research interests include Machine Learning and Computer Vision, and my current work focuses on 3D Computer Vision, Gaussian Splatting, and neural scene representations.
+<div class="home-intro">
+<div class="home-intro-copy" markdown="1">
+
+I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey Plis](https://scholar.google.com/citations?hl=en&user=nm3liowAAAAJ), at the joint Georgia State University/Georgia Institute of Technology/Emory University [Center for Translational Research in Neuroimaging and Data Science (TReNDS)](https://trendscenter.org/) at Georgia State University. My research interests include machine learning, computer vision, transformer and attention mechanisms, and neural scene representations.
+
+</div>
+
+<div class="attention-loop" aria-label="Looped transformer and attention mechanism structure">
+  <div class="attention-loop__tokens">
+    <span>tokens</span>
+    <span>embeddings</span>
+    <span>context</span>
+  </div>
+  <div class="attention-loop__stack">
+    <div class="attention-loop__layer attention-loop__layer--qkv">
+      <span>Q</span>
+      <span>K</span>
+      <span>V</span>
+    </div>
+    <div class="attention-loop__layer">self-attention</div>
+    <div class="attention-loop__layer">feed-forward</div>
+  </div>
+  <div class="attention-loop__feedback">looped refinement</div>
+</div>
+</div>
 
 
 # 🔥 News
@@ -52,4 +76,3 @@ Computer-vision system for analyzing real-world driver behavior.
   Major: Artificial Intelligence | Minor: Computer Networks  
   BS Thesis: [Behavior Analysis of Car Drivers Based-on Computer Vision](/driver-behavior/)  
   GPA: 3.9 / 4.0
-
