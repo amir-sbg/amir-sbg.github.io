@@ -14,6 +14,27 @@ My experiences page collects conferences, workshops, academic events, and meanin
 
 <div class="experience-card" markdown="1">
 
+## fMRI Frontier: Bridging Minds, Methods, & Medicine - Atlanta, Georgia
+
+<div class="experience-card-description" markdown="1">
+
+*February 2026*
+
+I attended [Functional Neuroimaging Frontiers: Bridging Minds, Methods, & Medicine](https://trendscenter.org/event/fmri-frontier-bridging-minds-methods-medicine/), a TReNDS symposium focused on functional neuroimaging, multimodal data science, computational methods, and clinical translation.
+
+This was a meaningful AI-in-health experience for me: the talks connected machine learning, biomedical AI, neuroimaging biomarkers, precision psychiatry, and real-world healthcare impact. The event brought together researchers and speakers from renowned institutions including Georgia State University, Georgia Tech, Emory University, UCLA, and the NIH/National Institute of Mental Health, making it a strong example of how AI and data science can support brain health and medicine.
+
+</div>
+
+<div class="experience-media-row experience-media-row--two">
+  <img src="/images/fmri-frontier-1.jpg" alt="AI for healthcare talk at fMRI Frontier symposium">
+  <img src="/images/fmri-frontier-2.jpg" alt="Audience at fMRI Frontier symposium">
+</div>
+
+</div>
+
+<div class="experience-card" markdown="1">
+
 ## CVPR 2025 - Nashville, Tennessee
 
 <div class="experience-card-description" markdown="1">
