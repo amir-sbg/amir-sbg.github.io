@@ -1,10 +1,10 @@
 - title: "Behavior Analysis of Car Drivers Based on Computer Vision"
   repo: "https://github.com/amir-sbg/Behavior-Analysis-of-Car-Drivers-Based-on-Computer-Vision"
-  year: "2026"
+  year: "2023"
   label: "Computer Vision"
   group: "ai"
   image: "/images/Intro-cropped.png"
-  stack: "ADAS, YOLOv8, Optical Flow, SSD Face Detection"
+  stack: "PyTorch, ADAS, YOLOv8, Optical Flow, SSD Face Detection"
   description: "Dual-stream ADAS prototype that combines outside-scene object detection and tracking with in-cabin driver head-direction monitoring and voice alerts."
 
 - title: "Computer Vision Pipeline Portfolio"
@@ -22,7 +22,7 @@
   label: "Routing ML"
   group: "ai"
   image: "/images/projects/repo-media/routing-anomaly-architecture.png"
-  stack: "Python, BEAM, Siamese Networks, DTW, BGP"
+  stack: "Python, PyTorch, BEAM, Siamese Networks, DTW, BGP"
   description: "Semantics-aware BGP anomaly detection extension that learns AS-to-AS routing distance with a Siamese model and plugs it into BEAM-style DTW path comparison."
 
 - title: "CIFAR-10 ResNet50 Transfer Learning"
@@ -139,7 +139,7 @@
   label: "Transformers"
   group: "ai"
   image: "/images/projects/repo-media/huggingface-transformers-model-definition.png"
-  stack: "Python, Transformers, NLP, Multimodal Models"
+  stack: "Python, PyTorch, Transformers, NLP, Multimodal Models"
   description: "Repository copy for exploring the Hugging Face Transformers ecosystem and state-of-the-art pretrained model workflows across text, vision, audio, and multimodal tasks."
 
 - title: "Containerized URL Shortener"
