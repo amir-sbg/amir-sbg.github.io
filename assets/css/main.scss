@@ -108,6 +108,49 @@
     }
 }
 
+.projects-page {
+    padding-bottom: 2em;
+}
+
+.projects-page-intro {
+    border-bottom: 1px #efefef solid;
+    color: #494e52;
+    line-height: 1.65;
+    margin: .5em 0 1.5em;
+    padding-bottom: 1.25em;
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.project-entry {
+    align-items: center;
+
+    .paper-box-image img {
+        aspect-ratio: 16 / 9;
+        background: #f7f7f7;
+        object-fit: cover;
+    }
+}
+
+.project-entry-title {
+    border-bottom: 0;
+    font-size: 1.1em;
+    font-weight: 800;
+    line-height: 1.35;
+    margin: 0 0 .45em;
+    padding: 0;
+}
+
+.project-entry-meta {
+    color: #6a737d;
+    font-size: .88em;
+    font-weight: 700;
+    line-height: 1.45;
+    margin-bottom: .65em;
+}
+
 .experience-card {
     border: 1px solid #e1e4e8;
     border-radius: 4px;
