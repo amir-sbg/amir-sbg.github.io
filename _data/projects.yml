@@ -12,7 +12,7 @@
   year: "2025"
   label: "CV Pipeline"
   group: "ai"
-  image: "/images/projects/computer-vision-pipeline-portfolio-csc8830.svg"
+  image: "/images/projects/repo-media/computer-vision-pipeline.png"
   stack: "OpenCV, SIFT, Homography, SAM2, Stereo Depth, MediaPipe"
   description: "Algorithm-focused computer vision portfolio covering feature matching, geometric registration, segmentation, stereo depth, and tracking workflows."
 
@@ -21,7 +21,7 @@
   year: "2024"
   label: "Routing ML"
   group: "ai"
-  image: "/images/projects/routing-anomaly-detection-system.svg"
+  image: "/images/projects/repo-media/routing-anomaly-architecture.png"
   stack: "Python, BEAM, Siamese Networks, DTW, BGP"
   description: "Semantics-aware BGP anomaly detection extension that learns AS-to-AS routing distance with a Siamese model and plugs it into BEAM-style DTW path comparison."
 
@@ -30,7 +30,7 @@
   year: "2024"
   label: "Transfer Learning"
   group: "ai"
-  image: "/images/projects/cifar-10-resnet50-transfer-tearning.svg"
+  image: "/images/projects/repo-media/cifar-resnet50-pipeline.png"
   stack: "TensorFlow, ResNet50, CIFAR-10, Image Classification"
   description: "CIFAR-10 image classifier using ImageNet-initialized ResNet50 features, input upsampling, a trainable dense head, and notebook-based evaluation."
 
@@ -39,7 +39,7 @@
   year: "2024"
   label: "Transfer Learning"
   group: "ai"
-  image: "/images/projects/cats-dogs-inceptionv3-transfer-learning.svg"
+  image: "/images/projects/repo-media/cats-dogs-inceptionv3-pipeline.png"
   stack: "TensorFlow, InceptionV3, Kaggle Cats and Dogs"
   description: "Binary image-classification project using a pretrained InceptionV3 backbone with frozen weights and trainable fully connected layers."
 
@@ -48,7 +48,7 @@
   year: "2024"
   label: "Multitask CNN"
   group: "ai"
-  image: "/images/projects/mnist-multitask-object-localization.svg"
+  image: "/images/projects/repo-media/mnist-localization-predictions.png"
   stack: "TensorFlow, CNN, Classification, Bounding Boxes"
   description: "Multi-task CNN that classifies MNIST digits while predicting their bounding boxes in synthetic 75x75 scenes."
 
@@ -57,7 +57,7 @@
   year: "2021"
   label: "From Scratch NN"
   group: "ai"
-  image: "/images/projects/fruit360-ann-from-scratch.svg"
+  image: "/images/projects/repo-media/fruit360-training-preview.png"
   stack: "Python, NumPy, Backpropagation, Fruit-360"
   description: "From-scratch NumPy neural network for Fruit-360 image classification with sigmoid layers, MSE loss, mini-batch updates, and manual backpropagation."
 
@@ -66,7 +66,7 @@
   year: "2022"
   label: "NLP / IR"
   group: "ai"
-  image: "/images/projects/persian-news-information-retrieval.svg"
+  image: "/images/projects/repo-media/persian-news-ir-preview.png"
   stack: "Python, Hazm, Parsivar, Inverted Indexing"
   description: "Classical Persian news search system with NLP preprocessing, positional inverted indexing, proximity-aware scoring, and ranked retrieval."
 
@@ -75,7 +75,7 @@
   year: "2021"
   label: "NLP"
   group: "ai"
-  image: "/images/projects/ngram-sentiment-classifier.svg"
+  image: "/images/projects/repo-media/ngram-sentiment-preview.png"
   stack: "Python, Unigrams, Bigrams, Language Modeling"
   description: "Interpretable sentiment classifier using class-specific unigram and interpolated bigram language models with an interactive command-line predictor."
 
@@ -84,7 +84,7 @@
   year: "2021"
   label: "Decision UI"
   group: "ai"
-  image: "/images/projects/name-based-gender-inference.svg"
+  image: "/images/projects/repo-media/name-based-gender-ui.png"
   stack: "HTML, CSS, JavaScript, Probabilistic Classification"
   description: "Browser-based decision-support interface that queries a probabilistic name classifier, displays confidence, and records human feedback locally."
 
@@ -93,7 +93,7 @@
   year: "2021"
   label: "Fuzzy Control"
   group: "ai"
-  image: "/images/projects/fuzzy-inverted-pendulum-control.svg"
+  image: "/images/projects/repo-media/fuzzy-pendulum-preview.png"
   stack: "Python, Pygame, Fuzzy Logic, Control"
   description: "Inverted-pendulum simulator driven by an interpretable fuzzy-rule controller that maps motion state to cart force."
 
@@ -102,7 +102,7 @@
   year: "2021"
   label: "Evolutionary AI"
   group: "ai"
-  image: "/images/projects/evolutionary-platform-agent.svg"
+  image: "/images/projects/repo-media/evolutionary-platform-runtime.png"
   stack: "Python, Pygame, Genetic Algorithms"
   description: "Platform-game agent that learns move, jump, and duck policies through fitness-guided selection, crossover, elite preservation, and replay."
 
@@ -111,7 +111,7 @@
   year: "2021"
   label: "Path Planning"
   group: "ai"
-  image: "/images/projects/traffic-aware-dijkstra-routing.svg"
+  image: "/images/projects/repo-media/traffic-aware-dijkstra.png"
   stack: "Python, Dijkstra, Traffic Modeling, Matplotlib"
   description: "Explainable route-planning project with customizable coordinate graphs, traffic-aware edge weights, time-window modeling, and visualization."
 
@@ -120,7 +120,7 @@
   year: "2021"
   label: "CSP Solver"
   group: "ai"
-  image: "/images/projects/one-zero-puzzle-csp-solver.svg"
+  image: "/images/projects/repo-media/one-zero-csp-preview.png"
   stack: "Python, Backtracking, AC-3, Pygame"
   description: "Constraint-satisfaction solver for One-Zero puzzles using MCV/LCV heuristics, forward checking, MAC/AC-3 propagation, and search-trace visualization."
 
@@ -129,7 +129,7 @@
   year: "2021"
   label: "Data Science"
   group: "ai"
-  image: "/images/projects/gdp-country-indicator-regression.svg"
+  image: "/images/projects/repo-media/gdp-regression-preview.png"
   stack: "Python, World Bank Data, OLS Regression"
   description: "Data-science workflow for integrating World Bank indicators, building country-year panels, fitting OLS regressions, and visualizing debt-growth relationships."
 
@@ -138,7 +138,7 @@
   year: "2018"
   label: "Transformers"
   group: "ai"
-  image: "/images/projects/huggingface-transformers-repo.svg"
+  image: "/images/projects/repo-media/huggingface-transformers-model-definition.png"
   stack: "Python, Transformers, NLP, Multimodal Models"
   description: "Repository copy for exploring the Hugging Face Transformers ecosystem and state-of-the-art pretrained model workflows across text, vision, audio, and multimodal tasks."
 
@@ -147,7 +147,7 @@
   year: "2022"
   label: "Cloud Systems"
   group: "systems"
-  image: "/images/projects/containerized-url-shortener.svg"
+  image: "/images/projects/repo-media/url-shortener-deployment.png"
   stack: "Flask, MariaDB, Docker, Kubernetes"
   description: "Flask URL-shortening service with MariaDB persistence, Docker packaging, and Kubernetes manifests for scaling, configuration, and storage."
 
@@ -156,7 +156,7 @@
   year: "2021"
   label: "Django"
   group: "systems"
-  image: "/images/projects/museum-content-platform-django.svg"
+  image: "/images/projects/repo-media/museum-django-images.png"
   stack: "Django, JavaScript, Watson Moderation, Text-to-Speech"
   description: "Admin-managed museum content platform with galleries, stories, visitor comments, moderation, and generated audio support."
 
@@ -165,7 +165,7 @@
   year: "2021"
   label: "Networking"
   group: "systems"
-  image: "/images/projects/concurrent-dhcp-network-lab.svg"
+  image: "/images/projects/repo-media/dhcp-console.png"
   stack: "Python, UDP, Threads, DHCP"
   description: "Threaded UDP networking prototype that models DHCP-style message flow, lease state, and bit-level packet encoding."
 
@@ -174,7 +174,7 @@
   year: "2021"
   label: "Systems"
   group: "systems"
-  image: "/images/projects/python-git-server-simulation.svg"
+  image: "/images/projects/repo-media/python-git-simulation.png"
   stack: "Python, TCP, Client-Server, File Persistence"
   description: "TCP client-server simulation of Git-style workflows with push/pull, authentication, file encoding, contributors, and file-backed repository persistence."
 
@@ -183,7 +183,7 @@
   year: "2020"
   label: "Java Game"
   group: "systems"
-  image: "/images/projects/tank-trouble-game-ai.svg"
+  image: "/images/projects/repo-media/tank-trouble-game.png"
   stack: "Java, Swing, AWT, Rule-Based AI"
   description: "Desktop tank game with real-time 2D combat, maze maps, collision-aware movement, projectiles, power-ups, and an explainable rule-based AI opponent."
 
@@ -192,7 +192,7 @@
   year: "2020"
   label: "Game Engine"
   group: "systems"
-  image: "/images/projects/pentago-java-game-engine.svg"
+  image: "/images/projects/repo-media/pentago-runtime.png"
   stack: "Java, Swing, Console UI, Javadocs"
   description: "Java Swing and console Pentago engine with quadrant rotations, coordinate mapping, win detection, and generated documentation."
 
@@ -201,6 +201,6 @@
   year: "2021"
   label: "JavaFX"
   group: "systems"
-  image: "/images/projects/travel-ticket-system.svg"
+  image: "/images/projects/repo-media/travel-ticket-search.png"
   stack: "Java, JavaFX, CSS, Scrum"
   description: "Course project for a train and airplane ticket-purchasing desktop application with user accounts, wallet charging, ticket search, and first-sprint delivery."

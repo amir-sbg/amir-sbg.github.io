@@ -28,7 +28,7 @@ This page organizes my GitHub projects by technical depth and research relevance
   </div>
   <div class='paper-box-text'>
     <h2 class="project-entry-title"><a href="{{ project.repo }}">{{ project.title }}</a></h2>
-    <div class="project-entry-meta">First commit: {{ project.year }} &nbsp;|&nbsp; {{ project.stack }}</div>
+    <div class="project-entry-meta">{{ project.year }} &nbsp;|&nbsp; {{ project.stack }}</div>
     <p>{{ project.description }}</p>
   </div>
 </div>
@@ -47,7 +47,7 @@ This page organizes my GitHub projects by technical depth and research relevance
   </div>
   <div class='paper-box-text'>
     <h2 class="project-entry-title"><a href="{{ project.repo }}">{{ project.title }}</a></h2>
-    <div class="project-entry-meta">First commit: {{ project.year }} &nbsp;|&nbsp; {{ project.stack }}</div>
+    <div class="project-entry-meta">{{ project.year }} &nbsp;|&nbsp; {{ project.stack }}</div>
     <p>{{ project.description }}</p>
   </div>
 </div>

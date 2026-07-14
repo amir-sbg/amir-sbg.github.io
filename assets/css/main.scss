@@ -130,7 +130,7 @@
     .paper-box-image img {
         aspect-ratio: 16 / 9;
         background: #f7f7f7;
-        object-fit: cover;
+        object-fit: contain;
     }
 }
 
