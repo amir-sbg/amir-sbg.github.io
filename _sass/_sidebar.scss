@@ -151,21 +151,24 @@
   }
 }
 
-.author-email-logo {
+.author-email-mark {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   display: inline-block;
-  height: 1.25em;
-  margin-right: .4em;
-  object-fit: contain;
-  vertical-align: -.25em;
-  width: auto;
+  flex: 0 0 auto;
+  height: 1em;
+  margin-right: .35em;
+  vertical-align: -.15em;
+  width: 1em;
 }
 
-.sidebar img.author-email-logo--gatech {
-  width: 2.6em;
+.author-email-mark--gatech {
+  width: 1.4em;
 }
 
-.sidebar img.author-email-logo--gsu {
-  width: 1.3em;
+.author-email-mark--gsu {
+  width: 1em;
 }
 
 .author__urls-wrapper {
@@ -274,6 +277,12 @@
       text-decoration: underline;
     }
   }
+
+  a[href^="mailto:"] {
+    align-items: center;
+    display: flex;
+    gap: .1em;
+  }
 }
 
 .author__urls_sm{
@@ -287,16 +296,13 @@
       text-decoration: underline;
     }
   }
-  .author-email-logo {
-    height: .95em;
+  .author-email-mark {
+    height: .85em;
     margin-right: 0;
-    vertical-align: -.1em;
+    vertical-align: -.05em;
   }
-  img.author-email-logo--gatech {
-    width: 2.1em;
-  }
-  img.author-email-logo--gsu {
-    width: 1em;
+  .author-email-mark--gatech {
+    width: 1.2em;
   }
   @include breakpoint($large) {
     display: none;
