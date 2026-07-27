@@ -13,7 +13,7 @@ redirect_from:
 <div class="home-intro">
 <div class="home-intro-copy" markdown="1">
 
-I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey Plis](https://scholar.google.com/citations?hl=en&user=nm3liowAAAAJ), at [TReNDS](https://trendscenter.org/) (the joint Georgia Institute of Technology/Georgia State University/Emory University Center for Translational Research in Data Science and Neuroimaging). My research interests include machine learning, computer vision, transformer and attention mechanisms, neural scene representations, and neuroimaging data science. I am particularly interested in looped transformer and attention-based architectures that iteratively refine visual representations for robust perception, 3D understanding, and neural rendering.
+I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey Plis](https://scholar.google.com/citations?hl=en&user=nm3liowAAAAJ), at [TReNDS](https://trendscenter.org/) (joint Georgia Institute of Technology/Georgia State University/Emory University Center for Translational Research in Data Science and Neuroimaging). My research interests include machine learning, computer vision, transformer and attention mechanisms, neural scene representations, and neuroimaging data science. I am particularly interested in looped transformer and attention-based architectures that iteratively refine visual representations for robust perception, 3D understanding, and neural rendering.
 
 </div>
 </div>
