@@ -30,7 +30,9 @@ author:
   googlescholar    :
   email            :
   email_gatech     : "asabbagh7@gatech.edu"
+  email_gatech_icon: "/images/icons/georgia-tech-logo.png"
   email_gsu        : "asabbaghziarani1@gsu.edu"
+  email_gsu_icon   : "/images/icons/georgia-state-logo.png"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

@@ -29,10 +29,10 @@
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
       {% if author.email_gatech %}
-        <li><a href="mailto:{{ author.email_gatech }}"><span class="author-email-icon author-email-icon--gatech">GT</span> {{ author.email_gatech }}</a></li>
+        <li><a href="mailto:{{ author.email_gatech }}"><img class="author-email-logo author-email-logo--gatech" src="{{ author.email_gatech_icon }}" alt="Georgia Tech"> {{ author.email_gatech }}</a></li>
       {% endif %}
       {% if author.email_gsu %}
-        <li><a href="mailto:{{ author.email_gsu }}"><span class="author-email-icon author-email-icon--gsu">GSU</span> {{ author.email_gsu }}</a></li>
+        <li><a href="mailto:{{ author.email_gsu }}"><img class="author-email-logo author-email-logo--gsu" src="{{ author.email_gsu_icon }}" alt="Georgia State"> {{ author.email_gsu }}</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -130,10 +130,10 @@
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email_gatech %}
-        <a href="mailto:{{ author.email_gatech }}" aria-label="Georgia Tech email"><span class="author-email-icon author-email-icon--gatech">GT</span></a>
+        <a href="mailto:{{ author.email_gatech }}" aria-label="Georgia Tech email"><img class="author-email-logo author-email-logo--gatech" src="{{ author.email_gatech_icon }}" alt=""></a>
       {% endif %}
       {% if author.email_gsu %}
-        <a href="mailto:{{ author.email_gsu }}" aria-label="Georgia State email"><span class="author-email-icon author-email-icon--gsu">GSU</span></a>
+        <a href="mailto:{{ author.email_gsu }}" aria-label="Georgia State email"><img class="author-email-logo author-email-logo--gsu" src="{{ author.email_gsu_icon }}" alt=""></a>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
