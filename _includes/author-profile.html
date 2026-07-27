@@ -16,9 +16,6 @@
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
-      {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
@@ -30,6 +27,12 @@
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+      {% endif %}
+      {% if author.email_gatech %}
+        <li><a href="mailto:{{ author.email_gatech }}"><span class="author-email-icon author-email-icon--gatech">GT</span> {{ author.email_gatech }}</a></li>
+      {% endif %}
+      {% if author.email_gsu %}
+        <li><a href="mailto:{{ author.email_gsu }}"><span class="author-email-icon author-email-icon--gsu">GSU</span> {{ author.email_gsu }}</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -125,6 +128,12 @@
       {% endif %}
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.email_gatech %}
+        <a href="mailto:{{ author.email_gatech }}" aria-label="Georgia Tech email"><span class="author-email-icon author-email-icon--gatech">GT</span></a>
+      {% endif %}
+      {% if author.email_gsu %}
+        <a href="mailto:{{ author.email_gsu }}" aria-label="Georgia State email"><span class="author-email-icon author-email-icon--gsu">GSU</span></a>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>

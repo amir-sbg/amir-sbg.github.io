@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Amir Sabbaghziarani"
-description              : "Second-year PhD student in Computer Science at TReNDS, Georgia State University"
+description              : "PhD Student at TReNDS, the joint Georgia Institute of Technology/Georgia State University/Emory University Center for Translational Research in Data Science and Neuroimaging"
 repository               : "amir-sbg/amir-sbg.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Amir Sabbaghziarani"
   avatar           : "/images/Amir.jpeg"
-  bio              : "PhD Student at TReNDS, Georgia State University"
+  bio              : 'PhD Student at <a href="https://trendscenter.org/">TReNDS</a> (joint Georgia Institute of Technology/Georgia State University/Emory University Center for Translational Research in Data Science and Neuroimaging)'
   location         : "Atlanta, United States"
   employer         :
   pubmed           : 
   googlescholar    :
-  email            : "amirsabbagh2000z@gmail.com"
+  email            :
+  email_gatech     : "asabbagh7@gatech.edu"
+  email_gsu        : "asabbaghziarani1@gsu.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

@@ -137,12 +137,46 @@
 }
 
 .author__bio {
+  line-height: 1.4;
   margin: 0;
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
   }
+
+  a {
+    color: #224b8d;
+    font-weight: 700;
+  }
+}
+
+.author-email-icon {
+  align-items: center;
+  border-radius: 3px;
+  display: inline-flex;
+  font-size: .65em;
+  font-weight: 800;
+  height: 1.75em;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-right: .35em;
+  min-width: 2.25em;
+  padding: 0 .25em;
+  vertical-align: middle;
+}
+
+.author-email-icon--gatech {
+  background: #b3a369;
+  border: 1px solid #857437;
+  color: #003057;
+}
+
+.author-email-icon--gsu {
+  background: #0039a6;
+  border: 1px solid #002b7f;
+  color: #fff;
 }
 
 .author__urls-wrapper {
@@ -263,6 +297,12 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+  .author-email-icon {
+    font-size: .45em;
+    height: 1.65em;
+    margin-right: 0;
+    min-width: 2.5em;
   }
   @include breakpoint($large) {
     display: none;
