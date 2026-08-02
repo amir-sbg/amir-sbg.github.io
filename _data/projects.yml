@@ -3,9 +3,9 @@
   year: "2026"
   label: "ACM AI 2026"
   group: "ai"
-  image: "/images/projects/repo-media/vlm-brain-mri-confidence.png"
+  image: "/images/projects/repo-media/acm-ai-2026-logo.png"
   stack: "Python, VLM Evaluation, Brain MRI, Calibration, Neuroimaging"
-  description: "Accepted ACM AI Summit 2026 project auditing vision-language models on brain-MRI slices, with metrics for accuracy, calibration, confident errors, hallucination, and abstention."
+  description: "Accepted ACM AI 2026 project auditing vision-language models on brain-MRI slices, with metrics for accuracy, calibration, confident errors, hallucination, and abstention."
 
 - title: "Behavior Analysis of Car Drivers Based on Computer Vision"
   repo: "https://github.com/amir-sbg/Behavior-Analysis-of-Car-Drivers-Based-on-Computer-Vision"
