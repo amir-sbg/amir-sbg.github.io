@@ -20,6 +20,8 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 
 
 # 🔥 News
+- *2026.07*: &nbsp;🎉 Our paper **"Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI"** was accepted to [ACM AI Summit 2026](https://aisummit.acm.org/).
+- *2026.05*: &nbsp;📝 Submitted **"Confident but Unreliable"**, a TReNDS brain-MRI VLM safety audit, to [ACM AI Summit 2026](https://aisummit.acm.org/).
 - *2025.11*: &nbsp;🎉 One paper submitted to [CVPR 2026](https://cvpr.thecvf.com/).
 - *2025.06*: &nbsp;🎉 [Experience](https://amir-sbg.github.io/experiences/) - Attended [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025).
 - *2025.01*: &nbsp;🎉 Started my Ph.D. studies at Georgia State University.
@@ -27,6 +29,16 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 
 
 # 💻 Projects and Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted ACM AI 2026</div><img src='/images/projects/repo-media/vlm-brain-mri-confidence.png' alt="Accuracy versus confidence plot for brain MRI VLM audit" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI](https://github.com/amir-sbg/vlm-brain-mri-audit)**<br>
+Accepted to [ACM AI Summit 2026](https://aisummit.acm.org/) after submission in *2026.05* and acceptance in *2026.07*.<br>
+TReNDS project with Georgia Tech and Georgia State collaborators auditing VLM accuracy, calibration, high-confidence errors, hallucination, and abstention on slice-level brain MRI.
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to CVPR 2026</div><img src='/images/GS-cropped.png'  alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
