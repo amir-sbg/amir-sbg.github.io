@@ -14,6 +14,24 @@ My experiences page collects conferences, workshops, academic events, and meanin
 
 <div class="experience-card" markdown="1">
 
+## Best Paper Presentation Award - Advanced Computer Networks
+
+<div class="experience-card-description" markdown="1">
+
+*March 2026*
+
+My team and I received the **Best Paper Presentation Award** in the Advanced Computer Networks course at Georgia State University, taught by Prof. [Huadi Zhu](https://cas.gsu.edu/profile/huadi-zhu/). Our presentation focused on BEAM + learned AS distance for routing anomaly detection, and I built a related project, [Routing Anomaly Detection System](https://github.com/amir-sbg/Routing-Anomaly-Detection-System), to extend those ideas into a practical system for analyzing routing behavior and detecting anomalous network paths.
+
+</div>
+
+<div class="experience-media-single">
+  <img src="/images/advanced%20computer%20networks.JPEG" alt="Best paper presentation award in Advanced Computer Networks at Georgia State University">
+</div>
+
+</div>
+
+<div class="experience-card" markdown="1">
+
 ## fMRI Frontier: Bridging Minds, Methods, & Medicine - Atlanta, Georgia
 
 <div class="experience-card-description" markdown="1">

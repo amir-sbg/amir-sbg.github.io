@@ -263,6 +263,22 @@
     }
 }
 
+.experience-media-single {
+    display: flex;
+    justify-content: center;
+    padding-bottom: .25em;
+
+    img {
+        background: #f7f7f7;
+        box-shadow: 3px 3px 6px #888;
+        display: block;
+        max-height: 520px;
+        max-width: 720px;
+        object-fit: contain;
+        width: 100%;
+    }
+}
+
 .project-page {
     padding: .5em 0 2em;
 }
