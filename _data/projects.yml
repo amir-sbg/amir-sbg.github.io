@@ -3,7 +3,9 @@
   year: "2026"
   label: "ACM AI 2026"
   group: "ai"
-  image: "/images/acm.png"
+  image: "/images/conf%20but%20unr.png"
+  venue_image: "/images/acm.png"
+  venue_alt: "ACM AI 2026 logo"
   stack: "Python, VLM Evaluation, Brain MRI, Calibration, Neuroimaging"
   description: "Accepted ACM AI 2026 project auditing vision-language models on brain-MRI slices, with metrics for accuracy, calibration, confident errors, hallucination, and abstention."
 

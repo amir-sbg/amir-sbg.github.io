@@ -42,7 +42,7 @@ Accepted to [BMVC 2026](https://bmvc2026.bmva.org/)<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted ACM AI 2026</div><img src='/images/acm.png' alt="ACM AI 2026 logo" width="100%"></div></div>
+<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted ACM AI 2026</div><img src='/images/conf%20but%20unr.png' alt="Confident but Unreliable brain MRI VLM audit pipeline" width="100%"><img class="venue-mark" src='/images/acm.png' alt="ACM AI 2026 logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI](https://github.com/amir-sbg/vlm-brain-mri-audit)**<br>

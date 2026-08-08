@@ -24,6 +24,9 @@ This page organizes my GitHub projects by technical depth and research relevance
     <div>
       <div class="badge">{{ project.label }}</div>
       <img src='{{ project.image }}' alt="{{ project.title }} preview" width="100%" loading="lazy">
+      {% if project.venue_image %}
+      <img class="venue-mark" src='{{ project.venue_image }}' alt="{{ project.venue_alt | default: project.label }}" loading="lazy">
+      {% endif %}
     </div>
   </div>
   <div class='paper-box-text'>
@@ -43,6 +46,9 @@ This page organizes my GitHub projects by technical depth and research relevance
     <div>
       <div class="badge">{{ project.label }}</div>
       <img src='{{ project.image }}' alt="{{ project.title }} preview" width="100%" loading="lazy">
+      {% if project.venue_image %}
+      <img class="venue-mark" src='{{ project.venue_image }}' alt="{{ project.venue_alt | default: project.label }}" loading="lazy">
+      {% endif %}
     </div>
   </div>
   <div class='paper-box-text'>

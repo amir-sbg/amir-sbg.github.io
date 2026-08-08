@@ -94,25 +94,10 @@
 
 .paper-box-publication {
     .paper-box-image {
-        img {
+        img:not(.venue-mark) {
             aspect-ratio: 16 / 9;
             background: #f7f7f7;
-            object-fit: cover;
-        }
-
-        img.venue-mark {
-            aspect-ratio: auto;
-            background: rgba(255, 255, 255, .94);
-            border: 1px solid rgba(0, 0, 0, .08);
-            border-radius: 3px;
-            bottom: .6em;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, .16);
-            max-width: 105px;
             object-fit: contain;
-            padding: .25em .35em;
-            position: absolute;
-            right: .6em;
-            width: 28%;
         }
     }
 }
@@ -174,6 +159,21 @@
     font-weight: 700;
     line-height: 1.45;
     margin-bottom: .65em;
+}
+
+.paper-box .paper-box-image img.venue-mark {
+    aspect-ratio: auto;
+    background: rgba(255, 255, 255, .94);
+    border: 1px solid rgba(0, 0, 0, .08);
+    border-radius: 3px;
+    bottom: .6em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .16);
+    max-width: 105px;
+    object-fit: contain;
+    padding: .25em .35em;
+    position: absolute;
+    right: .6em;
+    width: 28%;
 }
 
 .experience-card {
