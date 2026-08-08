@@ -25,7 +25,6 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 - *2026.06*: &nbsp;🎉 One paper submitted to [MLSP 2026](https://mlsp26.ieeesps.org/).
 - *2026.05*: &nbsp;📝 One paper submitted to [ACM AI 2026](https://aisummit.acm.org/).
 - *2026.04*: &nbsp;🎉 One paper submitted to [BMVC 2026](https://bmvc2026.bmva.org/).
-- *2025.11*: &nbsp;🎉 One paper submitted to [CVPR 2026](https://cvpr.thecvf.com/).
 - *2025.06*: &nbsp;🎉 [Experience](https://amir-sbg.github.io/experiences/) - Attended [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025).
 - *2025.01*: &nbsp;🎉 Started my Ph.D. studies at Georgia State University.
 - *2023.08*: &nbsp;🎉 Graduated from Amirkabir University of Technology (Tehran Polytechnic).
@@ -48,16 +47,7 @@ Accepted to [BMVC 2026](https://bmvc2026.bmva.org/)<br>
 
 **[Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI](https://github.com/amir-sbg/vlm-brain-mri-audit)**<br>
 Accepted to [ACM AI 2026](https://aisummit.acm.org/)<br>
-*2026.07*
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to CVPR 2026</div><img src='/images/GS-cropped.png'  alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Submitted to [CVPR 2026](https://cvpr.thecvf.com/)**  
-
+*2026.07* · First author
 
 </div>
 </div>
