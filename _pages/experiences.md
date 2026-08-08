@@ -12,9 +12,11 @@ My experiences page collects conferences, workshops, academic events, and meanin
 
 # Experiences
 
-<div class="experience-card" markdown="1">
+<div class="experience-card experience-card--side" markdown="1">
 
 ## Best Paper Presentation Award - Advanced Computer Networks
+
+<div class="experience-card-side-body">
 
 <div class="experience-card-description" markdown="1">
 
@@ -24,8 +26,10 @@ My team and I received the **Best Paper Presentation Award** in the Advanced Com
 
 </div>
 
-<div class="experience-media-single">
+<div class="experience-media-side">
   <img src="/images/advanced%20computer%20networks.JPEG" alt="Best paper presentation award in Advanced Computer Networks at Georgia State University">
+</div>
+
 </div>
 
 </div>

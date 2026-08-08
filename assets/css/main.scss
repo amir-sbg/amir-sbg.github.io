@@ -198,6 +198,45 @@
     padding-bottom: 1em;
 }
 
+.experience-card--side {
+    .experience-card-side-body {
+        align-items: center;
+        display: grid;
+        gap: 1.5em;
+        grid-template-columns: 1fr;
+    }
+
+    .experience-card-description {
+        border-bottom: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .experience-media-side {
+        display: flex;
+        justify-content: center;
+
+        img {
+            background: #f7f7f7;
+            box-shadow: 3px 3px 6px #888;
+            display: block;
+            max-width: 320px;
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+
+    @include breakpoint($medium) {
+        .experience-card-side-body {
+            grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
+        }
+
+        .experience-media-side {
+            justify-content: flex-end;
+        }
+    }
+}
+
 .experience-media-row {
     display: grid;
     gap: 1em;
@@ -260,22 +299,6 @@
 
     img {
         aspect-ratio: 16 / 9;
-    }
-}
-
-.experience-media-single {
-    display: flex;
-    justify-content: center;
-    padding-bottom: .25em;
-
-    img {
-        background: #f7f7f7;
-        box-shadow: 3px 3px 6px #888;
-        display: block;
-        max-height: 520px;
-        max-width: 720px;
-        object-fit: contain;
-        width: 100%;
     }
 }
 
