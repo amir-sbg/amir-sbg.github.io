@@ -33,6 +33,16 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 
 # 💻 Projects and Publications
 
+<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted BMVC 2026</div><img src='/images/FlexSplat.png' alt="FlexSplat flexible feed-forward 3D Gaussian splatting visualization" width="100%"><img class="venue-mark" src='/images/projects/repo-media/bmvc-2026-transparent.png' alt="BMVC 2026 logo"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence**<br>
+Accepted to [BMVC 2026](https://bmvc2026.bmva.org/)<br>
+*2026.07* · First author
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted ACM AI 2026</div><img src='/images/projects/repo-media/acm-ai-2026-logo.png' alt="ACM AI 2026 logo" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
