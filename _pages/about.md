@@ -20,8 +20,8 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 
 
 # 🔥 News
-- *2026.07*: &nbsp;🎉 Our first-author paper **"FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence"** was accepted to [BMVC 2026](https://bmvc2026.bmva.org/).
-- *2026.07*: &nbsp;🎉 Our first-author paper **"Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI"** was accepted to [ACM AI 2026](https://aisummit.acm.org/).
+- **2026.07 — First author:** &nbsp;🎉 **Our paper**, *"FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence"*, was accepted to [BMVC 2026](https://bmvc2026.bmva.org/).
+- **2026.07 — First author:** &nbsp;🎉 **Our paper**, *"Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI"*, was accepted to [ACM AI 2026](https://aisummit.acm.org/).
 - *2026.06*: &nbsp;🎉 One paper submitted to [MLSP 2026](https://mlsp26.ieeesps.org/).
 - *2026.05*: &nbsp;📝 One paper submitted to [ACM AI 2026](https://aisummit.acm.org/).
 - *2026.04*: &nbsp;🎉 One paper submitted to [BMVC 2026](https://bmvc2026.bmva.org/).
