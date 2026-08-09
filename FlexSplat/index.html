@@ -104,17 +104,51 @@
             <h2 class="title is-3">Abstract</h2>
             <div class="content has-text-justified">
               <p>
-                FlexSplat is a feed-forward framework for object-centric novel view synthesis
-                when camera poses are not available. The model couples a geometry transformer
-                with a Gaussian decoder, so pose, depth, and scene representation are learned
-                together rather than treated as separate preprocessing steps.
+                FlexSplat is a flexible feed-forward framework for object-centric novel view
+                synthesis with 3D Gaussian Splatting under a practical but difficult setting:
+                the input images are uncalibrated, so camera poses are not assumed to be known.
+                Instead of requiring a precomputed point cloud or a dense set of pixel-aligned
+                Gaussian primitives, the model learns a compact set of object-centered Gaussian
+                queries that can represent the scene independently of image resolution.
               </p>
               <p>
-                Instead of constructing Gaussians from pixels or point-cloud correspondences,
-                FlexSplat decodes a flexible set of learned Gaussian queries. Each query gathers
-                multi-view evidence through depth-aware projection and deformable attention,
-                producing a compact representation that can scale with the number of input views.
+                The method couples a geometry transformer with a Gaussian decoder so camera
+                prediction, depth reasoning, and 3D representation learning happen in one
+                forward pipeline. The geometry branch estimates camera parameters and depth from
+                the input views, while the decoder projects learned Gaussian queries into the
+                available images and gathers evidence through depth-aware multi-view deformable
+                attention.
               </p>
+              <p>
+                This design avoids per-scene optimization and removes the need to build Gaussians
+                directly from every image pixel or from externally supplied point correspondences.
+                As a result, FlexSplat can reconstruct a view-consistent Gaussian representation
+                from one or more unposed input images while keeping the Gaussian budget compact,
+                controllable, and decoupled from the source image resolution.
+              </p>
+            </div>
+
+            <div class="tldr-card has-text-left">
+              <h3>TL;DR — what does FlexSplat make possible?</h3>
+              <ul>
+                <li>
+                  <strong>Flexible:</strong> Unlike pixel- or point-aligned approaches, Gaussians
+                  are represented as learnable queries rather than being tied to every image pixel
+                  or a dense point cloud. This enables a much more compact Gaussian representation
+                  whose size is decoupled from image resolution.
+                </li>
+                <li>
+                  <strong>Feed-forward:</strong> There is no per-scene optimization. The model
+                  reconstructs the 3D representation in a single forward pipeline instead of
+                  retraining or optimizing a new model for every scene.
+                </li>
+                <li>
+                  <strong>Uncalibrated:</strong> Camera poses do not need to be provided as input.
+                  FlexSplat jointly predicts the camera geometry and depth from the images
+                  themselves, making reconstruction possible without knowing the camera locations
+                  beforehand.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

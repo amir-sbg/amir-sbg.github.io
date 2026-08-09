@@ -13,11 +13,11 @@ a {
 
 .publication-title {
   font-family: "Google Sans", "Noto Sans", sans-serif;
-  font-size: clamp(6rem, 11vw, 8.7rem);
-  line-height: 0.9;
+  font-size: clamp(7.8rem, 15vw, 12.2rem);
+  line-height: 0.8;
   font-weight: 900;
-  letter-spacing: -0.064em;
-  margin-bottom: 0.8rem;
+  letter-spacing: -0.074em;
+  margin-bottom: 1.15rem;
 }
 
 .publication-subtitle {
@@ -156,6 +156,36 @@ a {
   line-height: 1.68;
 }
 
+.tldr-card {
+  margin: 1.75rem auto 0;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.tldr-card h3 {
+  font-family: "Google Sans", "Noto Sans", sans-serif;
+  font-size: 1.28rem;
+  font-weight: 700;
+  margin: 0 0 0.85rem;
+}
+
+.tldr-card ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.tldr-card li {
+  font-size: 1.06rem;
+  line-height: 1.62;
+  margin-bottom: 0.75rem;
+}
+
+.tldr-card li:last-child {
+  margin-bottom: 0;
+}
+
 .method-columns {
   margin-top: 1rem;
   margin-bottom: 1.25rem;
@@ -204,7 +234,7 @@ a {
 }
 
 .publication-figure.method-detail-figure {
-  max-width: 220px;
+  max-width: 320px;
 }
 
 .publication-figure.small {
@@ -259,7 +289,7 @@ code {
 
 @media screen and (max-width: 768px) {
   .publication-title {
-    font-size: 4.15rem;
+    font-size: 5.5rem;
   }
 
   .publication-subtitle {
