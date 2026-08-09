@@ -6,192 +6,254 @@
     <title>FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting</title>
     <meta
       name="description"
-      content="BMVC 2026 project page for FlexSplat, a correspondence-free feed-forward 3D Gaussian Splatting framework for uncalibrated object-centric novel view synthesis.">
+      content="BMVC 2026 project page for FlexSplat, a feed-forward 3D Gaussian Splatting method for uncalibrated object-centric novel view synthesis.">
     <meta property="og:title" content="FlexSplat">
     <meta
       property="og:description"
       content="Flexible feed-forward 3D Gaussian Splatting without point cloud correspondence. Accepted to BMVC 2026.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/figures/architecture.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro|Helvetica&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header class="hero">
-      <nav class="nav" aria-label="Project navigation">
-        <a href="#abstract">Abstract</a>
-        <a href="#method">Method</a>
-        <a href="#results">Results</a>
-        <a href="#reproduce">Reproduce</a>
-        <a href="#citation">Citation</a>
-      </nav>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">FlexSplat</h1>
+              <h2 class="subtitle is-3 publication-subtitle">
+                Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence
+              </h2>
 
-      <div class="hero-inner">
-        <p class="venue">BMVC 2026</p>
-        <h1>FlexSplat</h1>
-        <p class="subtitle">
-          Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence
-        </p>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">Amir Sabbaghziarani<sup>1</sup></span>
+                <span class="author-block">Hanting Ye<sup>2</sup></span>
+                <span class="author-block">Maria Gorlatova<sup>2</sup></span>
+                <span class="author-block">Yi Ding<sup>3</sup></span>
+              </div>
 
-        <div class="authors" aria-label="Authors">
-          <span>Amir Sabbaghziarani</span>
-          <span>Hanting Ye</span>
-          <span>Maria Gorlatova</span>
-          <span>Yi Ding</span>
+              <div class="is-size-5 publication-authors publication-affiliations">
+                <span class="author-block"><sup>1</sup>Georgia State University</span>
+                <span class="author-block"><sup>2</sup>Duke University</span>
+                <span class="author-block"><sup>3</sup>University of Tennessee, Knoxville</span>
+              </div>
+
+              <div class="affiliation-logos" aria-label="Institution logos">
+                <img class="logo-gsu" src="assets/logos/georgia-state.jpg" alt="Georgia State University">
+                <img class="logo-duke" src="assets/logos/duke.png" alt="Duke University">
+                <img class="logo-utk" src="assets/logos/utk.png" alt="University of Tennessee, Knoxville">
+              </div>
+
+              <div class="publication-venue">Accepted to BMVC 2026</div>
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <span class="link-block">
+                    <a href="assets/paper/flexsplat-bmvc2026.pdf" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon"><i class="ai ai-acmdl"></i></span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+                  <span class="link-block">
+                    <a href="https://github.com/amir-sbg/FlexSplat" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">⌘</span>
+                      <span>Code</span>
+                    </a>
+                  </span>
+                  <span class="link-block">
+                    <a href="https://bmvc2026.bmva.org/" class="external-link button is-normal is-rounded is-dark">
+                      <span>BMVC 2026</span>
+                    </a>
+                  </span>
+                  <span class="link-block">
+                    <a href="#citation" class="external-link button is-normal is-rounded is-dark">
+                      <span>BibTeX</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="affiliations" aria-label="Affiliations">
-          <img src="assets/logos/georgia-state.jpg" alt="Georgia State University">
-          <img src="assets/logos/duke.png" alt="Duke University">
-          <img src="assets/logos/utk.png" alt="University of Tennessee, Knoxville">
-        </div>
-
-        <div class="actions">
-          <a class="button primary" href="assets/paper/flexsplat-bmvc2026.pdf">Paper</a>
-          <a class="button" href="https://github.com/amir-sbg/FlexSplat">Code</a>
-          <a class="button" href="https://bmvc2026.bmva.org/">BMVC 2026</a>
-          <a class="button" href="#citation">BibTeX</a>
-        </div>
-
-        <p class="tldr">
-          FlexSplat reconstructs object-centric scenes from uncalibrated images by jointly
-          estimating geometry and decoding a compact, shared set of 3D Gaussian queries.
-        </p>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section class="figure-section first">
-        <figure class="paper-figure">
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
           <img src="assets/figures/architecture.png" alt="FlexSplat architecture diagram">
+          <h2 class="subtitle has-text-centered">
+            FlexSplat learns cameras, depth, and a compact set of object-centered 3D Gaussians
+            directly from uncalibrated input views.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                FlexSplat is a feed-forward framework for object-centric novel view synthesis
+                when camera poses are not available. The model couples a geometry transformer
+                with a Gaussian decoder, so pose, depth, and scene representation are learned
+                together rather than treated as separate preprocessing steps.
+              </p>
+              <p>
+                Instead of constructing Gaussians from pixels or point-cloud correspondences,
+                FlexSplat decodes a flexible set of learned Gaussian queries. Each query gathers
+                multi-view evidence through depth-aware projection and deformable attention,
+                producing a compact representation that can scale with the number of input views.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Method Overview</h2>
+            <div class="content has-text-justified">
+              <p>
+                The pipeline first estimates camera geometry and depth from unordered views,
+                then uses those predictions to condition a shared Gaussian query decoder. This
+                makes the representation independent of dense point correspondence and keeps the
+                Gaussian budget fixed by design choice rather than image resolution.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns is-centered method-columns">
+          <div class="column">
+            <div class="method-card">
+              <h3 class="title is-5">Joint geometry</h3>
+              <p>
+                A VGGT-style branch predicts cameras, depth, and confidence while staying in the
+                training path, letting geometry adapt to the reconstruction objective.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="method-card">
+              <h3 class="title is-5">Flexible Gaussians</h3>
+              <p>
+                Learned Gaussian queries form a compact scene representation, with 10K, 15K, or
+                20K primitives depending on the input-view setting.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="method-card">
+              <h3 class="title is-5">Multi-view attention</h3>
+              <p>
+                Queries project into each image plane and sample fused feature maps, allowing the
+                decoder to build view-consistent structure from noisy geometry.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure class="publication-figure">
+          <img src="assets/figures/multiview-gaussian.png" alt="Multi-view Gaussian projection">
           <figcaption>
-            FlexSplat predicts cameras and depth with a geometry transformer, fuses depth-aware
-            and appearance features, and refines object-centered Gaussian queries through a
-            multi-view deformable decoder.
+            Gaussian queries aggregate feature evidence across views using learned offsets around
+            projected reference points.
           </figcaption>
         </figure>
-      </section>
+      </div>
+    </section>
 
-      <section id="abstract" class="section narrow">
-        <h2>Abstract</h2>
-        <p>
-          FlexSplat is a feed-forward framework for novel view synthesis from uncalibrated,
-          object-centric multi-view image collections. It removes the posed-input assumption
-          of query-based Gaussian reconstructors by training a geometry transformer jointly
-          with the Gaussian decoder. The geometry branch predicts per-image cameras and depth,
-          while the decoder uses depth-guided Gaussian parameterization and multi-view
-          deformable cross-attention to aggregate evidence into a single view-consistent set
-          of primitives.
-        </p>
-        <p>
-          The representation uses a compact Gaussian budget that is decoupled from the input
-          resolution and not dictated by the number of views. On ShapeNet-SRN and Google
-          Scanned Objects, FlexSplat matches or approaches posed state-of-the-art reconstructors
-          while requiring neither camera poses nor ground-truth depth.
-        </p>
-      </section>
-
-      <section id="method" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Method</p>
-          <h2>Correspondence-free Gaussian queries grounded in learned geometry</h2>
-        </div>
-
-        <div class="feature-grid">
-          <article class="feature-card">
-            <h3>Joint geometry front-end</h3>
-            <p>
-              A VGGT-based branch predicts camera parameters, depth, and confidence. It remains
-              in the gradient path, so geometry adapts to reconstruction instead of acting as a
-              fixed preprocessing step.
-            </p>
-          </article>
-          <article class="feature-card">
-            <h3>Compact query budget</h3>
-            <p>
-              Gaussians are learned transformer queries rather than pixels or point-cloud
-              correspondences. The primitive count can be set to 10K, 15K, or 20K independent
-              of image resolution.
-            </p>
-          </article>
-          <article class="feature-card">
-            <h3>Cross-view consensus</h3>
-            <p>
-              Each Gaussian projects into every view and samples fused feature maps around its
-              reference points, letting the decoder average down moderate pose and depth noise.
-            </p>
-          </article>
-        </div>
-
-        <figure class="paper-figure compact">
-          <img src="assets/figures/multiview-gaussian.png" alt="Multi-view Gaussian projection diagram">
-          <figcaption>
-            A Gaussian query is projected into each image plane, where learned offsets define
-            sampling locations for multi-view deformable attention.
-          </figcaption>
-        </figure>
-      </section>
-
-      <section id="results" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Results</p>
-          <h2>Pose-free reconstruction with competitive fidelity</h2>
-        </div>
-
-        <div class="stats">
-          <div>
-            <strong>29.73</strong>
-            <span>PSNR on four-view GSO</span>
-          </div>
-          <div>
-            <strong>0.041</strong>
-            <span>LPIPS on four-view GSO</span>
-          </div>
-          <div>
-            <strong>20K</strong>
-            <span>Gaussians for four views</span>
-          </div>
-          <div>
-            <strong>0.992s</strong>
-            <span>four-view end-to-end inference</span>
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Results</h2>
+            <div class="content has-text-justified">
+              <p>
+                Experiments cover single-view ShapeNet-SRN reconstruction, multi-view Google
+                Scanned Objects evaluation, view-count scaling, ablations, timing, and robustness
+                to camera-pose perturbation.
+              </p>
+            </div>
           </div>
         </div>
 
-        <figure class="paper-figure">
+        <div class="columns is-centered metric-row">
+          <div class="column has-text-centered">
+            <p class="metric-value">29.73</p>
+            <p class="metric-label">PSNR on 4-view GSO</p>
+          </div>
+          <div class="column has-text-centered">
+            <p class="metric-value">0.041</p>
+            <p class="metric-label">LPIPS on 4-view GSO</p>
+          </div>
+          <div class="column has-text-centered">
+            <p class="metric-value">20K</p>
+            <p class="metric-label">Gaussians for 4 views</p>
+          </div>
+          <div class="column has-text-centered">
+            <p class="metric-value">0.992s</p>
+            <p class="metric-label">End-to-end inference</p>
+          </div>
+        </div>
+
+        <figure class="publication-figure">
           <img src="assets/figures/gso-multiview.png" alt="Four-view GSO qualitative comparison">
           <figcaption>
-            Four-view GSO qualitative comparison. FlexSplat produces consistent geometry and
+            Four-view GSO qualitative comparison: FlexSplat reconstructs object geometry and
             texture without known camera parameters.
           </figcaption>
         </figure>
 
-        <div class="result-grid">
-          <figure class="paper-figure small">
-            <img src="assets/figures/shapenet-singleview.png" alt="ShapeNet-SRN single-view comparison">
-            <figcaption>Single-view NVS on ShapeNet-SRN.</figcaption>
-          </figure>
-          <figure class="paper-figure small">
-            <img src="assets/figures/view-scaling.png" alt="Effect of input view count">
-            <figcaption>Increasing input views improves reconstruction with a flexible query budget.</figcaption>
-          </figure>
+        <div class="columns is-centered result-grid">
+          <div class="column">
+            <figure class="publication-figure small">
+              <img src="assets/figures/shapenet-singleview.png" alt="ShapeNet-SRN single-view comparison">
+              <figcaption>Single-view ShapeNet-SRN novel view synthesis.</figcaption>
+            </figure>
+          </div>
+          <div class="column">
+            <figure class="publication-figure small">
+              <img src="assets/figures/view-scaling.png" alt="Effect of input view count">
+              <figcaption>View-count scaling with a flexible Gaussian budget.</figcaption>
+            </figure>
+          </div>
         </div>
 
-        <figure class="paper-figure compact">
-          <img src="assets/figures/pose-robustness.png" alt="GSO reconstruction with camera perturbation">
+        <figure class="publication-figure compact">
+          <img src="assets/figures/pose-robustness.png" alt="Robustness to camera-pose perturbation">
           <figcaption>
-            FlexSplat remains stable under moderate camera-pose perturbations because each query
-            aggregates evidence across all input views.
+            Reconstruction quality remains stable under moderate camera-pose perturbation because
+            each Gaussian query aggregates evidence from all available input views.
           </figcaption>
         </figure>
-      </section>
+      </div>
+    </section>
 
-      <section id="reproduce" class="section narrow">
-        <h2>Reproduce</h2>
-        <p>
-          The codebase includes Hydra configs for Objaverse-LVIS training, ShapeNet-SRN and
-          GSO evaluation, ablations, timing, pose metrics, and custom-image reconstruction.
-        </p>
-
-        <pre><code>conda create -n flexsplat python=3.10 -y
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Reproducing Experiments</h2>
+            <div class="content has-text-justified">
+              <p>
+                The repository includes Hydra configurations for Objaverse-LVIS training,
+                ShapeNet-SRN and GSO evaluation, ablations, inference timing, pose metrics, and
+                custom-image reconstruction.
+              </p>
+              <pre><code>conda create -n flexsplat python=3.10 -y
 conda activate flexsplat
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements.txt
@@ -199,30 +261,42 @@ pip install -r requirements.txt
 python -m src.main +experiment=objaverse
 python -m src.main +experiment=gso checkpointing.load=$CKPT
 python -m src.demo --images path/to/images --checkpoint $CKPT --export-ply</code></pre>
+              <p>
+                See the <a href="https://github.com/amir-sbg/FlexSplat">GitHub repository</a>
+                for dataset layout, full table commands, and test instructions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <p>
-          See the <a href="https://github.com/amir-sbg/FlexSplat">GitHub repository</a> for
-          dataset layout, full table commands, and test instructions.
-        </p>
-      </section>
-
-      <section id="citation" class="section narrow">
-        <h2>Citation</h2>
-        <pre><code>@inproceedings{sabbaghziarani2026flexsplat,
+    <section id="citation" class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">BibTeX</h2>
+            <pre><code>@inproceedings{sabbaghziarani2026flexsplat,
   title={FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence},
   author={Sabbaghziarani, Amir and Ye, Hanting and Gorlatova, Maria and Ding, Yi},
   booktitle={British Machine Vision Conference},
   year={2026}
 }</code></pre>
-      </section>
-    </main>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-      <p>
-        FlexSplat project page ·
-        <a href="https://github.com/amir-sbg/FlexSplat">Code</a> ·
-        <a href="assets/paper/flexsplat-bmvc2026.pdf">Paper</a>
-      </p>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            FlexSplat project page ·
+            <a href="https://github.com/amir-sbg/FlexSplat">Code</a> ·
+            <a href="assets/paper/flexsplat-bmvc2026.pdf">Paper</a>
+          </p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
