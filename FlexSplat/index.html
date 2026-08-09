@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting</title>
+    <meta
+      name="description"
+      content="BMVC 2026 project page for FlexSplat, a correspondence-free feed-forward 3D Gaussian Splatting framework for uncalibrated object-centric novel view synthesis.">
+    <meta property="og:title" content="FlexSplat">
+    <meta
+      property="og:description"
+      content="Flexible feed-forward 3D Gaussian Splatting without point cloud correspondence. Accepted to BMVC 2026.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/figures/architecture.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav" aria-label="Project navigation">
+        <a href="#abstract">Abstract</a>
+        <a href="#method">Method</a>
+        <a href="#results">Results</a>
+        <a href="#reproduce">Reproduce</a>
+        <a href="#citation">Citation</a>
+      </nav>
+
+      <div class="hero-inner">
+        <p class="venue">BMVC 2026</p>
+        <h1>FlexSplat</h1>
+        <p class="subtitle">
+          Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence
+        </p>
+
+        <div class="authors" aria-label="Authors">
+          <span>Amir Sabbaghziarani</span>
+          <span>Hanting Ye</span>
+          <span>Maria Gorlatova</span>
+          <span>Yi Ding</span>
+        </div>
+
+        <div class="affiliations" aria-label="Affiliations">
+          <img src="assets/logos/georgia-state.jpg" alt="Georgia State University">
+          <img src="assets/logos/duke.png" alt="Duke University">
+          <img src="assets/logos/utk.png" alt="University of Tennessee, Knoxville">
+        </div>
+
+        <div class="actions">
+          <a class="button primary" href="assets/paper/flexsplat-bmvc2026.pdf">Paper</a>
+          <a class="button" href="https://github.com/amir-sbg/FlexSplat">Code</a>
+          <a class="button" href="https://bmvc2026.bmva.org/">BMVC 2026</a>
+          <a class="button" href="#citation">BibTeX</a>
+        </div>
+
+        <p class="tldr">
+          FlexSplat reconstructs object-centric scenes from uncalibrated images by jointly
+          estimating geometry and decoding a compact, shared set of 3D Gaussian queries.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="figure-section first">
+        <figure class="paper-figure">
+          <img src="assets/figures/architecture.png" alt="FlexSplat architecture diagram">
+          <figcaption>
+            FlexSplat predicts cameras and depth with a geometry transformer, fuses depth-aware
+            and appearance features, and refines object-centered Gaussian queries through a
+            multi-view deformable decoder.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="abstract" class="section narrow">
+        <h2>Abstract</h2>
+        <p>
+          FlexSplat is a feed-forward framework for novel view synthesis from uncalibrated,
+          object-centric multi-view image collections. It removes the posed-input assumption
+          of query-based Gaussian reconstructors by training a geometry transformer jointly
+          with the Gaussian decoder. The geometry branch predicts per-image cameras and depth,
+          while the decoder uses depth-guided Gaussian parameterization and multi-view
+          deformable cross-attention to aggregate evidence into a single view-consistent set
+          of primitives.
+        </p>
+        <p>
+          The representation uses a compact Gaussian budget that is decoupled from the input
+          resolution and not dictated by the number of views. On ShapeNet-SRN and Google
+          Scanned Objects, FlexSplat matches or approaches posed state-of-the-art reconstructors
+          while requiring neither camera poses nor ground-truth depth.
+        </p>
+      </section>
+
+      <section id="method" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Method</p>
+          <h2>Correspondence-free Gaussian queries grounded in learned geometry</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Joint geometry front-end</h3>
+            <p>
+              A VGGT-based branch predicts camera parameters, depth, and confidence. It remains
+              in the gradient path, so geometry adapts to reconstruction instead of acting as a
+              fixed preprocessing step.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Compact query budget</h3>
+            <p>
+              Gaussians are learned transformer queries rather than pixels or point-cloud
+              correspondences. The primitive count can be set to 10K, 15K, or 20K independent
+              of image resolution.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Cross-view consensus</h3>
+            <p>
+              Each Gaussian projects into every view and samples fused feature maps around its
+              reference points, letting the decoder average down moderate pose and depth noise.
+            </p>
+          </article>
+        </div>
+
+        <figure class="paper-figure compact">
+          <img src="assets/figures/multiview-gaussian.png" alt="Multi-view Gaussian projection diagram">
+          <figcaption>
+            A Gaussian query is projected into each image plane, where learned offsets define
+            sampling locations for multi-view deformable attention.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="results" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Results</p>
+          <h2>Pose-free reconstruction with competitive fidelity</h2>
+        </div>
+
+        <div class="stats">
+          <div>
+            <strong>29.73</strong>
+            <span>PSNR on four-view GSO</span>
+          </div>
+          <div>
+            <strong>0.041</strong>
+            <span>LPIPS on four-view GSO</span>
+          </div>
+          <div>
+            <strong>20K</strong>
+            <span>Gaussians for four views</span>
+          </div>
+          <div>
+            <strong>0.992s</strong>
+            <span>four-view end-to-end inference</span>
+          </div>
+        </div>
+
+        <figure class="paper-figure">
+          <img src="assets/figures/gso-multiview.png" alt="Four-view GSO qualitative comparison">
+          <figcaption>
+            Four-view GSO qualitative comparison. FlexSplat produces consistent geometry and
+            texture without known camera parameters.
+          </figcaption>
+        </figure>
+
+        <div class="result-grid">
+          <figure class="paper-figure small">
+            <img src="assets/figures/shapenet-singleview.png" alt="ShapeNet-SRN single-view comparison">
+            <figcaption>Single-view NVS on ShapeNet-SRN.</figcaption>
+          </figure>
+          <figure class="paper-figure small">
+            <img src="assets/figures/view-scaling.png" alt="Effect of input view count">
+            <figcaption>Increasing input views improves reconstruction with a flexible query budget.</figcaption>
+          </figure>
+        </div>
+
+        <figure class="paper-figure compact">
+          <img src="assets/figures/pose-robustness.png" alt="GSO reconstruction with camera perturbation">
+          <figcaption>
+            FlexSplat remains stable under moderate camera-pose perturbations because each query
+            aggregates evidence across all input views.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="reproduce" class="section narrow">
+        <h2>Reproduce</h2>
+        <p>
+          The codebase includes Hydra configs for Objaverse-LVIS training, ShapeNet-SRN and
+          GSO evaluation, ablations, timing, pose metrics, and custom-image reconstruction.
+        </p>
+
+        <pre><code>conda create -n flexsplat python=3.10 -y
+conda activate flexsplat
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
+
+python -m src.main +experiment=objaverse
+python -m src.main +experiment=gso checkpointing.load=$CKPT
+python -m src.demo --images path/to/images --checkpoint $CKPT --export-ply</code></pre>
+
+        <p>
+          See the <a href="https://github.com/amir-sbg/FlexSplat">GitHub repository</a> for
+          dataset layout, full table commands, and test instructions.
+        </p>
+      </section>
+
+      <section id="citation" class="section narrow">
+        <h2>Citation</h2>
+        <pre><code>@inproceedings{sabbaghziarani2026flexsplat,
+  title={FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence},
+  author={Sabbaghziarani, Amir and Ye, Hanting and Gorlatova, Maria and Ding, Yi},
+  booktitle={British Machine Vision Conference},
+  year={2026}
+}</code></pre>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        FlexSplat project page ·
+        <a href="https://github.com/amir-sbg/FlexSplat">Code</a> ·
+        <a href="assets/paper/flexsplat-bmvc2026.pdf">Paper</a>
+      </p>
+    </footer>
+  </body>
+</html>
