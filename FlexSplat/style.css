@@ -12,26 +12,37 @@ a {
 }
 
 .publication-title {
-  font-family: "Castoro", "Google Sans", Georgia, serif;
-  font-size: clamp(4.8rem, 8vw, 6.4rem);
-  line-height: 0.95;
+  font-family: "Google Sans", "Noto Sans", sans-serif;
+  font-size: clamp(6rem, 11vw, 8.7rem);
+  line-height: 0.9;
   font-weight: 900;
-  letter-spacing: -0.052em;
+  letter-spacing: -0.064em;
   margin-bottom: 0.8rem;
 }
 
 .publication-subtitle {
   font-family: "Google Sans", "Noto Sans", sans-serif;
-  font-size: clamp(1.75rem, 3vw, 2.35rem);
+  font-size: clamp(1.95rem, 3.3vw, 2.55rem);
   line-height: 1.22;
-  font-weight: 600;
+  font-weight: 650;
   letter-spacing: -0.026em;
   margin-bottom: 1.35rem;
 }
 
 .publication-authors {
   font-family: "Google Sans", sans-serif;
+  font-size: 1.22rem !important;
   line-height: 1.6;
+}
+
+.publication-authors a {
+  color: #3273dc;
+}
+
+.publication-authors a:hover {
+  color: #3273dc;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .author-block {
@@ -41,14 +52,14 @@ a {
 
 .publication-affiliations {
   color: #555;
-  font-size: 1.05rem !important;
+  font-size: 1.12rem !important;
   margin-top: 0.25rem;
 }
 
 .publication-venue {
   font-family: "Google Sans", sans-serif;
   color: #555;
-  font-size: 1.15rem;
+  font-size: 1.22rem;
   margin: 0.65rem 0 1.1rem;
 }
 
@@ -97,6 +108,7 @@ a {
 
 .publication-links .button {
   font-family: "Google Sans", sans-serif;
+  font-size: 1.03rem;
   min-width: 108px;
 }
 
@@ -124,7 +136,7 @@ a {
 .teaser .subtitle {
   font-family: "Google Sans", sans-serif;
   color: #333;
-  font-size: 1.15rem;
+  font-size: 1.22rem;
   line-height: 1.45;
   margin: 1rem auto 0;
   max-width: 860px;
@@ -140,7 +152,7 @@ a {
 }
 
 .content p {
-  font-size: 1.02rem;
+  font-size: 1.08rem;
   line-height: 1.68;
 }
 
@@ -165,7 +177,7 @@ a {
 
 .method-card p {
   color: #444;
-  font-size: 0.96rem;
+  font-size: 1.02rem;
   line-height: 1.55;
 }
 
@@ -180,7 +192,7 @@ a {
 
 .publication-figure figcaption {
   color: #666;
-  font-size: 0.92rem;
+  font-size: 0.96rem;
   line-height: 1.45;
   text-align: center;
   margin: 0.7rem auto 0;
@@ -247,11 +259,11 @@ code {
 
 @media screen and (max-width: 768px) {
   .publication-title {
-    font-size: 3.65rem;
+    font-size: 4.15rem;
   }
 
   .publication-subtitle {
-    font-size: 1.45rem;
+    font-size: 1.55rem;
   }
 
   .affiliation-logos {
