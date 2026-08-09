@@ -88,6 +88,14 @@
     <section class="hero teaser">
       <div class="container is-max-desktop">
         <div class="hero-body">
+          <figure class="workflow-figure">
+            <img src="assets/figures/flexsplat-workflow.gif" alt="FlexSplat workflow animation from input views to Gaussian reconstruction">
+            <figcaption>
+              FlexSplat workflow: uncalibrated input views are processed through learned geometry
+              and Gaussian decoding to produce a compact 3D representation.
+            </figcaption>
+          </figure>
+
           <img src="assets/figures/flexsplat3d.png" alt="FlexSplat 3D Gaussian Splatting architecture">
           <h2 class="subtitle has-text-centered">
             FlexSplat learns cameras, depth, and a compact set of object-centered 3D Gaussians
@@ -130,25 +138,33 @@
 
             <div class="tldr-card has-text-left">
               <h3>TL;DR — what does FlexSplat make possible?</h3>
-              <ul>
-                <li>
-                  <strong>Flexible:</strong> Unlike pixel- or point-aligned approaches, Gaussians
-                  are represented as learnable queries rather than being tied to every image pixel
-                  or a dense point cloud. This enables a much more compact Gaussian representation
-                  whose size is decoupled from image resolution.
-                </li>
-                <li>
-                  <strong>Feed-forward:</strong> There is no per-scene optimization. The model
-                  reconstructs the 3D representation in a single forward pipeline instead of
-                  retraining or optimizing a new model for every scene.
-                </li>
-                <li>
-                  <strong>Uncalibrated:</strong> Camera poses do not need to be provided as input.
-                  FlexSplat jointly predicts the camera geometry and depth from the images
-                  themselves, making reconstruction possible without knowing the camera locations
-                  beforehand.
-                </li>
-              </ul>
+              <div class="tldr-grid">
+                <article class="tldr-item">
+                  <h4>Flexible</h4>
+                  <p>
+                    Unlike pixel- or point-aligned approaches, Gaussians are represented as
+                    learnable queries rather than being tied to every image pixel or a dense point
+                    cloud. This enables a much more compact Gaussian representation whose size is
+                    decoupled from image resolution.
+                  </p>
+                </article>
+                <article class="tldr-item">
+                  <h4>Feed-forward</h4>
+                  <p>
+                    There is no per-scene optimization. The model reconstructs the 3D
+                    representation in a single forward pipeline instead of retraining or
+                    optimizing a new model for every scene.
+                  </p>
+                </article>
+                <article class="tldr-item">
+                  <h4>Uncalibrated</h4>
+                  <p>
+                    Camera poses do not need to be provided as input. FlexSplat jointly predicts
+                    the camera geometry and depth from the images themselves, making reconstruction
+                    possible without knowing the camera locations beforehand.
+                  </p>
+                </article>
+              </div>
             </div>
           </div>
         </div>

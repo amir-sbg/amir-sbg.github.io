@@ -133,6 +133,25 @@ a {
   border-radius: 6px;
 }
 
+.workflow-figure {
+  max-width: 860px;
+  margin: 0 auto 1.45rem;
+}
+
+.workflow-figure img {
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+}
+
+.workflow-figure figcaption {
+  color: #666;
+  font-size: 0.98rem;
+  line-height: 1.45;
+  text-align: center;
+  margin: 0.65rem auto 0;
+  max-width: 720px;
+}
+
 .teaser .subtitle {
   font-family: "Google Sans", sans-serif;
   color: #333;
@@ -158,32 +177,46 @@ a {
 
 .tldr-card {
   margin: 1.75rem auto 0;
-  padding: 1.25rem 1.35rem;
-  border: 1px solid #e7e7e7;
-  border-radius: 10px;
-  background: #fafafa;
+  padding: 1.35rem;
+  border: 1px solid #e3e7ef;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #fbfcff 0%, #f7f8fb 100%);
 }
 
 .tldr-card h3 {
   font-family: "Google Sans", "Noto Sans", sans-serif;
-  font-size: 1.28rem;
-  font-weight: 700;
-  margin: 0 0 0.85rem;
+  font-size: 1.34rem;
+  font-weight: 750;
+  margin: 0 0 1rem;
+  text-align: center;
 }
 
-.tldr-card ul {
+.tldr-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.95rem;
+}
+
+.tldr-item {
+  padding: 1rem;
+  border: 1px solid #e7e7e7;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.tldr-item h4 {
+  font-family: "Google Sans", "Noto Sans", sans-serif;
+  color: #111;
+  font-size: 1.08rem;
+  font-weight: 750;
+  margin: 0 0 0.45rem;
+}
+
+.tldr-item p {
+  color: #444;
+  font-size: 0.98rem;
+  line-height: 1.55;
   margin: 0;
-  padding-left: 1.25rem;
-}
-
-.tldr-card li {
-  font-size: 1.06rem;
-  line-height: 1.62;
-  margin-bottom: 0.75rem;
-}
-
-.tldr-card li:last-child {
-  margin-bottom: 0;
 }
 
 .method-columns {
@@ -298,6 +331,10 @@ code {
 
   .affiliation-logos {
     gap: 1.15rem;
+  }
+
+  .tldr-grid {
+    grid-template-columns: 1fr;
   }
 
   .logo-gsu {
