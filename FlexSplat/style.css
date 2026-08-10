@@ -8,17 +8,17 @@ a {
 }
 
 .hero-body {
-  padding: 3rem 1.5rem 2rem;
+  padding: 1.35rem 1.5rem 1.35rem;
 }
 
 .publication-title {
   line-height: 1;
-  margin: 0 auto 1.05rem;
+  margin: 0 auto 0.4rem;
 }
 
 .publication-title-logo {
   display: block;
-  width: min(350px, 68vw);
+  width: min(200px, 46vw);
   max-width: 100%;
   height: auto;
   margin: 0 auto;
@@ -30,7 +30,7 @@ a {
   line-height: 1.22;
   font-weight: 650;
   letter-spacing: -0.026em;
-  margin-bottom: 1.35rem;
+  margin-bottom: 0.85rem;
 }
 
 .publication-authors {
