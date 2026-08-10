@@ -264,36 +264,39 @@
           </div>
         </div>
 
-        <figure class="publication-figure">
-          <img src="assets/figures/gso-multiview.png" alt="Four-view GSO qualitative comparison">
-          <figcaption>
-            Four-view GSO qualitative comparison: FlexSplat reconstructs object geometry and
-            texture without known camera parameters.
-          </figcaption>
-        </figure>
-
-        <div class="columns is-centered result-grid">
-          <div class="column">
-            <figure class="publication-figure small">
-              <img src="assets/figures/shapenet-singleview.png" alt="ShapeNet-SRN single-view comparison">
-              <figcaption>Single-view ShapeNet-SRN novel view synthesis.</figcaption>
-            </figure>
-          </div>
-          <div class="column">
-            <figure class="publication-figure small">
-              <img src="assets/figures/view-scaling.png" alt="Effect of input view count">
-              <figcaption>View-count scaling with a flexible Gaussian budget.</figcaption>
-            </figure>
-          </div>
+        <div class="content has-text-justified results-note">
+          <p>
+            The two diagnostic plots below summarize the behavior most directly tied to
+            FlexSplat's design: scaling with the number of available context views and robustness
+            when camera poses are perturbed. Together, they show how the query-based Gaussian
+            representation benefits from extra visual evidence while avoiding a hard dependency on
+            perfectly calibrated inputs.
+          </p>
         </div>
 
-        <figure class="publication-figure compact">
-          <img src="assets/figures/pose-robustness.png" alt="Robustness to camera-pose perturbation">
-          <figcaption>
-            Reconstruction quality remains stable under moderate camera-pose perturbation because
-            each Gaussian query aggregates evidence from all available input views.
-          </figcaption>
-        </figure>
+        <div class="results-plot-grid">
+          <figure class="publication-figure result-plot">
+            <img src="assets/figures/view-scaling.png" alt="Effect of input view count">
+            <figcaption>
+              <strong>View scaling.</strong> Increasing the number of input views gives FlexSplat
+              more cross-view evidence for geometry and appearance, improving novel-view synthesis
+              quality while keeping the Gaussian count explicitly controlled. This highlights the
+              benefit of a flexible representation whose budget can be chosen independently of the
+              input image resolution.
+            </figcaption>
+          </figure>
+
+          <figure class="publication-figure result-plot">
+            <img src="assets/figures/pose-robustness.png" alt="Robustness to camera-pose perturbation">
+            <figcaption>
+              <strong>Pose robustness.</strong> Performance degrades gracefully under moderate
+              camera-pose perturbations because the model does not rely on a fixed point cloud or
+              one-to-one pixel correspondence. Gaussian queries aggregate multi-view features around
+              learned projected locations, making reconstruction less brittle when the estimated
+              camera geometry is imperfect.
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 

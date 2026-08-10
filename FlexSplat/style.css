@@ -295,8 +295,33 @@ a {
   line-height: 1.35;
 }
 
-.result-grid {
-  margin-top: 1rem;
+.results-note {
+  max-width: 880px;
+  margin: 0.2rem auto 0;
+}
+
+.results-plot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.35rem;
+  align-items: start;
+  margin-top: 1.1rem;
+}
+
+.publication-figure.result-plot {
+  margin-top: 0;
+}
+
+.publication-figure.result-plot figcaption {
+  max-width: 620px;
+  color: #4f4f4f;
+  font-size: 0.99rem;
+  text-align: left;
+}
+
+.publication-figure.result-plot figcaption strong {
+  color: #222;
+  font-weight: 750;
 }
 
 pre {
@@ -337,6 +362,10 @@ code {
   }
 
   .tldr-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .results-plot-grid {
     grid-template-columns: 1fr;
   }
 
