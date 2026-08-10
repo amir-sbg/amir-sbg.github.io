@@ -88,23 +88,9 @@ a {
 
 .affiliation-logos img {
   display: block;
+  height: 52px;
   width: auto;
   object-fit: contain;
-}
-
-.logo-gsu {
-  max-height: 46px;
-  max-width: 145px;
-}
-
-.logo-duke {
-  max-height: 52px;
-  max-width: 150px;
-}
-
-.logo-utk {
-  max-height: 58px;
-  max-width: 112px;
 }
 
 .publication-links {
@@ -390,15 +376,7 @@ code {
     grid-template-columns: 1fr;
   }
 
-  .logo-gsu {
-    max-height: 40px;
-  }
-
-  .logo-duke {
-    max-height: 43px;
-  }
-
-  .logo-utk {
-    max-height: 50px;
+  .affiliation-logos img {
+    height: 43px;
   }
 }
