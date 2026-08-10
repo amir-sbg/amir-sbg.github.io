@@ -312,6 +312,11 @@ a {
   margin-top: 0;
 }
 
+.publication-figure.view-scaling-plot img {
+  width: 78%;
+  margin: 0 auto;
+}
+
 .publication-figure.result-plot figcaption {
   max-width: 620px;
   color: #4f4f4f;
