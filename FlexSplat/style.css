@@ -19,7 +19,7 @@ a {
 .publication-title-logo {
   display: block;
   width: min(800px, 94vw);
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   margin: 0 auto;
 }
