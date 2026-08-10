@@ -18,7 +18,7 @@ a {
 
 .publication-title-logo {
   display: block;
-  width: min(500px, 68vw);
+  width: min(350px, 68vw);
   max-width: 100%;
   height: auto;
   margin: 0 auto;
@@ -63,7 +63,7 @@ a {
 .publication-venue {
   font-family: "Google Sans", sans-serif;
   color: #555;
-  font-size: 1.22rem;
+  font-size: 1.45rem;
   margin: 0.65rem 0 1.1rem;
 }
 
