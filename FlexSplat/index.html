@@ -91,16 +91,19 @@
           <figure class="workflow-figure">
             <img src="assets/figures/flexsplat-wf.gif" alt="FlexSplat workflow animation from input views to Gaussian reconstruction">
             <figcaption>
-              FlexSplat workflow: uncalibrated input views are processed through learned geometry
-              and Gaussian decoding to produce a compact 3D representation.
+              <strong>FlexSplat workflow.</strong> Uncalibrated input views are processed through
+              learned geometry and Gaussian decoding to produce a compact 3D representation.
             </figcaption>
           </figure>
 
-          <img src="assets/figures/flexsplat3d.png" alt="FlexSplat 3D Gaussian Splatting architecture">
-          <h2 class="subtitle has-text-centered">
-            FlexSplat learns cameras, depth, and a compact set of object-centered 3D Gaussians
-            directly from uncalibrated input views.
-          </h2>
+          <figure class="architecture-figure">
+            <img src="assets/figures/flexsplat3d.png" alt="FlexSplat 3D Gaussian Splatting architecture">
+            <figcaption>
+              <strong>FlexSplat architecture.</strong> The model predicts camera geometry and
+              depth from uncalibrated views, fuses depth-aware image features, and decodes a
+              compact set of object-centered Gaussian queries for feed-forward 3D reconstruction.
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>

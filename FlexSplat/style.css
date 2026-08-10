@@ -135,30 +135,33 @@ a {
 
 .workflow-figure {
   max-width: 860px;
-  margin: 0 auto 1.45rem;
+  margin: 0 auto 2.25rem;
 }
 
-.workflow-figure img {
+.architecture-figure {
+  margin: 0 auto;
+}
+
+.workflow-figure img,
+.architecture-figure img {
   border: 1px solid #e7e7e7;
   border-radius: 8px;
 }
 
-.workflow-figure figcaption {
-  color: #666;
-  font-size: 0.98rem;
+.workflow-figure figcaption,
+.architecture-figure figcaption {
+  font-family: "Google Sans", "Noto Sans", sans-serif;
+  color: #333;
+  font-size: 1.12rem;
   line-height: 1.45;
   text-align: center;
-  margin: 0.65rem auto 0;
-  max-width: 720px;
+  margin: 0.75rem auto 0;
+  max-width: 860px;
 }
 
-.teaser .subtitle {
-  font-family: "Google Sans", sans-serif;
-  color: #333;
-  font-size: 1.22rem;
-  line-height: 1.45;
-  margin: 1rem auto 0;
-  max-width: 860px;
+.workflow-figure figcaption strong,
+.architecture-figure figcaption strong {
+  font-weight: 750;
 }
 
 .section {
