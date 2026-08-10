@@ -67,6 +67,12 @@ a {
   color: #333;
 }
 
+.acceptance-ratio {
+  display: inline-block;
+  margin-left: 0.35rem;
+  color: #555;
+}
+
 .affiliation-logos {
   display: flex;
   align-items: center;
