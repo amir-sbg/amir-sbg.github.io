@@ -8,7 +8,7 @@ a {
 }
 
 .hero-body {
-  padding: 1.35rem 1.5rem 1.35rem;
+  padding: 2.15rem 1.5rem 1.35rem;
 }
 
 .publication-title {
@@ -18,7 +18,7 @@ a {
 
 .publication-title-logo {
   display: block;
-  width: min(600px, 92vw);
+  width: min(900px, 96vw);
   max-width: 100%;
   height: auto;
   margin: 0 auto;
