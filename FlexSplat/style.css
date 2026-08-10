@@ -18,7 +18,7 @@ a {
 
 .publication-title-logo {
   display: block;
-  width: min(504px, 82vw);
+  width: min(432px, 78vw);
   max-width: 90%;
   height: auto;
   margin: 0 auto;
