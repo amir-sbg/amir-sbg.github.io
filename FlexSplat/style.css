@@ -18,7 +18,7 @@ a {
 
 .publication-title-logo {
   display: block;
-  width: min(900px, 96vw);
+  width: min(800px, 94vw);
   max-width: 100%;
   height: auto;
   margin: 0 auto;
@@ -108,22 +108,25 @@ a {
 }
 
 .publication-links {
-  margin-top: 0.5rem;
+  margin-top: 0.55rem;
 }
 
 .publication-links .link-block {
   display: inline-block;
-  margin: 0.25rem 0.15rem;
+  margin: 0.25rem 0.25rem;
 }
 
 .publication-links .button {
   font-family: "Google Sans", sans-serif;
-  font-size: 1.03rem;
-  min-width: 108px;
+  font-size: 1.18rem;
+  min-width: 132px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .publication-links .icon {
-  margin-right: 0.35rem;
+  font-size: 1.05rem;
+  margin-right: 0.42rem;
 }
 
 .teaser .hero-body {
