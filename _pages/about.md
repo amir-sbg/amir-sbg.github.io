@@ -42,7 +42,7 @@ Acceptance ratio: 28%<br>
 *2026.07* · First author<br>
 Project: [Website](https://amir-sbg.github.io/FlexSplat/)<br>
 Code: [GitHub](https://github.com/amir-sbg/FlexSplat)<br>
-arXiv: Coming soon
+arXiv: [2608.07937](https://arxiv.org/abs/2608.07937)
 
 </div>
 </div>

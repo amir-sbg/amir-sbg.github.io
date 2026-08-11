@@ -12,6 +12,9 @@ My experiences page collects conferences, workshops, academic events, and meanin
 
 # Experiences
 
+{% comment %}
+Temporarily hidden from the rendered Experiences page.
+
 <div class="experience-card experience-card--side" markdown="1">
 
 ## Best Paper Presentation Award - Advanced Computer Networks
@@ -33,6 +36,8 @@ My team and I received the **Best Paper Presentation Award** in the Advanced Com
 </div>
 
 </div>
+
+{% endcomment %}
 
 <div class="experience-card" markdown="1">
 
