@@ -1,13 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="CUDA SAXPY benchmark">
-  <rect width="500" height="300" rx="24" fill="#f8fafc"/>
-  <rect x="36" y="38" width="428" height="224" rx="20" fill="#111827"/>
-  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">CUDA SAXPY</text>
-  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#cbd5e1">y = a*x + y benchmark</text>
-  <g font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">
-    <rect x="66" y="152" width="82" height="52" rx="12" fill="#1d4ed8"/><text x="107" y="183" fill="#dbeafe">x</text>
-    <rect x="206" y="152" width="88" height="52" rx="12" fill="#047857"/><text x="250" y="183" fill="#d1fae5">kernel</text>
-    <rect x="352" y="152" width="82" height="52" rx="12" fill="#9333ea"/><text x="393" y="183" fill="#f3e8ff">y</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="CUDA SAXPY benchmark pipeline">
+  <rect width="800" height="450" rx="28" fill="#f8fafc"/>
+  <rect x="44" y="46" width="712" height="358" rx="26" fill="#111827"/>
+  <text x="72" y="94" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800" fill="#ffffff">CUDA SAXPY Benchmark</text>
+  <text x="72" y="126" font-family="Inter, Arial, sans-serif" font-size="17" fill="#cbd5e1">memory bandwidth, kernel launch timing, and CPU/GPU validation</text>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-weight="700">
+    <rect x="82" y="186" width="112" height="64" rx="16" fill="#1d4ed8"/><text x="138" y="212" font-size="15" fill="#dbeafe">vectors</text><text x="138" y="236" font-size="13" fill="#dbeafe">x, y, a</text>
+    <rect x="254" y="156" width="124" height="54" rx="14" fill="#047857"/><text x="316" y="190" font-size="15" fill="#d1fae5">CPU reference</text>
+    <rect x="254" y="238" width="124" height="54" rx="14" fill="#059669"/><text x="316" y="272" font-size="15" fill="#d1fae5">CUDA kernel</text>
+    <rect x="438" y="186" width="118" height="64" rx="16" fill="#9333ea"/><text x="497" y="212" font-size="15" fill="#f3e8ff">validate</text><text x="497" y="236" font-size="13" fill="#f3e8ff">max error</text>
+    <rect x="616" y="186" width="100" height="64" rx="16" fill="#0f766e"/><text x="666" y="212" font-size="15" fill="#ccfbf1">report</text><text x="666" y="236" font-size="13" fill="#ccfbf1">GB/s</text>
   </g>
-  <path d="M148 178h58M294 178h58" stroke="#94a3b8" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <text x="250" y="236" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#94a3b8">bandwidth • validation • timing</text>
+  <g stroke="#94a3b8" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M194 218h60"/><path d="M378 183c30 0 34 35 60 35"/><path d="M378 265c30 0 34-47 60-47"/><path d="M556 218h60"/>
+  </g>
+  <text x="400" y="342" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#94a3b8">SAXPY: y = a·x + y</text>
 </svg>

@@ -11,11 +11,11 @@ author_profile: true
 
 <div class="projects-page-intro" markdown="1">
 
-This page highlights selected public GitHub projects, ordered by technical depth and relevance to AI engineering, machine learning, computer vision, NLP, and research software. Systems, web, networking, GPU programming, and software-engineering projects follow after the AI-focused work.
+This page highlights selected public GitHub projects, ordered by technical depth and relevance to AI engineering, machine learning, computer vision, NLP, scientific computing, GPU programming, and research software. Systems, web, networking, and software-engineering projects follow after the AI-focused work.
 
 </div>
 
-<div class="project-section-title">AI, Machine Learning, Computer Vision, NLP, and Data Science</div>
+<div class="project-section-title">AI, Machine Learning, Computer Vision, NLP, Scientific Computing, and GPU Programming</div>
 
 {% assign ai_projects = site.data.projects | where: "group", "ai" %}
 {% for project in ai_projects %}
@@ -23,7 +23,7 @@ This page highlights selected public GitHub projects, ordered by technical depth
   <div class='paper-box-image'>
     <div>
       <div class="badge">{{ project.label }}</div>
-      <img src='{{ project.image }}' alt="{{ project.title }} preview" width="100%" loading="lazy">
+      <img src='{{ project.image }}' alt="{{ project.title }} preview" width="400" height="225" loading="lazy">
       {% if project.venue_image %}
       <img class="venue-mark" src='{{ project.venue_image }}' alt="{{ project.venue_alt | default: project.label }}" loading="lazy">
       {% endif %}
@@ -37,7 +37,7 @@ This page highlights selected public GitHub projects, ordered by technical depth
 </div>
 {% endfor %}
 
-<div class="project-section-title">Systems, Web, Networking, GPU Programming, and Software Engineering</div>
+<div class="project-section-title">Systems, Web, Networking, and Software Engineering</div>
 
 {% assign systems_projects = site.data.projects | where: "group", "systems" %}
 {% for project in systems_projects %}
@@ -45,7 +45,7 @@ This page highlights selected public GitHub projects, ordered by technical depth
   <div class='paper-box-image'>
     <div>
       <div class="badge">{{ project.label }}</div>
-      <img src='{{ project.image }}' alt="{{ project.title }} preview" width="100%" loading="lazy">
+      <img src='{{ project.image }}' alt="{{ project.title }} preview" width="400" height="225" loading="lazy">
       {% if project.venue_image %}
       <img class="venue-mark" src='{{ project.venue_image }}' alt="{{ project.venue_alt | default: project.label }}" loading="lazy">
       {% endif %}

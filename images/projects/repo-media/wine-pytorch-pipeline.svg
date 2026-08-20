@@ -1,13 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="Wine quality PyTorch pipeline">
-  <rect width="500" height="300" rx="24" fill="#fff1f2"/>
-  <rect x="36" y="38" width="428" height="224" rx="20" fill="#ffffff" stroke="#fecdd3"/>
-  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#881337">Wine Quality Pipeline</text>
-  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#be123c">preprocess → train → error analysis</text>
-  <g font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
-    <rect x="60" y="152" width="82" height="48" rx="10" fill="#ffe4e6"/><text x="101" y="181" fill="#9f1239">CSV</text>
-    <rect x="172" y="152" width="82" height="48" rx="10" fill="#fecdd3"/><text x="213" y="181" fill="#9f1239">Scale</text>
-    <rect x="284" y="152" width="82" height="48" rx="10" fill="#fda4af"/><text x="325" y="181" fill="#881337">MLP</text>
-    <rect x="396" y="152" width="52" height="48" rx="10" fill="#fb7185"/><text x="422" y="181" fill="#ffffff">MAE</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Wine quality PyTorch data pipeline">
+  <rect width="800" height="450" rx="28" fill="#fff1f2"/>
+  <rect x="44" y="46" width="712" height="358" rx="26" fill="#ffffff" stroke="#fecdd3"/>
+  <text x="72" y="94" font-family="Inter, Arial, sans-serif" font-size="35" font-weight="800" fill="#881337">Wine Quality PyTorch Pipeline</text>
+  <text x="72" y="126" font-family="Inter, Arial, sans-serif" font-size="17" fill="#be123c">ingestion, leak-safe preprocessing, model training, and error analysis</text>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-weight="700">
+    <rect x="74" y="188" width="96" height="60" rx="15" fill="#ffe4e6"/><text x="122" y="224" font-size="15" fill="#9f1239">CSV</text>
+    <rect x="218" y="188" width="110" height="60" rx="15" fill="#fecdd3"/><text x="273" y="212" font-size="15" fill="#9f1239">Split</text><text x="273" y="235" font-size="13" fill="#9f1239">scale</text>
+    <rect x="376" y="188" width="110" height="60" rx="15" fill="#fda4af"/><text x="431" y="212" font-size="15" fill="#881337">PyTorch</text><text x="431" y="235" font-size="13" fill="#881337">MLP</text>
+    <rect x="534" y="188" width="112" height="60" rx="15" fill="#fb7185"/><text x="590" y="212" font-size="15" fill="#ffffff">Metrics</text><text x="590" y="235" font-size="13" fill="#fff1f2">MAE/RMSE</text>
   </g>
-  <path d="M142 176h30M254 176h30M366 176h30" stroke="#be123c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polyline points="672,280 672,174 724,174" fill="none" stroke="#881337" stroke-width="3"/>
+  <circle cx="684" cy="252" r="5" fill="#be123c"/><circle cx="700" cy="218" r="5" fill="#fb7185"/><circle cx="718" cy="186" r="5" fill="#fecdd3"/>
+  <path d="M170 218h48M328 218h48M486 218h48" stroke="#be123c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="398" y="320" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#9f1239">error slices and residual reports after training</text>
 </svg>

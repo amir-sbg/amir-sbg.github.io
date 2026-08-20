@@ -1,12 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="JAX regression lab">
-  <rect width="500" height="300" rx="24" fill="#f8fafc"/>
-  <rect x="36" y="38" width="428" height="224" rx="20" fill="#ffffff" stroke="#e2e8f0"/>
-  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">JAX Regression Lab</text>
-  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#64748b">gradients, ridge baseline, MLP diagnostics</text>
-  <polyline points="76,220 76,140 426,140" fill="none" stroke="#334155" stroke-width="2"/>
-  <path d="M88 206c44-34 72-52 112-48s72 48 116 16 66-42 98-38" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
-  <path d="M88 224c72-18 122-28 186-26s94 10 140-8" fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round"/>
-  <g font-family="Inter, Arial, sans-serif" font-size="12" fill="#334155">
-    <text x="92" y="246">loss</text><text x="356" y="158">residuals</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="JAX regression training and diagnostics pipeline">
+  <rect width="800" height="450" rx="28" fill="#f8fafc"/>
+  <rect x="44" y="46" width="712" height="358" rx="26" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="72" y="94" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800" fill="#111827">JAX Regression Lab</text>
+  <text x="72" y="126" font-family="Inter, Arial, sans-serif" font-size="17" fill="#64748b">closed-form baseline, JIT training loop, gradients, residual diagnostics</text>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-weight="700">
+    <rect x="74" y="178" width="116" height="66" rx="16" fill="#dbeafe"/><text x="132" y="204" font-size="15" fill="#1d4ed8">Diabetes</text><text x="132" y="228" font-size="13" fill="#1d4ed8">scaled data</text>
+    <rect x="236" y="154" width="120" height="54" rx="15" fill="#dcfce7"/><text x="296" y="187" font-size="15" fill="#166534">Ridge solve</text>
+    <rect x="236" y="238" width="120" height="54" rx="15" fill="#ede9fe"/><text x="296" y="271" font-size="15" fill="#6d28d9">JAX MLP</text>
+    <rect x="410" y="178" width="126" height="66" rx="16" fill="#fef3c7"/><text x="473" y="204" font-size="15" fill="#a16207">gradients</text><text x="473" y="228" font-size="13" fill="#a16207">feature sensitivity</text>
+  </g>
+  <polyline points="592,286 592,168 716,168" fill="none" stroke="#334155" stroke-width="3"/>
+  <path d="M606 266c24-36 42-52 66-46s24-34 40-36" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="606" cy="266" r="5" fill="#2563eb"/><circle cx="672" cy="220" r="5" fill="#2563eb"/><circle cx="712" cy="184" r="5" fill="#2563eb"/>
+  <text x="654" y="318" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#475467">residual bins + intervals</text>
+  <g stroke="#94a3b8" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M190 211h46"/><path d="M356 181c30 0 32 30 54 30"/><path d="M356 265c30 0 32-54 54-54"/><path d="M536 211h42"/>
   </g>
 </svg>

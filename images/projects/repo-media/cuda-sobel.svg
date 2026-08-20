@@ -1,13 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="CUDA Sobel edge pipeline">
-  <rect width="500" height="300" rx="24" fill="#f1f5f9"/>
-  <rect x="36" y="38" width="428" height="224" rx="20" fill="#0f172a"/>
-  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#ffffff">CUDA Sobel Pipeline</text>
-  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#94a3b8">CPU/GPU image gradients and timing</text>
-  <rect x="64" y="140" width="104" height="84" rx="12" fill="#334155"/>
-  <path d="M78 212l34-44 24 28 15-18 12 34z" fill="#38bdf8"/>
-  <rect x="214" y="148" width="82" height="68" rx="12" fill="#22c55e"/>
-  <text x="255" y="187" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#052e16">GPU</text>
-  <rect x="342" y="140" width="96" height="84" rx="12" fill="#020617" stroke="#38bdf8"/>
-  <path d="M358 210l62-62M374 216l52-52M392 218l36-36" stroke="#67e8f9" stroke-width="3"/>
-  <path d="M168 182h46M296 182h46" stroke="#94a3b8" stroke-width="3" fill="none" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="CUDA Sobel edge pipeline">
+  <rect width="800" height="450" rx="28" fill="#f1f5f9"/>
+  <rect x="44" y="46" width="712" height="358" rx="26" fill="#0f172a"/>
+  <text x="72" y="94" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800" fill="#ffffff">CUDA Python Sobel Pipeline</text>
+  <text x="72" y="126" font-family="Inter, Arial, sans-serif" font-size="17" fill="#94a3b8">CPU reference, custom CUDA kernel, validation, and timing</text>
+  <rect x="76" y="176" width="128" height="94" rx="16" fill="#334155"/>
+  <circle cx="114" cy="214" r="16" fill="#38bdf8"/>
+  <path d="M92 256l42-44 28 26 18-20 18 38z" fill="#0ea5e9"/>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-weight="700">
+    <rect x="258" y="156" width="114" height="54" rx="14" fill="#1d4ed8"/><text x="315" y="190" font-size="15" fill="#dbeafe">CPU Sobel</text>
+    <rect x="258" y="236" width="114" height="54" rx="14" fill="#22c55e"/><text x="315" y="270" font-size="15" fill="#052e16">CUDA kernel</text>
+    <rect x="430" y="176" width="120" height="74" rx="16" fill="#020617" stroke="#38bdf8"/><text x="490" y="207" font-size="15" fill="#67e8f9">edge map</text><text x="490" y="232" font-size="13" fill="#67e8f9">compare</text>
+    <rect x="612" y="176" width="96" height="74" rx="16" fill="#334155"/><text x="660" y="207" font-size="15" fill="#e2e8f0">JSON</text><text x="660" y="232" font-size="13" fill="#cbd5e1">timing</text>
+  </g>
+  <g stroke="#94a3b8" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M204 223h54"/><path d="M372 183c30 0 32 30 58 30"/><path d="M372 263c30 0 32-50 58-50"/><path d="M550 213h62"/>
+  </g>
 </svg>

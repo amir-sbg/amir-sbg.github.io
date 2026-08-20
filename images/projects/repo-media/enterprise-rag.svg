@@ -1,16 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="Enterprise RAG system diagram">
-  <rect width="500" height="300" rx="24" fill="#f6f8fb"/>
-  <rect x="32" y="38" width="436" height="224" rx="20" fill="#ffffff" stroke="#d8e0ea"/>
-  <text x="50" y="78" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#172033">Enterprise RAG</text>
-  <text x="50" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#667085">hybrid retrieval + citation verification</text>
-  <g font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">
-    <rect x="46" y="148" width="78" height="42" rx="10" fill="#dbeafe"/><text x="85" y="174" fill="#1d4ed8">Docs</text>
-    <rect x="146" y="148" width="78" height="42" rx="10" fill="#e0f2fe"/><text x="185" y="174" fill="#0369a1">Chunks</text>
-    <rect x="246" y="132" width="86" height="42" rx="10" fill="#dcfce7"/><text x="289" y="158" fill="#15803d">Vector</text>
-    <rect x="246" y="188" width="86" height="42" rx="10" fill="#fef3c7"/><text x="289" y="214" fill="#a16207">BM25</text>
-    <rect x="358" y="148" width="90" height="42" rx="10" fill="#ede9fe"/><text x="403" y="174" fill="#6d28d9">Citations</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Enterprise RAG pipeline diagram">
+  <rect width="800" height="450" rx="28" fill="#f6f8fb"/>
+  <rect x="44" y="46" width="712" height="358" rx="26" fill="#ffffff" stroke="#d8e0ea"/>
+  <text x="72" y="92" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#172033">Enterprise Knowledge Assistant</text>
+  <text x="72" y="122" font-family="Inter, Arial, sans-serif" font-size="17" fill="#667085">documents → hybrid retrieval → reranking → cited answer + eval</text>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-weight="700">
+    <rect x="70" y="176" width="104" height="62" rx="14" fill="#dbeafe"/><text x="122" y="213" font-size="16" fill="#1d4ed8">Parse</text>
+    <rect x="206" y="176" width="104" height="62" rx="14" fill="#e0f2fe"/><text x="258" y="213" font-size="16" fill="#0369a1">Chunk</text>
+    <rect x="342" y="154" width="116" height="54" rx="14" fill="#dcfce7"/><text x="400" y="187" font-size="15" fill="#15803d">Vector DB</text>
+    <rect x="342" y="232" width="116" height="54" rx="14" fill="#fef3c7"/><text x="400" y="265" font-size="15" fill="#a16207">BM25</text>
+    <rect x="500" y="176" width="104" height="62" rx="14" fill="#ede9fe"/><text x="552" y="213" font-size="16" fill="#6d28d9">Rerank</text>
+    <rect x="636" y="176" width="86" height="62" rx="14" fill="#fee2e2"/><text x="679" y="213" font-size="16" fill="#b91c1c">Cite</text>
   </g>
-  <g stroke="#94a3b8" stroke-width="2" fill="none" stroke-linecap="round">
-    <path d="M124 169h22"/><path d="M224 169h20"/><path d="M332 153h26"/><path d="M332 209c18 0 18-40 26-40"/>
+  <g stroke="#94a3b8" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M174 207h32"/><path d="M310 207h28"/><path d="M458 181h42"/><path d="M458 259c28 0 24-52 42-52"/><path d="M604 207h32"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="14" fill="#475467">
+    <text x="84" y="332">Recall@K</text><text x="184" y="332">MRR</text><text x="264" y="332">faithfulness</text><text x="382" y="332">citation accuracy</text><text x="534" y="332">latency</text><text x="620" y="332">cost/query</text>
   </g>
 </svg>

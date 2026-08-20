@@ -137,10 +137,18 @@
 .project-entry {
     align-items: center;
 
-    .paper-box-image img {
+    .paper-box-image > div {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .paper-box-image img:not(.venue-mark) {
         aspect-ratio: 16 / 9;
         background: #f7f7f7;
+        display: block;
+        height: auto;
         object-fit: contain;
+        width: 100%;
     }
 }
 

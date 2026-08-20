@@ -1,10 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="Anderson acceleration fixed point method">
-  <rect width="500" height="300" rx="24" fill="#f0fdf4"/>
-  <rect x="36" y="38" width="428" height="224" rx="20" fill="#ffffff" stroke="#bbf7d0"/>
-  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#14532d">Anderson Acceleration</text>
-  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#166534">damped fixed-point iteration</text>
-  <polyline points="82,222 82,136 424,136" fill="none" stroke="#334155" stroke-width="2"/>
-  <path d="M96 210c64-62 116-72 170-54s78 28 136-14" fill="none" stroke="#22c55e" stroke-width="4" stroke-linecap="round"/>
-  <path d="M96 220c38-14 68-17 96-16s52 2 82-12 68-42 128-48" fill="none" stroke="#2563eb" stroke-width="3" stroke-dasharray="8 7" stroke-linecap="round"/>
-  <text x="334" y="216" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#166534">f(x)=x</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Anderson acceleration fixed point method">
+  <rect width="800" height="450" rx="28" fill="#f0fdf4"/>
+  <rect x="44" y="46" width="712" height="358" rx="26" fill="#ffffff" stroke="#bbf7d0"/>
+  <text x="72" y="94" font-family="Inter, Arial, sans-serif" font-size="35" font-weight="800" fill="#14532d">Anderson Acceleration</text>
+  <text x="72" y="126" font-family="Inter, Arial, sans-serif" font-size="17" fill="#166534">damped fixed-point iteration with residual history</text>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-weight="700">
+    <rect x="78" y="184" width="106" height="64" rx="15" fill="#dcfce7"/><text x="131" y="222" font-size="15" fill="#166534">xₖ</text>
+    <rect x="234" y="184" width="122" height="64" rx="15" fill="#bbf7d0"/><text x="295" y="211" font-size="15" fill="#14532d">residuals</text><text x="295" y="234" font-size="13" fill="#14532d">f(x)-x</text>
+    <rect x="406" y="184" width="122" height="64" rx="15" fill="#86efac"/><text x="467" y="222" font-size="15" fill="#14532d">least squares</text>
+  </g>
+  <polyline points="588,286 588,166 718,166" fill="none" stroke="#334155" stroke-width="3"/>
+  <path d="M604 270c30-40 48-62 80-54s20-34 32-38" fill="none" stroke="#22c55e" stroke-width="4" stroke-linecap="round"/>
+  <path d="M604 292c42-18 70-22 96-60" fill="none" stroke="#2563eb" stroke-width="3" stroke-dasharray="8 7" stroke-linecap="round"/>
+  <path d="M184 216h50M356 216h50M528 216h44" stroke="#86efac" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="652" y="320" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#166534">faster convergence</text>
 </svg>
