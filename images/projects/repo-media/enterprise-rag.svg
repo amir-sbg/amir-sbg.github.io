@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="Enterprise RAG system diagram">
+  <rect width="500" height="300" rx="24" fill="#f6f8fb"/>
+  <rect x="32" y="38" width="436" height="224" rx="20" fill="#ffffff" stroke="#d8e0ea"/>
+  <text x="50" y="78" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#172033">Enterprise RAG</text>
+  <text x="50" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#667085">hybrid retrieval + citation verification</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">
+    <rect x="46" y="148" width="78" height="42" rx="10" fill="#dbeafe"/><text x="85" y="174" fill="#1d4ed8">Docs</text>
+    <rect x="146" y="148" width="78" height="42" rx="10" fill="#e0f2fe"/><text x="185" y="174" fill="#0369a1">Chunks</text>
+    <rect x="246" y="132" width="86" height="42" rx="10" fill="#dcfce7"/><text x="289" y="158" fill="#15803d">Vector</text>
+    <rect x="246" y="188" width="86" height="42" rx="10" fill="#fef3c7"/><text x="289" y="214" fill="#a16207">BM25</text>
+    <rect x="358" y="148" width="90" height="42" rx="10" fill="#ede9fe"/><text x="403" y="174" fill="#6d28d9">Citations</text>
+  </g>
+  <g stroke="#94a3b8" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M124 169h22"/><path d="M224 169h20"/><path d="M332 153h26"/><path d="M332 209c18 0 18-40 26-40"/>
+  </g>
+</svg>

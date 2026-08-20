@@ -11,11 +11,11 @@ author_profile: true
 
 <div class="projects-page-intro" markdown="1">
 
-This page organizes my GitHub projects by technical depth and research relevance. Machine learning, computer vision, NLP, data science, and AI-oriented projects are listed first, followed by systems, web, networking, and programming projects.
+This page highlights selected public GitHub projects, ordered by technical depth and relevance to AI engineering, machine learning, computer vision, NLP, and research software. Systems, web, networking, GPU programming, and software-engineering projects follow after the AI-focused work.
 
 </div>
 
-<div class="project-section-title">Machine Learning, Computer Vision, and Data Science</div>
+<div class="project-section-title">AI, Machine Learning, Computer Vision, NLP, and Data Science</div>
 
 {% assign ai_projects = site.data.projects | where: "group", "ai" %}
 {% for project in ai_projects %}
@@ -37,7 +37,7 @@ This page organizes my GitHub projects by technical depth and research relevance
 </div>
 {% endfor %}
 
-<div class="project-section-title">Systems, Web, Networking, and Programming</div>
+<div class="project-section-title">Systems, Web, Networking, GPU Programming, and Software Engineering</div>
 
 {% assign systems_projects = site.data.projects | where: "group", "systems" %}
 {% for project in systems_projects %}

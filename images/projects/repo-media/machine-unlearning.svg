@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="Machine unlearning retain forget experiment">
+  <rect width="500" height="300" rx="24" fill="#f8fafc"/>
+  <rect x="36" y="38" width="428" height="224" rx="20" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Machine Unlearning</text>
+  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#64748b">retain / forget split with method frontier</text>
+  <rect x="62" y="146" width="120" height="74" rx="14" fill="#dcfce7"/>
+  <rect x="62" y="146" width="120" height="30" rx="14" fill="#bbf7d0"/>
+  <rect x="222" y="146" width="120" height="74" rx="14" fill="#fee2e2"/>
+  <rect x="222" y="146" width="120" height="30" rx="14" fill="#fecaca"/>
+  <polyline points="382,222 382,154 440,154" fill="none" stroke="#334155" stroke-width="2"/>
+  <circle cx="396" cy="202" r="5" fill="#22c55e"/><circle cx="416" cy="181" r="5" fill="#f97316"/><circle cx="432" cy="162" r="5" fill="#3b82f6"/>
+  <g font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+    <text x="122" y="190" fill="#166534">retain</text><text x="282" y="190" fill="#991b1b">forget</text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="Teacher student LLM distillation diagram">
+  <rect width="500" height="300" rx="24" fill="#fff7ed"/>
+  <rect x="36" y="40" width="428" height="220" rx="20" fill="#ffffff" stroke="#fed7aa"/>
+  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#7c2d12">LLM Distillation</text>
+  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#9a3412">teacher logits, KL loss, compact student</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+    <rect x="62" y="144" width="104" height="70" rx="14" fill="#fed7aa"/><text x="114" y="184" fill="#9a3412">Teacher</text>
+    <rect x="198" y="132" width="104" height="94" rx="14" fill="#ffedd5"/><text x="250" y="166" fill="#9a3412">KL</text><text x="250" y="192" fill="#9a3412">CE</text>
+    <rect x="334" y="144" width="104" height="70" rx="14" fill="#fdba74"/><text x="386" y="184" fill="#7c2d12">Student</text>
+  </g>
+  <path d="M166 178h32M302 178h32" stroke="#ea580c" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

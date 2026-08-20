@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="CUDA SAXPY benchmark">
+  <rect width="500" height="300" rx="24" fill="#f8fafc"/>
+  <rect x="36" y="38" width="428" height="224" rx="20" fill="#111827"/>
+  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">CUDA SAXPY</text>
+  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#cbd5e1">y = a*x + y benchmark</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">
+    <rect x="66" y="152" width="82" height="52" rx="12" fill="#1d4ed8"/><text x="107" y="183" fill="#dbeafe">x</text>
+    <rect x="206" y="152" width="88" height="52" rx="12" fill="#047857"/><text x="250" y="183" fill="#d1fae5">kernel</text>
+    <rect x="352" y="152" width="82" height="52" rx="12" fill="#9333ea"/><text x="393" y="183" fill="#f3e8ff">y</text>
+  </g>
+  <path d="M148 178h58M294 178h58" stroke="#94a3b8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="250" y="236" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#94a3b8">bandwidth • validation • timing</text>
+</svg>

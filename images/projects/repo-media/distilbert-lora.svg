@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="DistilBERT LoRA sentiment classifier">
+  <rect width="500" height="300" rx="24" fill="#f5f3ff"/>
+  <rect x="36" y="38" width="428" height="224" rx="20" fill="#ffffff" stroke="#ddd6fe"/>
+  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#4c1d95">DistilBERT + LoRA</text>
+  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#6d28d9">sentiment fine-tuning with adapters</text>
+  <g fill="#ede9fe" stroke="#8b5cf6">
+    <rect x="70" y="144" width="90" height="40" rx="10"/><rect x="70" y="194" width="90" height="40" rx="10"/>
+    <rect x="205" y="124" width="90" height="40" rx="10"/><rect x="205" y="174" width="90" height="40" rx="10"/><rect x="205" y="224" width="90" height="22" rx="8"/>
+    <rect x="340" y="164" width="90" height="44" rx="10"/>
+  </g>
+  <text x="250" y="151" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#5b21b6">LoRA</text>
+  <text x="385" y="191" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#5b21b6">IMDb</text>
+  <path d="M160 188h45M295 188h45" stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

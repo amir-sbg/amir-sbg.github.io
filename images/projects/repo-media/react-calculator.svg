@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="React calculator interface">
+  <rect width="500" height="300" rx="24" fill="#eff6ff"/>
+  <rect x="152" y="38" width="196" height="224" rx="22" fill="#1e293b"/>
+  <rect x="172" y="58" width="156" height="44" rx="10" fill="#0f172a"/>
+  <text x="314" y="87" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">42</text>
+  <g fill="#e0f2fe" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">
+    <rect x="172" y="122" width="34" height="28" rx="8"/><rect x="214" y="122" width="34" height="28" rx="8"/><rect x="256" y="122" width="34" height="28" rx="8"/><rect x="298" y="122" width="34" height="28" rx="8"/>
+    <rect x="172" y="160" width="34" height="28" rx="8"/><rect x="214" y="160" width="34" height="28" rx="8"/><rect x="256" y="160" width="34" height="28" rx="8"/><rect x="298" y="160" width="34" height="28" rx="8"/>
+    <rect x="172" y="198" width="34" height="28" rx="8"/><rect x="214" y="198" width="34" height="28" rx="8"/><rect x="256" y="198" width="34" height="28" rx="8"/><rect x="298" y="198" width="34" height="28" rx="8"/>
+  </g>
+  <text x="250" y="286" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4ed8">React Calculator</text>
+</svg>

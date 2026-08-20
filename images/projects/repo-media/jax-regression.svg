@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="JAX regression lab">
+  <rect width="500" height="300" rx="24" fill="#f8fafc"/>
+  <rect x="36" y="38" width="428" height="224" rx="20" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">JAX Regression Lab</text>
+  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#64748b">gradients, ridge baseline, MLP diagnostics</text>
+  <polyline points="76,220 76,140 426,140" fill="none" stroke="#334155" stroke-width="2"/>
+  <path d="M88 206c44-34 72-52 112-48s72 48 116 16 66-42 98-38" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+  <path d="M88 224c72-18 122-28 186-26s94 10 140-8" fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="Inter, Arial, sans-serif" font-size="12" fill="#334155">
+    <text x="92" y="246">loss</text><text x="356" y="158">residuals</text>
+  </g>
+</svg>

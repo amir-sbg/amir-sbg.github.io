@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="BLIP image captioning pipeline">
+  <rect width="500" height="300" rx="24" fill="#ecfeff"/>
+  <rect x="36" y="38" width="428" height="224" rx="20" fill="#ffffff" stroke="#a5f3fc"/>
+  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#155e75">BLIP Captioning</text>
+  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#0e7490">vision encoder → language decoder</text>
+  <rect x="62" y="140" width="120" height="86" rx="12" fill="#cffafe"/>
+  <circle cx="96" cy="174" r="16" fill="#06b6d4"/>
+  <path d="M70 214l42-34 27 22 19-15 18 27z" fill="#0891b2"/>
+  <rect x="222" y="142" width="88" height="36" rx="10" fill="#dbeafe"/>
+  <rect x="222" y="192" width="88" height="36" rx="10" fill="#ede9fe"/>
+  <rect x="350" y="152" width="86" height="64" rx="12" fill="#ccfbf1"/>
+  <text x="393" y="188" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#0f766e">caption</text>
+  <path d="M182 183h40M310 183h40" stroke="#0891b2" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

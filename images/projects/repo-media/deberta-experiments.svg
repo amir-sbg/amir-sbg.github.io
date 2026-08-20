@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="DeBERTa manipulation experiments">
+  <rect width="500" height="300" rx="24" fill="#eef2ff"/>
+  <rect x="36" y="38" width="428" height="224" rx="20" fill="#ffffff" stroke="#c7d2fe"/>
+  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#312e81">DeBERTa Experiments</text>
+  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#4338ca">RTD pretraining and task runners</text>
+  <g fill="#e0e7ff" stroke="#6366f1">
+    <rect x="82" y="132" width="336" height="34" rx="10"/>
+    <rect x="82" y="176" width="336" height="34" rx="10"/>
+    <rect x="82" y="220" width="336" height="20" rx="8"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#3730a3" text-anchor="middle">
+    <text x="136" y="154">tokens</text><text x="250" y="154">attention</text><text x="364" y="154">RTD</text>
+    <text x="250" y="199">GLUE / SQuAD / LM</text>
+  </g>
+</svg>

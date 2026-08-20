@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="QLoRA fine tuning diagram">
+  <rect width="500" height="300" rx="24" fill="#f8fafc"/>
+  <rect x="34" y="38" width="432" height="224" rx="20" fill="#101828"/>
+  <text x="54" y="78" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">QLoRA Lab</text>
+  <text x="54" y="106" font-family="Inter, Arial, sans-serif" font-size="13" fill="#cbd5e1">4-bit base model + low-rank adapters</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+    <rect x="58" y="146" width="96" height="54" rx="12" fill="#1e40af"/><text x="106" y="178" fill="#dbeafe">NF4</text>
+    <rect x="202" y="128" width="96" height="54" rx="12" fill="#7c3aed"/><text x="250" y="160" fill="#f3e8ff">LoRA A</text>
+    <rect x="202" y="198" width="96" height="54" rx="12" fill="#7c3aed"/><text x="250" y="230" fill="#f3e8ff">LoRA B</text>
+    <rect x="346" y="146" width="96" height="54" rx="12" fill="#059669"/><text x="394" y="178" fill="#dcfce7">Adapter</text>
+  </g>
+  <g stroke="#93c5fd" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M154 173h48"/><path d="M298 155h48"/><path d="M298 225c34 0 34-52 48-52"/>
+  </g>
+</svg>
