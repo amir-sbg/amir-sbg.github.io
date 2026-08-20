@@ -71,9 +71,9 @@ Computer-vision system for analyzing real-world driver behavior.
 
 # 📖 Educations
 
-- *2025.01 – Present*, **Georgia State University** — PhD in Computer Science  
+- *2025.01 – Present*, **[TReNDS](https://trendscenter.org/)** — PhD in Computer Science  
   GPA: 4.0 / 4.0  
-  Research Focus: 3D Computer Vision, Gaussian Splatting, Neural Rendering  
+  Research Focus: Fixed-point self-attention and looped transformers for structured reasoning — recasting attention as a DEQ-style fixed-point iteration, analyzing convergence/gradient behavior and inference efficiency, and testing controlled PyTorch ablations on tasks such as ARC and Sudoku.  
 
 
 - *2018.09 – 2023.07*, **Amirkabir University of Technology (Tehran Polytechnic)** — BSc in Computer Engineering  
