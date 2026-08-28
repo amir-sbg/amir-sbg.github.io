@@ -3,7 +3,7 @@
   year: "2026"
   label: "BMVC 2026"
   group: "ai"
-  image: "/FlexSplat/assets/figures/flexsplat3d.png"
+  image: "/FlexSplat/assets/figures/architecture-flexsplat.jpg"
   venue_image: "/images/projects/repo-media/bmvc-2026-transparent.png"
   venue_alt: "BMVC 2026"
   stack: "PyTorch, 3D Gaussian Splatting, Multi-View Geometry, Feed-Forward Reconstruction"
