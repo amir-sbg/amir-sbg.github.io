@@ -14,7 +14,7 @@ My experiences page collects conferences, workshops, academic events, and meanin
 
 <div class="experience-card" markdown="1">
 
-## ACM AI
+## ACM AI 2026 - <span class="experience-heading-small">Leadership summit</span>
 
 <div class="experience-card-description" markdown="1">
 
