@@ -14,13 +14,13 @@ My experiences page collects conferences, workshops, academic events, and meanin
 
 <div class="experience-card" markdown="1">
 
-## [ACM AI Leadership Summit](https://aisummit.acm.org/)
+## ACM AI
 
 <div class="experience-card-description" markdown="1">
 
 *September 2026*
 
-I attended the **ACM AI Leadership Summit**, where I had the opportunity to hear from leading AI researchers and pioneers including [Yann LeCun](https://www.linkedin.com/in/yann-lecun/), [Rodney Brooks](https://www.linkedin.com/in/rodney-brooks-1a137517/), Andrew Barto, and other influential voices in the field. The event was a valuable chance to learn directly from people who have shaped modern AI research, including Turing Award laureates.
+I attended the [**ACM AI 2026 - Leadership Summit**](https://aisummit.acm.org/), where I had the opportunity to hear from leading AI researchers and pioneers including [Yann LeCun](https://www.linkedin.com/in/yann-lecun/), [Rodney Brooks](https://www.linkedin.com/in/rodney-brooks-1a137517/), Andrew Barto, and other influential voices in the field. The event was a valuable chance to learn directly from people who have shaped modern AI research, including Turing Award laureates.
 
 I also presented our paper, **"Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI"**, which studies VLM reliability for brain-MRI question answering through calibration, confident-error, hallucination, abstention, and slice-level accuracy analysis.
 
