@@ -64,7 +64,7 @@ My team and I received the **Best Paper Presentation Award** in the Advanced Com
 
 <div class="experience-card" markdown="1">
 
-## FlexSplat Research Presentation - GSU Graduate Conference
+## Graduate Conference for Research at Georgia State University 2026
 
 <div class="experience-card-description" markdown="1">
 
@@ -72,7 +72,8 @@ My team and I received the **Best Paper Presentation Award** in the Advanced Com
 
 I had the opportunity to present our research, **FlexSplat**, at the Annual Graduate Conference for Research, Scholarship, and Creative Activity at Georgia State University. The work was developed in collaboration with researchers from [Duke University](https://duke.edu/) and the [University of Tennessee, Knoxville](https://www.utk.edu/), focusing on flexible feed-forward 3D Gaussian Splatting for multi-view reconstruction without point-cloud correspondence.
 
-Postscript: this paper was later accepted to [BMVC 2026](https://bmvc2026.bmva.org/), the British Machine Vision Conference.
+**Postscript — August 2026**  
+FlexSplat was later accepted to [BMVC 2026](https://bmvc2026.bmva.org/), the British Machine Vision Conference.
 
 </div>
 
