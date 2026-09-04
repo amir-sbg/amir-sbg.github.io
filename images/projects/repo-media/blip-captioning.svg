@@ -1,18 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="BLIP image captioning fine tuning pipeline">
-  <rect width="800" height="450" rx="28" fill="#ecfeff"/>
-  <rect x="44" y="46" width="712" height="358" rx="26" fill="#ffffff" stroke="#a5f3fc"/>
-  <text x="72" y="94" font-family="Inter, Arial, sans-serif" font-size="35" font-weight="800" fill="#155e75">BLIP Image Captioning</text>
-  <text x="72" y="126" font-family="Inter, Arial, sans-serif" font-size="17" fill="#0e7490">image-caption pairs → fine-tuning → generation evaluation</text>
-  <rect x="76" y="180" width="126" height="92" rx="16" fill="#cffafe"/>
-  <circle cx="112" cy="216" r="16" fill="#06b6d4"/>
-  <path d="M88 256l44-38 28 24 18-16 18 30z" fill="#0891b2"/>
-  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-weight="700">
-    <rect x="258" y="170" width="116" height="48" rx="14" fill="#dbeafe"/><text x="316" y="200" font-size="15" fill="#1d4ed8">Vision encoder</text>
-    <rect x="258" y="238" width="116" height="48" rx="14" fill="#ede9fe"/><text x="316" y="268" font-size="15" fill="#6d28d9">Text decoder</text>
-    <rect x="434" y="190" width="116" height="72" rx="16" fill="#ccfbf1"/><text x="492" y="220" font-size="15" fill="#0f766e">Caption loss</text><text x="492" y="244" font-size="13" fill="#0f766e">checkpoint</text>
-    <rect x="610" y="190" width="94" height="72" rx="16" fill="#bae6fd"/><text x="657" y="220" font-size="15" fill="#075985">Generate</text><text x="657" y="244" font-size="13" fill="#075985">metrics</text>
-  </g>
-  <g stroke="#0891b2" stroke-width="3" fill="none" stroke-linecap="round">
-    <path d="M202 226h56"/><path d="M374 194c34 0 36 32 60 32"/><path d="M374 262c34 0 36-36 60-36"/><path d="M550 226h60"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="BLIP image captioning fine tuning architecture">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="93" font-size="28" font-weight="800" fill="#111827">BLIP Captioning</text>
+    <rect x="86" y="158" width="128" height="96" rx="16" fill="#e0f2fe"/>
+    <circle cx="126" cy="190" r="18" fill="#0ea5e9"/><path d="M102 236l34-32 24 21 24-31 20 42z" fill="#0369a1" opacity=".78"/>
+    <g text-anchor="middle" font-size="17" font-weight="700">
+      <rect x="300" y="133" width="134" height="56" rx="14" fill="#dbeafe"/><text x="367" y="168" fill="#1d4ed8">Vision</text>
+      <rect x="300" y="232" width="134" height="56" rx="14" fill="#ede9fe"/><text x="367" y="267" fill="#6d28d9">Decoder</text>
+      <rect x="560" y="174" width="130" height="66" rx="15" fill="#dcfce7"/><text x="625" y="214" fill="#15803d">Caption</text>
+    </g>
+    <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M214 206h78"/><path d="M434 161c62 0 62 46 118 46"/><path d="M434 260c62 0 62-53 118-53"/></g>
+    <text x="400" y="350" text-anchor="middle" font-size="16" fill="#475569">image-text pairs · fine-tune · generate · evaluate</text>
   </g>
 </svg>

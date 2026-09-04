@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Tank Trouble Java game preview">
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="94" font-size="28" font-weight="800" fill="#111827">Tank Trouble Game AI</text>
+    <rect x="110" y="126" width="580" height="252" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="3"/>
+    <g stroke="#334155" stroke-width="16" stroke-linecap="round">
+      <path d="M154 176h186M450 176h182M258 176v96M544 176v92M154 318h160M412 318h220M340 264h120"/>
+    </g>
+    <g>
+      <rect x="196" y="214" width="54" height="34" rx="8" fill="#38bdf8" stroke="#0369a1" stroke-width="3"/>
+      <path d="M250 231h42" stroke="#0369a1" stroke-width="8" stroke-linecap="round"/>
+      <rect x="548" y="280" width="54" height="34" rx="8" fill="#f97316" stroke="#c2410c" stroke-width="3"/>
+      <path d="M548 297h-42" stroke="#c2410c" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="390" cy="231" r="7" fill="#ef4444"/>
+      <circle cx="468" cy="297" r="7" fill="#ef4444"/>
+    </g>
+    <text x="400" y="405" text-anchor="middle" font-size="16" fill="#475569">collision logic · projectiles · rule-based opponent</text>
+  </g>
+</svg>

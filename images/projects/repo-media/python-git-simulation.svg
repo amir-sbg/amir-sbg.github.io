@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Python Git server simulation">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="94" font-size="28" font-weight="800" fill="#111827">Python Git Server Simulation</text>
+    <g text-anchor="middle" font-size="17" font-weight="700">
+      <rect x="96" y="168" width="124" height="66" rx="14" fill="#dbeafe"/><text x="158" y="207" fill="#1d4ed8">Client A</text>
+      <rect x="96" y="266" width="124" height="66" rx="14" fill="#e0f2fe"/><text x="158" y="305" fill="#0369a1">Client B</text>
+      <rect x="340" y="212" width="136" height="76" rx="16" fill="#dcfce7"/><text x="408" y="257" fill="#15803d">TCP Server</text>
+      <rect x="590" y="212" width="128" height="76" rx="16" fill="#fef3c7"/><text x="654" y="257" fill="#a16207">Repo Store</text>
+    </g>
+    <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#a)">
+      <path d="M220 201c54 0 68 37 116 45"/><path d="M220 299c54 0 68-37 116-45"/><path d="M476 250h108"/>
+    </g>
+    <text x="400" y="356" text-anchor="middle" font-size="16" fill="#475569">push · pull · users · file-backed history</text>
+  </g>
+</svg>

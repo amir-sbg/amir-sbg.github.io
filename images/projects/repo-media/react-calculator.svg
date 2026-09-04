@@ -1,18 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="React calculator component layout">
-  <rect width="800" height="450" rx="28" fill="#eff6ff"/>
-  <rect x="68" y="58" width="664" height="334" rx="26" fill="#ffffff" stroke="#bfdbfe"/>
-  <text x="96" y="104" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#1d4ed8">React Calculator</text>
-  <text x="96" y="134" font-family="Inter, Arial, sans-serif" font-size="17" fill="#2563eb">component state, display formatting, keypad actions</text>
-  <rect x="102" y="190" width="196" height="124" rx="18" fill="#1e293b"/>
-  <rect x="124" y="214" width="152" height="34" rx="9" fill="#0f172a"/>
-  <text x="264" y="238" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">42</text>
-  <g fill="#e0f2fe">
-    <rect x="124" y="262" width="28" height="24" rx="6"/><rect x="160" y="262" width="28" height="24" rx="6"/><rect x="196" y="262" width="28" height="24" rx="6"/><rect x="232" y="262" width="28" height="24" rx="6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="React calculator state flow">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="93" font-size="28" font-weight="800" fill="#111827">React Calculator</text>
+    <g text-anchor="middle" font-size="18" font-weight="700">
+      <rect x="90" y="164" width="132" height="58" rx="14" fill="#dbeafe"/><text x="156" y="200" fill="#1d4ed8">Keypad</text>
+      <rect x="334" y="164" width="132" height="58" rx="14" fill="#ede9fe"/><text x="400" y="200" fill="#6d28d9">State</text>
+      <rect x="578" y="164" width="132" height="58" rx="14" fill="#dcfce7"/><text x="644" y="200" fill="#15803d">Display</text>
+    </g>
+    <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M222 193h104"/><path d="M466 193h104"/></g>
+    <rect x="140" y="290" width="520" height="48" rx="12" fill="#0f172a"/>
+    <text x="632" y="322" text-anchor="end" font-size="22" font-weight="700" fill="#f8fafc">42.0</text>
   </g>
-  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-weight="700">
-    <rect x="376" y="168" width="112" height="58" rx="14" fill="#dbeafe"/><text x="432" y="203" font-size="15" fill="#1d4ed8">state</text>
-    <rect x="376" y="256" width="112" height="58" rx="14" fill="#bfdbfe"/><text x="432" y="291" font-size="15" fill="#1d4ed8">handlers</text>
-    <rect x="572" y="212" width="102" height="58" rx="14" fill="#93c5fd"/><text x="623" y="247" font-size="15" fill="#1e3a8a">render</text>
-  </g>
-  <path d="M298 252h78M488 197c34 0 42 44 84 44M488 285c34 0 42-44 84-44" stroke="#2563eb" stroke-width="3" fill="none" stroke-linecap="round"/>
 </svg>

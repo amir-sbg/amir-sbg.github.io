@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Travel ticket JavaFX search interface">
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="94" font-size="28" font-weight="800" fill="#111827">Travel Ticket System</text>
+    <rect x="96" y="132" width="608" height="236" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
+    <rect x="124" y="164" width="164" height="48" rx="12" fill="#dbeafe"/><text x="206" y="195" text-anchor="middle" font-size="16" font-weight="700" fill="#1d4ed8">Origin</text>
+    <rect x="316" y="164" width="164" height="48" rx="12" fill="#e0f2fe"/><text x="398" y="195" text-anchor="middle" font-size="16" font-weight="700" fill="#0369a1">Destination</text>
+    <rect x="508" y="164" width="164" height="48" rx="12" fill="#dcfce7"/><text x="590" y="195" text-anchor="middle" font-size="16" font-weight="700" fill="#15803d">Search</text>
+    <g fill="#fff" stroke="#d7dee8">
+      <rect x="124" y="244" width="548" height="38" rx="10"/><rect x="124" y="298" width="548" height="38" rx="10"/>
+    </g>
+    <g font-size="15" fill="#475569">
+      <text x="148" y="269">Train · 09:30 · 2 seats · wallet checkout</text>
+      <text x="148" y="323">Flight · 14:10 · baggage · receipt</text>
+    </g>
+  </g>
+</svg>

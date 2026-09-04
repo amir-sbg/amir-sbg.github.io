@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Concurrent DHCP networking lab">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="94" font-size="28" font-weight="800" fill="#111827">Concurrent DHCP Lab</text>
+    <rect x="84" y="150" width="230" height="162" rx="16" fill="#0f172a"/>
+    <g font-family="Menlo, Consolas, monospace" font-size="14">
+      <text x="106" y="186" fill="#93c5fd">DISCOVER</text>
+      <text x="106" y="218" fill="#bbf7d0">OFFER 10.0.0.14</text>
+      <text x="106" y="250" fill="#fde68a">REQUEST</text>
+      <text x="106" y="282" fill="#c4b5fd">ACK lease=3600</text>
+    </g>
+    <g text-anchor="middle" font-size="17" font-weight="700">
+      <rect x="386" y="154" width="116" height="58" rx="14" fill="#dbeafe"/><text x="444" y="190" fill="#1d4ed8">UDP</text>
+      <rect x="560" y="128" width="112" height="52" rx="13" fill="#e0f2fe"/><text x="616" y="161" fill="#0369a1">Client</text>
+      <rect x="560" y="218" width="112" height="52" rx="13" fill="#dcfce7"/><text x="616" y="251" fill="#15803d">Server</text>
+      <rect x="418" y="322" width="216" height="42" rx="21" fill="#f1f5f9"/><text x="526" y="349" fill="#475569" font-size="16">threads · leases · packets</text>
+    </g>
+    <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#a)">
+      <path d="M314 214h68"/><path d="M502 183c28-20 37-27 54-29"/><path d="M502 184c28 26 38 53 54 60"/>
+    </g>
+  </g>
+</svg>

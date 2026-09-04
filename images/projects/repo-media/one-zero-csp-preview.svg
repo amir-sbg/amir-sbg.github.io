@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="One zero puzzle CSP solver">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="93" font-size="28" font-weight="800" fill="#111827">One-Zero CSP</text>
+    <g transform="translate(92 142)" font-size="24" font-weight="800" text-anchor="middle">
+      <rect width="144" height="144" rx="14" fill="#f1f5f9" stroke="#cbd5e1"/>
+      <g fill="#334155"><text x="24" y="38">1</text><text x="72" y="38">0</text><text x="120" y="38">?</text><text x="24" y="86">?</text><text x="72" y="86">1</text><text x="120" y="86">0</text><text x="24" y="134">0</text><text x="72" y="134">?</text><text x="120" y="134">1</text></g>
+    </g>
+    <g text-anchor="middle" font-size="17" font-weight="700">
+      <rect x="318" y="140" width="128" height="56" rx="14" fill="#dbeafe"/><text x="382" y="175" fill="#1d4ed8">MCV/LCV</text>
+      <rect x="318" y="232" width="128" height="56" rx="14" fill="#ede9fe"/><text x="382" y="267" fill="#6d28d9">AC-3</text>
+      <rect x="564" y="184" width="118" height="64" rx="15" fill="#dcfce7"/><text x="623" y="223" fill="#15803d">Solved</text>
+    </g>
+    <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M236 214h74"/><path d="M446 168c48 0 54 48 110 48"/><path d="M446 260c48 0 54-44 110-44"/></g>
+    <text x="400" y="356" text-anchor="middle" font-size="16" fill="#475569">constraints · propagation · backtracking</text>
+  </g>
+</svg>

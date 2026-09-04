@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Pentago Java game engine preview">
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="94" font-size="28" font-weight="800" fill="#111827">Pentago Java Game Engine</text>
+    <g transform="translate(164 122)">
+      <rect width="260" height="260" rx="16" fill="#f1f5f9" stroke="#cbd5e1"/>
+      <path d="M130 10v240M10 130h240" stroke="#94a3b8" stroke-width="5"/>
+      <g fill="#fff" stroke="#94a3b8" stroke-width="2">
+        <circle cx="44" cy="44" r="18"/><circle cx="94" cy="44" r="18"/><circle cx="166" cy="44" r="18"/><circle cx="216" cy="44" r="18"/>
+        <circle cx="44" cy="94" r="18"/><circle cx="94" cy="94" r="18"/><circle cx="166" cy="94" r="18"/><circle cx="216" cy="94" r="18"/>
+        <circle cx="44" cy="166" r="18"/><circle cx="94" cy="166" r="18"/><circle cx="166" cy="166" r="18"/><circle cx="216" cy="166" r="18"/>
+        <circle cx="44" cy="216" r="18"/><circle cx="94" cy="216" r="18"/><circle cx="166" cy="216" r="18"/><circle cx="216" cy="216" r="18"/>
+      </g>
+      <g><circle cx="44" cy="44" r="14" fill="#111827"/><circle cx="94" cy="94" r="14" fill="#111827"/><circle cx="166" cy="166" r="14" fill="#111827"/><circle cx="216" cy="216" r="14" fill="#111827"/><circle cx="216" cy="44" r="14" fill="#ef4444"/><circle cx="166" cy="94" r="14" fill="#ef4444"/></g>
+    </g>
+    <g text-anchor="middle" font-size="17" font-weight="700">
+      <rect x="505" y="166" width="140" height="54" rx="14" fill="#dbeafe"/><text x="575" y="200" fill="#1d4ed8">Move</text>
+      <rect x="505" y="248" width="140" height="54" rx="14" fill="#fef3c7"/><text x="575" y="282" fill="#a16207">Rotate</text>
+    </g>
+    <text x="400" y="405" text-anchor="middle" font-size="16" fill="#475569">board state · quadrant rotation · win detection</text>
+  </g>
+</svg>

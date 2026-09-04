@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Traffic aware Dijkstra routing graph">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="93" font-size="28" font-weight="800" fill="#111827">Traffic-Aware Dijkstra</text>
+    <g stroke="#cbd5e1" stroke-width="4" fill="none"><path d="M150 220h150l110-70 120 100 120-30"/><path d="M300 220l230 30"/><path d="M410 150l240 70"/></g>
+    <path d="M150 220h150l110-70 120 100" stroke="#2563eb" stroke-width="6" fill="none" stroke-linecap="round" marker-end="url(#a)"/>
+    <g fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"><circle cx="150" cy="220" r="20"/><circle cx="300" cy="220" r="20"/><circle cx="410" cy="150" r="20"/><circle cx="530" cy="250" r="20"/><circle cx="650" cy="220" r="20"/></g>
+    <g font-size="15" fill="#475569"><text x="220" y="205">7</text><text x="350" y="174">12</text><text x="478" y="198">traffic</text><text x="575" y="235">5</text></g>
+    <text x="400" y="350" text-anchor="middle" font-size="16" fill="#475569">weighted graph · time windows · shortest path</text>
+  </g>
+</svg>

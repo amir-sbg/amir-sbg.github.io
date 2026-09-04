@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Cats dogs InceptionV3 transfer learning pipeline">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="93" font-size="28" font-weight="800" fill="#111827">Cats vs Dogs</text>
+    <g text-anchor="middle" font-size="18" font-weight="700">
+      <rect x="86" y="176" width="132" height="66" rx="15" fill="#dbeafe"/><text x="152" y="216" fill="#1d4ed8">Images</text>
+      <rect x="318" y="176" width="150" height="66" rx="15" fill="#ede9fe"/><text x="393" y="216" fill="#6d28d9">InceptionV3</text>
+      <rect x="592" y="176" width="116" height="66" rx="15" fill="#dcfce7"/><text x="650" y="216" fill="#15803d">Binary</text>
+    </g>
+    <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M218 209h92"/><path d="M468 209h116"/></g>
+    <text x="400" y="342" text-anchor="middle" font-size="16" fill="#475569">frozen backbone · dense head · validation curves</text>
+  </g>
+</svg>

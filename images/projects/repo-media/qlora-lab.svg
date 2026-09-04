@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="QLoRA fine tuning pipeline diagram">
-  <rect width="800" height="450" rx="28" fill="#f8fafc"/>
-  <rect x="44" y="46" width="712" height="358" rx="26" fill="#101828"/>
-  <text x="72" y="94" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800" fill="#ffffff">QLoRA Fine-Tuning Lab</text>
-  <text x="72" y="126" font-family="Inter, Arial, sans-serif" font-size="17" fill="#cbd5e1">4-bit frozen base weights with trainable low-rank adapters</text>
-  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-weight="700">
-    <rect x="72" y="190" width="124" height="70" rx="16" fill="#1e40af"/><text x="134" y="219" font-size="15" fill="#dbeafe">NF4</text><text x="134" y="242" font-size="13" fill="#bfdbfe">quantize W</text>
-    <rect x="252" y="162" width="132" height="58" rx="16" fill="#7c3aed"/><text x="318" y="198" font-size="15" fill="#f3e8ff">LoRA A</text>
-    <rect x="252" y="250" width="132" height="58" rx="16" fill="#7c3aed"/><text x="318" y="286" font-size="15" fill="#f3e8ff">LoRA B</text>
-    <rect x="446" y="190" width="122" height="70" rx="16" fill="#059669"/><text x="507" y="219" font-size="15" fill="#dcfce7">adapter</text><text x="507" y="242" font-size="13" fill="#bbf7d0">ΔW = BA</text>
-    <rect x="630" y="190" width="90" height="70" rx="16" fill="#0ea5e9"/><text x="675" y="219" font-size="15" fill="#e0f2fe">eval</text><text x="675" y="242" font-size="13" fill="#bae6fd">gen + loss</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="QLoRA fine tuning flow">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="93" font-size="28" font-weight="800" fill="#111827">QLoRA Fine-Tuning</text>
+    <g text-anchor="middle" font-size="18" font-weight="700">
+      <rect x="82" y="176" width="130" height="66" rx="15" fill="#dbeafe"/><text x="147" y="216" fill="#1d4ed8">4-bit LLM</text>
+      <rect x="286" y="139" width="128" height="58" rx="14" fill="#ede9fe"/><text x="350" y="175" fill="#6d28d9">LoRA</text>
+      <rect x="286" y="228" width="128" height="58" rx="14" fill="#fef3c7"/><text x="350" y="264" fill="#a16207">NF4 stats</text>
+      <rect x="504" y="176" width="130" height="66" rx="15" fill="#dcfce7"/><text x="569" y="216" fill="#15803d">Adapter</text>
+    </g>
+    <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M212 209h68"/><path d="M414 168c44 0 42 41 84 41"/><path d="M414 257c44 0 42-48 84-48"/></g>
+    <rect x="164" y="322" width="470" height="42" rx="21" fill="#f1f5f9"/>
+    <text x="399" y="349" text-anchor="middle" font-size="16" fill="#475569">prompt masking · rank sweep · generation eval</text>
   </g>
-  <g stroke="#93c5fd" stroke-width="3" fill="none" stroke-linecap="round">
-    <path d="M196 225h56"/><path d="M384 191c34 0 38 34 62 34"/><path d="M384 279c34 0 38-54 62-54"/><path d="M568 225h62"/>
-  </g>
-  <text x="400" y="350" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#cbd5e1">rank, memory budget, prompt masking, and lightweight generation checks</text>
 </svg>

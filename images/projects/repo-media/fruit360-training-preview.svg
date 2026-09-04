@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Fruit 360 neural network from scratch">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="93" font-size="28" font-weight="800" fill="#111827">Fruit-360 NN</text>
+    <g text-anchor="middle" font-size="18" font-weight="700">
+      <rect x="82" y="176" width="128" height="66" rx="15" fill="#fef3c7"/><text x="146" y="216" fill="#a16207">Pixels</text>
+      <rect x="302" y="176" width="150" height="66" rx="15" fill="#ede9fe"/><text x="377" y="216" fill="#6d28d9">NumPy NN</text>
+      <rect x="590" y="176" width="120" height="66" rx="15" fill="#dcfce7"/><text x="650" y="216" fill="#15803d">Fruit</text>
+    </g>
+    <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M210 209h84"/><path d="M452 209h130"/></g>
+    <path d="M152 340c80-58 124 18 190-20 58-34 88-45 154-15 44 20 80 15 128-26" fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round"/>
+    <text x="400" y="372" text-anchor="middle" font-size="16" fill="#475569">manual backprop · mini-batches · training curve</text>
+  </g>
+</svg>

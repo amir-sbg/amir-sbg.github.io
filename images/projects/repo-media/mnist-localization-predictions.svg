@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="MNIST digit localization multitask CNN">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="93" font-size="28" font-weight="800" fill="#111827">MNIST Localization</text>
+    <rect x="92" y="152" width="120" height="120" rx="16" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <rect x="126" y="176" width="42" height="68" rx="6" fill="none" stroke="#2563eb" stroke-width="4"/><text x="148" y="226" text-anchor="middle" font-size="48" font-weight="800" fill="#111827">7</text>
+    <g text-anchor="middle" font-size="17" font-weight="700">
+      <rect x="298" y="180" width="132" height="64" rx="15" fill="#ede9fe"/><text x="364" y="219" fill="#6d28d9">CNN</text>
+      <rect x="526" y="136" width="132" height="56" rx="14" fill="#dbeafe"/><text x="592" y="171" fill="#1d4ed8">class</text>
+      <rect x="526" y="238" width="132" height="56" rx="14" fill="#dcfce7"/><text x="592" y="273" fill="#15803d">box</text>
+    </g>
+    <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M212 212h78"/><path d="M430 212c45 0 42-48 88-48"/><path d="M430 212c45 0 42 54 88 54"/></g>
+    <text x="400" y="354" text-anchor="middle" font-size="16" fill="#475569">shared features · digit label · bounding box</text>
+  </g>
+</svg>

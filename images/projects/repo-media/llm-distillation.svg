@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Teacher student LLM distillation pipeline">
-  <rect width="800" height="450" rx="28" fill="#fff7ed"/>
-  <rect x="44" y="46" width="712" height="358" rx="26" fill="#ffffff" stroke="#fed7aa"/>
-  <text x="72" y="94" font-family="Inter, Arial, sans-serif" font-size="35" font-weight="800" fill="#7c2d12">Teacher-Student LLM Distillation</text>
-  <text x="72" y="126" font-family="Inter, Arial, sans-serif" font-size="17" fill="#9a3412">larger model logits guide a compact student</text>
-  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-weight="700">
-    <rect x="70" y="178" width="132" height="82" rx="18" fill="#fed7aa"/><text x="136" y="211" font-size="16" fill="#9a3412">Teacher</text><text x="136" y="235" font-size="13" fill="#9a3412">top-k logits</text>
-    <rect x="258" y="152" width="136" height="60" rx="16" fill="#ffedd5"/><text x="326" y="188" font-size="15" fill="#9a3412">temperature KL</text>
-    <rect x="258" y="238" width="136" height="60" rx="16" fill="#ffedd5"/><text x="326" y="274" font-size="15" fill="#9a3412">hard-label CE</text>
-    <rect x="452" y="178" width="132" height="82" rx="18" fill="#fdba74"/><text x="518" y="211" font-size="16" fill="#7c2d12">Student</text><text x="518" y="235" font-size="13" fill="#7c2d12">small LM</text>
-    <rect x="636" y="178" width="88" height="82" rx="18" fill="#fb923c"/><text x="680" y="211" font-size="16" fill="#7c2d12">Eval</text><text x="680" y="235" font-size="13" fill="#7c2d12">generate</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Teacher student LLM distillation flow">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="93" font-size="28" font-weight="800" fill="#111827">LLM Distillation</text>
+    <g text-anchor="middle" font-size="18" font-weight="700">
+      <rect x="88" y="176" width="132" height="66" rx="15" fill="#dbeafe"/><text x="154" y="216" fill="#1d4ed8">Teacher</text>
+      <rect x="318" y="136" width="132" height="56" rx="14" fill="#ede9fe"/><text x="384" y="171" fill="#6d28d9">logits</text>
+      <rect x="318" y="230" width="132" height="56" rx="14" fill="#fef3c7"/><text x="384" y="265" fill="#a16207">CE + KL</text>
+      <rect x="584" y="176" width="132" height="66" rx="15" fill="#dcfce7"/><text x="650" y="216" fill="#15803d">Student</text>
+    </g>
+    <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M220 209h90"/><path d="M450 164c58 0 60 45 126 45"/><path d="M450 258c58 0 60-49 126-49"/></g>
+    <rect x="205" y="322" width="390" height="42" rx="21" fill="#f1f5f9"/>
+    <text x="400" y="349" text-anchor="middle" font-size="16" fill="#475569">temperature scaling · cached teacher outputs</text>
   </g>
-  <g stroke="#ea580c" stroke-width="3" fill="none" stroke-linecap="round">
-    <path d="M202 219h56"/><path d="M394 182c30 0 34 37 58 37"/><path d="M394 268c30 0 34-49 58-49"/><path d="M584 219h52"/>
-  </g>
-  <text x="400" y="348" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#9a3412">cache teacher outputs once, train the student cheaply, then compare generation behavior</text>
 </svg>

@@ -1,16 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="DistilBERT LoRA sentiment fine tuning pipeline">
-  <rect width="800" height="450" rx="28" fill="#f5f3ff"/>
-  <rect x="44" y="46" width="712" height="358" rx="26" fill="#ffffff" stroke="#ddd6fe"/>
-  <text x="72" y="94" font-family="Inter, Arial, sans-serif" font-size="35" font-weight="800" fill="#4c1d95">DistilBERT Sentiment + LoRA</text>
-  <text x="72" y="126" font-family="Inter, Arial, sans-serif" font-size="17" fill="#6d28d9">IMDb examples → tokenization → adapter training → evaluation</text>
-  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-weight="700">
-    <rect x="76" y="184" width="112" height="68" rx="16" fill="#ede9fe"/><text x="132" y="212" font-size="15" fill="#5b21b6">IMDb</text><text x="132" y="235" font-size="13" fill="#5b21b6">reviews</text>
-    <rect x="238" y="184" width="118" height="68" rx="16" fill="#ddd6fe"/><text x="297" y="212" font-size="15" fill="#5b21b6">Tokenizer</text><text x="297" y="235" font-size="13" fill="#5b21b6">batches</text>
-    <rect x="406" y="154" width="126" height="54" rx="14" fill="#c4b5fd"/><text x="469" y="188" font-size="15" fill="#4c1d95">DistilBERT</text>
-    <rect x="406" y="238" width="126" height="54" rx="14" fill="#a78bfa"/><text x="469" y="272" font-size="15" fill="#ffffff">LoRA head</text>
-    <rect x="604" y="184" width="100" height="68" rx="16" fill="#8b5cf6"/><text x="654" y="212" font-size="15" fill="#ffffff">metrics</text><text x="654" y="235" font-size="13" fill="#ede9fe">accuracy</text>
-  </g>
-  <g stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round">
-    <path d="M188 218h50"/><path d="M356 218h50"/><path d="M532 181c36 0 42 37 72 37"/><path d="M532 265c36 0 42-47 72-47"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="DistilBERT LoRA sentiment pipeline">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#64748b"/></marker></defs>
+  <rect width="800" height="450" rx="26" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="354" rx="22" fill="#fff" stroke="#d7dee8"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="93" font-size="28" font-weight="800" fill="#111827">DistilBERT + LoRA</text>
+    <g text-anchor="middle" font-size="18" font-weight="700">
+      <rect x="92" y="178" width="130" height="64" rx="15" fill="#dbeafe"/><text x="157" y="217" fill="#1d4ed8">Reviews</text>
+      <rect x="332" y="178" width="148" height="64" rx="15" fill="#ede9fe"/><text x="406" y="217" fill="#6d28d9">Adapter</text>
+      <rect x="602" y="178" width="120" height="64" rx="15" fill="#dcfce7"/><text x="662" y="217" fill="#15803d">Labels</text>
+    </g>
+    <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M222 210h102"/><path d="M480 210h114"/></g>
+    <text x="400" y="350" text-anchor="middle" font-size="16" fill="#475569">IMDb · tokenizer · PEFT · accuracy/F1</text>
   </g>
 </svg>
