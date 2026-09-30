@@ -93,7 +93,7 @@ a {
 
 .venue-logo-row .logo-neurips {
   display: block;
-  height: 42px;
+  height: 48px;
   object-fit: contain;
   width: auto;
 }
@@ -360,7 +360,7 @@ code {
   }
 
   .venue-logo-row .logo-neurips {
-    height: 34px;
+    height: 38px;
   }
 
   .tldr-grid,
