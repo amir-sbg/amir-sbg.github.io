@@ -40,7 +40,7 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 <div class='paper-box-text' markdown="1">
 
 **Label Agreement Does Not Measure Authorization**<br>
-Accepted [NeurIPS 2026](https://neurips.cc/) ([AIM Workshop](https://aim-neurips26.github.io/))<br>
+Accepted to [NeurIPS 2026](https://neurips.cc/) ([AIM Workshop](https://aim-neurips26.github.io/))<br>
 *2026.10* · First author<br>
 Code: [GitHub](https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization)
 
