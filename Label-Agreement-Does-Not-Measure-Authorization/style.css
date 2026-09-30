@@ -84,8 +84,18 @@ a {
   width: auto;
 }
 
-.affiliation-logos .logo-neurips {
+.venue-logo-row {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: -0.2rem auto 1rem;
+}
+
+.venue-logo-row .logo-neurips {
+  display: block;
   height: 42px;
+  object-fit: contain;
+  width: auto;
 }
 
 .publication-links {
@@ -349,7 +359,7 @@ code {
     height: 38px;
   }
 
-  .affiliation-logos .logo-neurips {
+  .venue-logo-row .logo-neurips {
     height: 34px;
   }
 
