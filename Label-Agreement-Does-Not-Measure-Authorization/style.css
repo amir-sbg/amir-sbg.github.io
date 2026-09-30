@@ -120,6 +120,19 @@ a {
   margin-right: 0.42rem;
 }
 
+.publication-links .aim-workshop-button,
+.publication-links .aim-workshop-button:focus,
+.publication-links .aim-workshop-button:hover {
+  background-color: #09111d;
+  border-color: #09111d;
+  color: #e9a23b;
+}
+
+.publication-links .aim-workshop-button .icon,
+.publication-links .aim-workshop-button span {
+  color: #e9a23b;
+}
+
 .teaser .hero-body {
   padding-bottom: 2.4rem;
   padding-top: 0.5rem;
