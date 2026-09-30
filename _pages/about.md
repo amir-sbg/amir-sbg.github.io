@@ -36,12 +36,13 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 
 # 💻 Projects and Publications
 
-<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted NeurIPS 2026 (AIM Workshop)</div><img src='/images/projects/repo-media/label-agreement-aim-diagram.png' alt="Label Agreement Does Not Measure Authorization diagram" width="100%"><img class="venue-mark" src='/images/projects/repo-media/neurips-2026.png' alt="NeurIPS 2026 logo"></div></div>
+<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted NeurIPS 2026 (AIM Workshop)</div><a href="/Label-Agreement-Does-Not-Measure-Authorization/"><img src='/images/projects/repo-media/label-agreement-aim-diagram.png' alt="Label Agreement Does Not Measure Authorization diagram" width="100%"></a><img class="venue-mark" src='/images/projects/repo-media/neurips-2026.png' alt="NeurIPS 2026 logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Label Agreement Does Not Measure Authorization**<br>
+[**Label Agreement Does Not Measure Authorization**](/Label-Agreement-Does-Not-Measure-Authorization/)<br>
 Accepted to [NeurIPS 2026](https://neurips.cc/) ([AIM Workshop](https://aim-neurips26.github.io/))<br>
 *2026.10* · First author<br>
+Project: [Website](/Label-Agreement-Does-Not-Measure-Authorization/)<br>
 Code: [GitHub](https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization)
 
 </div>

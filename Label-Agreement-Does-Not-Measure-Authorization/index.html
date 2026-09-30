@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Label Agreement Does Not Measure Authorization</title>
+    <meta
+      name="description"
+      content="NeurIPS 2026 AIM Workshop project page for Label Agreement Does Not Measure Authorization, an audit of evidence-grounded metadata harmonization with bounded LLM agents.">
+    <meta property="og:title" content="Label Agreement Does Not Measure Authorization">
+    <meta
+      property="og:description"
+      content="Label agreement can look high while authorization, action agreement, and downstream safety remain unresolved.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/figures/architecture.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Helvetica&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <p class="venue-kicker">
+                Accepted to <a href="https://neurips.cc/">NeurIPS 2026</a>
+                (<a href="https://aim-neurips26.github.io/">AIM Workshop</a>)
+              </p>
+              <h1 class="title is-1 publication-title">
+                Label Agreement Does Not Measure Authorization
+              </h1>
+              <h2 class="subtitle is-4 publication-subtitle">
+                Evidence-grounded auditing for bounded LLM metadata harmonization
+              </h2>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"><a href="https://amir-sbg.github.io/">Amir Sabbaghziarani</a></span>
+              </div>
+
+              <div class="is-size-5 publication-authors publication-affiliations">
+                <span class="author-block">TReNDS, Georgia State University / Georgia Tech</span>
+              </div>
+
+              <div class="affiliation-logos" aria-label="Institution and venue logos">
+                <img class="logo-trends" src="assets/logos/trends.png" alt="TReNDS Center">
+                <img class="logo-gsu" src="assets/logos/georgia-state.jpg" alt="Georgia State University">
+                <img class="logo-gt" src="assets/logos/georgia-tech.png" alt="Georgia Tech">
+                <img class="logo-neurips" src="assets/logos/neurips-2026.png" alt="NeurIPS 2026">
+              </div>
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <span class="link-block">
+                    <a href="https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon"><i class="fa-brands fa-github"></i></span>
+                      <span>Code</span>
+                    </a>
+                  </span>
+                  <span class="link-block">
+                    <a href="https://aim-neurips26.github.io/" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon"><i class="fa-solid fa-brain"></i></span>
+                      <span>AIM Workshop</span>
+                    </a>
+                  </span>
+                  <span class="link-block">
+                    <a href="#citation" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon"><i class="fa-solid fa-quote-left"></i></span>
+                      <span>BibTeX</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+          <figure class="workflow-figure">
+            <img src="assets/figures/architecture.png" alt="Evidence-grounded metadata harmonization and authorization pipeline">
+            <figcaption>
+              <strong>Evidence-grounded harmonization pipeline.</strong>
+              Source evidence is extracted from read-only metadata artifacts, an LLM proposes a
+              candidate interpretation, and a deterministic authorization gate decides whether the
+              output is complete, entitled, and stable enough to commit.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                Neuroimaging metadata harmonization often asks whether a proposed label matches a
+                reference label. This project shows why that is not enough: an agent can agree on a
+                label while lacking the evidence needed to commit that label, violating the output
+                contract, or failing when decisive evidence changes.
+              </p>
+              <p>
+                The system evaluates a bounded LLM workflow for harmonizing COBRE and FBIRN
+                metadata. Read-only source readers build Evidence Cards from structure, value
+                profiles, dictionaries, identifier overlap, lineage, and imaging row-order checks.
+                The LLM proposes a controlled action, but a deterministic controller performs the
+                final authorization check before anything is committed.
+              </p>
+            </div>
+
+            <div class="tldr-card has-text-left">
+              <h3>TL;DR</h3>
+              <div class="tldr-grid">
+                <article class="tldr-item">
+                  <h4>Label agreement is narrow</h4>
+                  <p>
+                    Matching the expected label does not prove that the agent had enough evidence,
+                    followed the contract, or made a safe commitment.
+                  </p>
+                </article>
+                <article class="tldr-item">
+                  <h4>Authorization is separate</h4>
+                  <p>
+                    The controller checks whether required evidence exists before accepting,
+                    repairing, abstaining, or escalating a proposed output.
+                  </p>
+                </article>
+                <article class="tldr-item">
+                  <h4>Downstream errors matter</h4>
+                  <p>
+                    Metadata mistakes that leave schema metrics untouched can still reduce
+                    neuroimaging prediction performance.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Evaluation Design</h2>
+            <div class="content has-text-justified">
+              <p>
+                The audit keeps label agreement, action agreement, case success, unsafe
+                commitments, coverage, and exact repair separate. It uses a real metadata panel, a
+                synthetic paired-evidence panel, and downstream sFNC diagnosis-prediction tests.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns is-centered method-columns">
+          <div class="column">
+            <div class="method-card">
+              <h3 class="title is-5">Real panel</h3>
+              <p>
+                230 file, column, value, identity, and governance decisions from 88 base units in
+                16 lineage families.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="method-card">
+              <h3 class="title is-5">Synthetic panel</h3>
+              <p>
+                90 paired cases with controlled evidence changes, including 58 pairs for
+                controlled-error consistency.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="method-card">
+              <h3 class="title is-5">Downstream test</h3>
+              <p>
+                Diagnosis prediction from Neuromark sFNC features for 157 COBRE rows and 311 FBIRN
+                rows.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section results-section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Key Results</h2>
+            <div class="content has-text-justified">
+              <p>
+                The results show a recurring gap between surface-level label agreement and
+                evidence-authorized behavior. Revealing the upstream proposal barely changes Gemma4
+                label agreement, while action agreement rises sharply; contract parsing alone also
+                does not guarantee that required authorization fields are present.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns is-centered metric-row">
+          <div class="column has-text-centered">
+            <p class="metric-value">0.857 -> 0.870</p>
+            <p class="metric-label">Gemma4 label agreement, hidden to visible proposal</p>
+          </div>
+          <div class="column has-text-centered">
+            <p class="metric-value">0.409 -> 0.830</p>
+            <p class="metric-label">Gemma4 action agreement, hidden to visible proposal</p>
+          </div>
+          <div class="column has-text-centered">
+            <p class="metric-value">0.948</p>
+            <p class="metric-label">Controlled-error consistency for the deterministic gate</p>
+          </div>
+          <div class="column has-text-centered">
+            <p class="metric-value">0.000</p>
+            <p class="metric-label">CEC for the frozen-answer adversary after evidence changes</p>
+          </div>
+        </div>
+
+        <div class="result-callouts">
+          <article class="result-callout">
+            <h3>Contract completeness</h3>
+            <p>
+              Every contract-arm response parses as JSON, but the required authorization field is
+              missing in 23/230 Gemma4 outputs and 77/230 Qwen3 outputs.
+            </p>
+          </article>
+          <article class="result-callout">
+            <h3>Downstream sensitivity</h3>
+            <p>
+              Shuffling half of the metadata-to-image row order reduces AUC by 0.13 on COBRE and
+              0.26 on FBIRN, even when label/schema checks remain unchanged.
+            </p>
+          </article>
+        </div>
+
+        <div class="table-wrap">
+          <table class="table is-fullwidth is-striped results-table">
+            <thead>
+              <tr>
+                <th>System</th>
+                <th>Label agreement</th>
+                <th>Action agreement</th>
+                <th>Case success</th>
+                <th>Unsafe rate</th>
+                <th>Commitment</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Gemma4 hidden</td><td>0.857</td><td>0.409</td><td>0.387</td><td>0.378</td><td>0.726</td></tr>
+              <tr><td>Gemma4 visible</td><td>0.870</td><td>0.830</td><td>0.765</td><td>0.191</td><td>0.917</td></tr>
+              <tr><td>Gemma4 contract</td><td>0.843</td><td>0.726</td><td>0.643</td><td>0.278</td><td>0.896</td></tr>
+              <tr><td>Qwen3 hidden</td><td>0.600</td><td>0.265</td><td>0.230</td><td>0.200</td><td>0.409</td></tr>
+              <tr><td>Qwen3 visible</td><td>0.726</td><td>0.374</td><td>0.296</td><td>0.352</td><td>0.617</td></tr>
+              <tr><td>Qwen3 contract</td><td>0.704</td><td>0.430</td><td>0.343</td><td>0.348</td><td>0.670</td></tr>
+              <tr><td>Deterministic reference</td><td>0.952</td><td>0.983</td><td>0.952</td><td>0.048</td><td>0.957</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Reproducing the Public Panel</h2>
+            <div class="content has-text-justified">
+              <p>
+                The public repository includes a fully synthetic panel that can be run without
+                restricted COBRE or FBIRN data. Restricted cohort experiments require authorized
+                NeuroMark access.
+              </p>
+              <pre><code>git clone https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization.git
+cd Label-Agreement-Does-Not-Measure-Authorization
+
+python -m venv .venv
+source .venv/bin/activate
+pip install -e ".[agent,dev]"
+pytest
+
+python scripts/run_agent.py \
+  --cases data/synthetic_panel/cases.jsonl \
+  --model Qwen/Qwen3-4B-Instruct-2507 \
+  --interface visible \
+  --output runs/demo/shards/shard_000.jsonl
+
+python scripts/merge_evaluate.py \
+  --shards runs/demo/shards \
+  --oracle data/synthetic_panel/oracle.jsonl \
+  --output runs/demo</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="citation" class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">BibTeX</h2>
+            <pre><code>@inproceedings{anonymous2026labelagreement,
+  title     = {Label Agreement Does Not Measure Authorization},
+  author    = {Anonymous},
+  booktitle = {NeurIPS 2026 Workshop on Agentic Intelligence for Medical Imaging and Multimodal Clinical Data},
+  year      = {2026}
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            Label Agreement Does Not Measure Authorization project page ·
+            <a href="https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization">Code</a> ·
+            <a href="https://amir-sbg.github.io/">Homepage</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
