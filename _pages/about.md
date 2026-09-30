@@ -20,6 +20,7 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 
 
 # 🔥 News
+- **2026.10 — First author:** &nbsp;🎉 Our paper, *"Label Agreement Does Not Measure Authorization"*, was accepted to [NeurIPS 2026](https://neurips.cc/) ([AIM Workshop](https://aim-neurips26.github.io/)).
 - *2026.09*: &nbsp;📥 Two papers submitted to [ICLR 2027](https://iclr.cc/).
 - *2026.09*: &nbsp;📥 One paper submitted to [NeurIPS 2026](https://neurips.cc/) ([AIM Workshop](https://aim-neurips26.github.io/)).
 - **2026.07 — First author:** &nbsp;🎉 Our paper, *"FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence"*, was accepted to [BMVC 2026](https://bmvc2026.bmva.org/).
