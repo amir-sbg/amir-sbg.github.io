@@ -36,6 +36,17 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 
 # 💻 Projects and Publications
 
+<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted NeurIPS 2026 AIM Workshop</div><img src='/images/projects/repo-media/label-agreement-aim-diagram.png' alt="Label Agreement Does Not Measure Authorization diagram" width="100%"><img class="venue-mark" src='/images/projects/repo-media/neurips-2026.png' alt="NeurIPS 2026 logo"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Label Agreement Does Not Measure Authorization**<br>
+Accepted [NeurIPS 2026](https://neurips.cc/) ([AIM Workshop](https://aim-neurips26.github.io/))<br>
+*2026.10* · First author<br>
+Code: [GitHub](https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization)
+
+</div>
+</div>
+
 <div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted BMVC 2026</div><a href="https://amir-sbg.github.io/FlexSplat/"><img src='/FlexSplat/assets/figures/architecture-flexsplat.jpg' alt="FlexSplat flexible feed-forward 3D Gaussian splatting architecture" width="100%"></a><img class="venue-mark" src='/images/projects/repo-media/bmvc-2026-transparent.png' alt="BMVC 2026 logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
