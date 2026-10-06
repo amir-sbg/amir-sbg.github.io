@@ -43,7 +43,8 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 Accepted to [NeurIPS 2026](https://neurips.cc/) ([AIM Workshop](https://aim-neurips26.github.io/))<br>
 *2026.10* · First author<br>
 Project: [Website](/Label-Agreement-Does-Not-Measure-Authorization/)<br>
-Code: [GitHub](https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization)
+Code: [GitHub](https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization)<br>
+arXiv: [2610.04544](https://arxiv.org/abs/2610.04544)
 
 </div>
 </div>
