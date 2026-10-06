@@ -20,7 +20,8 @@ a {
 }
 
 .publication-title {
-  color: #111827;
+  -webkit-text-stroke: 1px #e9a23b;
+  color: #09111d;
   font-family: "Google Sans", "Noto Sans", sans-serif;
   font-size: 3.05rem;
   font-weight: 750;
@@ -93,7 +94,7 @@ a {
 
 .venue-logo-row .logo-neurips {
   display: block;
-  height: 96px;
+  height: 72px;
   object-fit: contain;
   width: auto;
 }
@@ -360,7 +361,7 @@ code {
   }
 
   .venue-logo-row .logo-neurips {
-    height: 76px;
+    height: 57px;
   }
 
   .tldr-grid,
