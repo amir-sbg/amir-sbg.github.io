@@ -44,6 +44,7 @@ Accepted to [NeurIPS 2026](https://neurips.cc/) ([AIM Workshop](https://aim-neur
 *2026.10* · First author<br>
 Project: [Website](/Label-Agreement-Does-Not-Measure-Authorization/)<br>
 Code: [GitHub](https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization)<br>
+NeurIPS page: [Official listing](https://neurips.cc/virtual/2026/loc/atlanta/workshop/165443)<br>
 arXiv: [2610.04544](https://arxiv.org/abs/2610.04544)
 
 </div>
