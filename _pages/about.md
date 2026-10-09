@@ -78,11 +78,12 @@ arXiv: [2608.02790](https://arxiv.org/abs/2608.02790)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BSc Project</div><img src='/images/Intro-cropped.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BSc Project</div><a href="/driver-behavior/"><img src='/images/driver-behavior/adas-workflow-card.gif' alt="Driver-behavior analysis workflow" width="100%" loading="lazy"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Behavior Analysis of Cars Drivers Based-on Computer Vision](/driver-behavior/)**  
-Computer-vision system for analyzing real-world driver behavior.
+**[Behavior Analysis of Car Drivers Based on Computer Vision](/driver-behavior/)**<br>
+Computer-vision system for analyzing real-world driver behavior.<br>
+Code: [GitHub](https://github.com/amir-sbg/Behavior-Analysis-of-Car-Drivers-Based-on-Computer-Vision)
 
 </div>
 </div>

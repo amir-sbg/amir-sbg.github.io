@@ -13,6 +13,12 @@ author_profile: true
 Behavior Analysis of Car Drivers Based on Computer Vision
 </div>
 
+<div class="project-action-row">
+  <a class="btn btn--primary" href="https://github.com/amir-sbg/Behavior-Analysis-of-Car-Drivers-Based-on-Computer-Vision" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github" aria-hidden="true"></i> GitHub Repository
+  </a>
+</div>
+
 <div class="project-intro">
   <img src="/images/Intro.jpg" alt="Driver project intro">
 <div class="project-intro-text">
@@ -23,6 +29,28 @@ Behavior Analysis of Car Drivers Based on Computer Vision
   A built-in <b>Voice Assistant</b> provides real-time alerts about hazards, surrounding traffic, 
   and driver inattention, enhancing overall road safety.
 </div>
+</div>
+
+<div class="project-divider"></div>
+
+<div class="project-section-title">Project Workflow</div>
+
+<div class="project-workflow">
+  <img src="/images/driver-behavior/adas-workflow-full.gif" alt="Animated workflow of the driver-behavior analysis system">
+  <div class="project-caption-text">
+    End-to-end view of the system combining road-scene perception, object tracking, driver monitoring, and spoken safety alerts.
+  </div>
+</div>
+
+<div class="project-local-video">
+  <video controls playsinline preload="metadata">
+    <source src="/images/driver-behavior/adas-overview.mp4" type="video/mp4">
+    Your browser does not support embedded video. <a href="/images/driver-behavior/adas-overview.mp4">Download the project video</a>.
+  </video>
+  <div class="project-caption-title">System Demonstration</div>
+  <div class="project-caption-text">
+    A full-resolution demonstration of the perception and alert pipeline running together.
+  </div>
 </div>
 
 <div class="project-divider"></div>
