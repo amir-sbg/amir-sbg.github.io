@@ -52,7 +52,7 @@ arXiv: [2610.04544](https://arxiv.org/abs/2610.04544)
 </div>
 </div>
 
-<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted BMVC 2026</div><a href="https://amir-sbg.github.io/FlexSplat/"><img src='/FlexSplat/assets/figures/architecture-flexsplat.jpg' alt="FlexSplat flexible feed-forward 3D Gaussian splatting architecture" width="100%"></a><img class="venue-mark" src='/images/projects/repo-media/bmvc-2026-transparent.png' alt="BMVC 2026 logo"></div></div>
+<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted BMVC 2026</div><a class="paper-box-media-swap" href="https://amir-sbg.github.io/FlexSplat/"><img class="media-swap-static" src='/FlexSplat/assets/figures/architecture-flexsplat.jpg' alt="FlexSplat flexible feed-forward 3D Gaussian splatting architecture" width="100%"><img class="media-swap-animated" src='/FlexSplat/assets/figures/flexsplat-wf-card.gif' alt="" aria-hidden="true" width="100%" loading="lazy" onload="this.parentElement.classList.add('is-loaded')"></a><img class="venue-mark" src='/images/projects/repo-media/bmvc-2026-transparent.png' alt="BMVC 2026 logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence**](https://amir-sbg.github.io/FlexSplat/)<br>

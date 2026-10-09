@@ -102,6 +102,34 @@
     }
 }
 
+.paper-box-media-swap {
+    display: block;
+    max-width: 400px;
+    position: relative;
+    width: 100%;
+
+    .media-swap-static,
+    .media-swap-animated {
+        display: block;
+        width: 100%;
+    }
+
+    .media-swap-animated {
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        transition: opacity .25s ease;
+    }
+
+    &.is-loaded {
+        .media-swap-animated {
+            opacity: 1;
+        }
+    }
+}
+
 .home-intro {
     border-bottom: 1px #efefef solid;
     margin: .5em 0 1.5em;
