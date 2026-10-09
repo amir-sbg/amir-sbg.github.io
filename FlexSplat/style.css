@@ -139,6 +139,27 @@ a {
   margin: 0 auto 2.25rem;
 }
 
+.project-movie-figure {
+  max-width: 860px;
+  margin: 0 auto 2.75rem;
+}
+
+.project-movie-frame {
+  aspect-ratio: 16 / 9;
+  background: #111;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.project-movie-frame iframe {
+  border: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 .architecture-figure {
   margin: 0 auto;
 }
@@ -151,6 +172,7 @@ a {
 }
 
 .workflow-figure figcaption,
+.project-movie-figure figcaption,
 .architecture-figure figcaption {
   font-family: "Google Sans", "Noto Sans", sans-serif;
   color: #333;
@@ -162,6 +184,7 @@ a {
 }
 
 .workflow-figure figcaption strong,
+.project-movie-figure figcaption strong,
 .architecture-figure figcaption strong {
   font-weight: 750;
 }
