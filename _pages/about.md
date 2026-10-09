@@ -78,7 +78,7 @@ arXiv: [2608.02790](https://arxiv.org/abs/2608.02790)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BSc Project</div><a href="/driver-behavior/"><img src='/images/driver-behavior/adas-workflow-card.gif' alt="Driver-behavior analysis workflow" width="100%" loading="lazy"></a></div></div>
+<div class='paper-box paper-box-bsc'><div class='paper-box-image'><div><div class="badge">BSc Project</div><a href="/driver-behavior/"><img src='/images/driver-behavior/adas-workflow-card.gif' alt="Driver-behavior analysis workflow" width="100%" loading="lazy"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Behavior Analysis of Car Drivers Based on Computer Vision](/driver-behavior/)**<br>

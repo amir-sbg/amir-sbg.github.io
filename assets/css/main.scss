@@ -102,6 +102,29 @@
     }
 }
 
+.paper-box-bsc {
+    .paper-box-image {
+        > div {
+            aspect-ratio: 16 / 9;
+            max-width: 400px;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        a {
+            display: block;
+            height: 100%;
+        }
+
+        img {
+            display: block;
+            height: 100%;
+            object-fit: fill;
+            width: 100%;
+        }
+    }
+}
+
 .paper-box-media-swap {
     display: block;
     max-width: 400px;
