@@ -3,8 +3,9 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "News"
-    url: "/#-news"
+  # Temporarily hidden with the homepage News section.
+  # - title: "News"
+  #   url: "/#-news"
 
   - title: "Publications"
     url: "/#-publications"

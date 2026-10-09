@@ -19,6 +19,7 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 </div>
 
 
+{% comment %}
 # 🔥 News
 - **2026.10 — First author:** &nbsp;🎉 Our paper, *"Label Agreement Does Not Measure Authorization"*, was accepted to [NeurIPS 2026](https://neurips.cc/) ([AIM Workshop](https://aim-neurips26.github.io/)).
 - *2026.09*: &nbsp;📥 Two papers submitted to [ICLR 2027](https://iclr.cc/).
@@ -32,6 +33,7 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 - *2025.06*: &nbsp;🎉 [Experience](https://amir-sbg.github.io/experiences/) - Attended [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025).
 - *2025.01*: &nbsp;🎉 Started my Ph.D. studies at Georgia State University.
 - *2023.08*: &nbsp;🎉 Graduated from Amirkabir University of Technology (Tehran Polytechnic).
+{% endcomment %}
 
 
 # 💻 Projects and Publications
