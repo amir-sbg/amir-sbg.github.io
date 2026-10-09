@@ -104,7 +104,19 @@
       <div class="container is-max-desktop">
         <div class="hero-body">
           <figure class="workflow-figure">
-            <img src="assets/figures/architecture.png" alt="Evidence-grounded metadata harmonization and authorization pipeline">
+            <div class="workflow-animation">
+              <img
+                class="workflow-fallback"
+                src="assets/figures/architecture.png"
+                alt="Evidence-grounded metadata harmonization and authorization pipeline">
+              <img
+                class="workflow-gif"
+                src="assets/figures/label-agreement-workflow.gif"
+                alt=""
+                aria-hidden="true"
+                loading="lazy"
+                onload="this.parentElement.classList.add('is-loaded')">
+            </div>
             <figcaption>
               <strong>Evidence-grounded harmonization pipeline.</strong>
               Source evidence is extracted from read-only metadata artifacts, an LLM proposes a
