@@ -9,7 +9,7 @@ author_profile: true
 
 <div class="project-page">
 
-<div class="project-section-title">
+<div class="project-section-title project-hero-title">
 Behavior Analysis of Car Drivers Based on Computer Vision
 </div>
 

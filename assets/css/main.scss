@@ -383,6 +383,31 @@
     border-bottom: 1px solid #efefef;
 }
 
+.project-hero-title {
+    border-bottom: 0;
+    color: #0b2748;
+    font-size: clamp(2.15em, 5vw, 3.25em);
+    font-weight: 900;
+    letter-spacing: -.035em;
+    line-height: 1.12;
+    margin: .75em auto .65em;
+    max-width: 950px;
+    padding: 0 0 .45em;
+    position: relative;
+
+    &:after {
+        background: linear-gradient(90deg, #0b2748, #2d79c7);
+        border-radius: 999px;
+        bottom: 0;
+        content: "";
+        height: 4px;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 92px;
+    }
+}
+
 .project-intro {
     align-items: center;
     border: 1px solid #e1e4e8;
