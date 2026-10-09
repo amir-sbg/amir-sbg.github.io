@@ -107,6 +107,7 @@
     max-width: 400px;
     position: relative;
     width: 100%;
+    z-index: 1;
 
     .media-swap-static,
     .media-swap-animated {
@@ -210,6 +211,7 @@
     position: absolute;
     right: .6em;
     width: 28%;
+    z-index: 2;
 }
 
 .experience-card {
@@ -470,4 +472,5 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+    z-index: 3;
 }
