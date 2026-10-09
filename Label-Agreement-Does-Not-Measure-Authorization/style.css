@@ -127,38 +127,26 @@ a {
 }
 
 .workflow-figure {
+  margin: 0 auto 2.25rem;
+  max-width: 1280px;
+}
+
+.architecture-figure {
   margin: 0 auto;
   max-width: 1040px;
 }
 
-.workflow-animation {
-  background: #f7f8fb;
+.workflow-figure img,
+.architecture-figure img {
   border: 1px solid #e4e8f0;
   border-radius: 8px;
-  overflow: hidden;
-  position: relative;
-}
-
-.workflow-figure img {
   display: block;
   height: auto;
   width: 100%;
 }
 
-.workflow-gif {
-  height: 100%;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  transition: opacity 0.25s ease;
-}
-
-.workflow-animation.is-loaded .workflow-gif {
-  opacity: 1;
-}
-
-.workflow-figure figcaption {
+.workflow-figure figcaption,
+.architecture-figure figcaption {
   color: #4c5564;
   font-family: "Google Sans", "Noto Sans", sans-serif;
   font-size: 1.06rem;
@@ -168,7 +156,8 @@ a {
   text-align: center;
 }
 
-.workflow-figure figcaption strong {
+.workflow-figure figcaption strong,
+.architecture-figure figcaption strong {
   color: #202634;
   font-weight: 750;
 }

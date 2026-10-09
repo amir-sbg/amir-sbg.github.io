@@ -101,22 +101,22 @@
     </section>
 
     <section class="hero teaser">
-      <div class="container is-max-desktop">
+      <div class="container is-max-fullhd">
         <div class="hero-body">
           <figure class="workflow-figure">
-            <div class="workflow-animation">
-              <img
-                class="workflow-fallback"
-                src="assets/figures/architecture.png"
-                alt="Evidence-grounded metadata harmonization and authorization pipeline">
-              <img
-                class="workflow-gif"
-                src="assets/figures/label-agreement-workflow.gif"
-                alt=""
-                aria-hidden="true"
-                loading="lazy"
-                onload="this.parentElement.classList.add('is-loaded')">
-            </div>
+            <img
+              class="workflow-gif"
+              src="assets/figures/label-agreement-workflow.gif"
+              alt="Animated workflow for evidence-grounded metadata harmonization and authorization">
+            <figcaption>
+              <strong>Workflow animation.</strong>
+              The audit moves from source metadata evidence to a bounded LLM proposal and then
+              through a deterministic authorization gate before any commitment is accepted.
+            </figcaption>
+          </figure>
+
+          <figure class="architecture-figure">
+            <img src="assets/figures/architecture.png" alt="Evidence-grounded metadata harmonization and authorization pipeline">
             <figcaption>
               <strong>Evidence-grounded harmonization pipeline.</strong>
               Source evidence is extracted from read-only metadata artifacts, an LLM proposes a
