@@ -66,7 +66,7 @@ arXiv: [2608.07937](https://arxiv.org/abs/2608.07937)
 </div>
 </div>
 
-<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted ACM AI 2026</div><img src='/images/conf%20but%20unr.png' alt="Confident but Unreliable brain MRI VLM audit pipeline" width="100%"><img class="venue-mark" src='/images/acm.png' alt="ACM AI 2026 logo"></div></div>
+<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted ACM AI 2026</div><img src='/images/projects/repo-media/acmai.png' alt="Confident but Unreliable brain MRI VLM audit pipeline" width="100%"><img class="venue-mark" src='/images/acm.png' alt="ACM AI 2026 logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI**<br>
