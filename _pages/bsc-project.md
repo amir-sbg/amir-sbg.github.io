@@ -40,8 +40,13 @@ Behavior Analysis of Car Drivers Based on Computer Vision
   <div class="project-caption-text">
     End-to-end view of the system combining road-scene perception, object tracking, driver monitoring, and spoken safety alerts.
   </div>
+  <div class="project-caption-text">
+    <strong>Project video:</strong>
+    <a href="https://drive.google.com/file/d/1oFX282GvolzIu95fmWailKjWrnFShlqV/view?usp=drive_link" target="_blank" rel="noopener noreferrer">watch on Google Drive</a>.
+  </div>
 </div>
 
+<!-- Embedded project video temporarily hidden.
 <div class="project-local-video">
   <video controls playsinline preload="metadata">
     <source src="/images/driver-behavior/adas-overview.mp4" type="video/mp4">
@@ -52,6 +57,7 @@ Behavior Analysis of Car Drivers Based on Computer Vision
     A full-resolution demonstration of the perception and alert pipeline running together.
   </div>
 </div>
+-->
 
 <div class="project-divider"></div>
 
