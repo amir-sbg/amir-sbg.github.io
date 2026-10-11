@@ -97,6 +97,7 @@
         img:not(.venue-mark) {
             aspect-ratio: 16 / 9;
             background: #f7f7f7;
+            border-radius: 5px;
             object-fit: contain;
         }
     }
@@ -128,8 +129,10 @@
 }
 
 .paper-box-media-swap {
+    border-radius: 5px;
     display: block;
     max-width: 400px;
+    overflow: hidden;
     position: relative;
     width: 100%;
     z-index: 1;
