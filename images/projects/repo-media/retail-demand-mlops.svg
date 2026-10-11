@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Retail demand MLOps lifecycle</title>
+  <desc id="desc">A data-to-monitoring machine learning lifecycle with a retraining feedback loop.</desc>
+  <rect width="800" height="450" fill="#f7f9fc"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="400" y="58" font-size="25" font-weight="700" fill="#15233b">Retail demand ML lifecycle</text>
+    <g fill="#ffffff" stroke="#6c7f99" stroke-width="2">
+      <rect x="45" y="150" width="110" height="70" rx="7"/>
+      <rect x="175" y="150" width="110" height="70" rx="7"/>
+      <rect x="305" y="150" width="110" height="70" rx="7"/>
+      <rect x="435" y="150" width="110" height="70" rx="7"/>
+      <rect x="565" y="150" width="110" height="70" rx="7"/>
+      <rect x="645" y="290" width="110" height="70" rx="7"/>
+    </g>
+    <g font-size="17" fill="#15233b">
+      <text x="100" y="180">Bronze / Silver</text><text x="100" y="202">Delta tables</text>
+      <text x="230" y="180">Time-aware</text><text x="230" y="202">features</text>
+      <text x="360" y="180">Train +</text><text x="360" y="202">MLflow</text>
+      <text x="490" y="180">Registry</text><text x="490" y="202">quality gate</text>
+      <text x="620" y="180">Batch / API</text><text x="620" y="202">inference</text>
+      <text x="700" y="320">Drift + error</text><text x="700" y="342">monitoring</text>
+    </g>
+    <g stroke="#356fa8" stroke-width="3" fill="none" marker-end="url(#arrow)">
+      <path d="M155 185h20"/><path d="M285 185h20"/><path d="M415 185h20"/><path d="M545 185h20"/>
+      <path d="M650 220c0 30 50 30 50 70"/><path d="M645 325H360c-65 0-65-70-25-100"/>
+    </g>
+    <text x="470" y="337" font-size="16" fill="#52657d">retraining decision</text>
+  </g>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="#356fa8"/></marker></defs>
+</svg>

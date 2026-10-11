@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Fixed-point self-attention</title>
+  <desc id="desc">An attention block is iterated to an equilibrium and differentiated with an implicit adjoint solve.</desc>
+  <rect width="800" height="450" fill="#f7f9fc"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="400" y="55" font-size="25" font-weight="700" fill="#15233b">Fixed-point self-attention</text>
+    <rect x="55" y="158" width="110" height="72" rx="7" fill="#fff" stroke="#6c7f99" stroke-width="2"/>
+    <text x="110" y="188" font-size="17" fill="#15233b">Input state</text><text x="110" y="211" font-size="17" fill="#15233b">x</text>
+    <rect x="265" y="130" width="215" height="128" rx="9" fill="#edf3ff" stroke="#356fa8" stroke-width="2.5"/>
+    <text x="373" y="168" font-size="19" font-weight="700" fill="#1d568d">Shared attention block</text>
+    <text x="373" y="198" font-size="14" fill="#52657d">RoPE · fixed V · residual update</text>
+    <text x="373" y="229" font-size="17" fill="#15233b">zₜ → F(zₜ, x) → zₜ₊₁</text>
+    <path d="M445 258C510 305 235 310 295 258" fill="none" stroke="#356fa8" stroke-width="3" marker-end="url(#arrow5)"/>
+    <text x="373" y="316" font-size="15" fill="#52657d">iterate until convergence</text>
+    <rect x="585" y="158" width="155" height="72" rx="7" fill="#fff" stroke="#6c7f99" stroke-width="2"/>
+    <text x="663" y="187" font-size="17" fill="#15233b">Equilibrium z*</text><text x="663" y="211" font-size="16" fill="#52657d">task prediction</text>
+    <path d="M165 194h100M480 194h105" fill="none" stroke="#356fa8" stroke-width="3" marker-end="url(#arrow5)"/>
+    <rect x="250" y="360" width="300" height="50" rx="7" fill="#fff" stroke="#8a6aa8" stroke-width="2"/>
+    <text x="400" y="391" font-size="14" fill="#59446f">Implicit backward: GMRES / Neumann</text>
+    <path d="M663 230C663 385 590 385 550 385" fill="none" stroke="#8a6aa8" stroke-width="2.5" marker-end="url(#purple-arrow)"/>
+  </g>
+  <defs>
+    <marker id="arrow5" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="#356fa8"/></marker>
+    <marker id="purple-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="#8a6aa8"/></marker>
+  </defs>
+</svg>

@@ -107,6 +107,7 @@
     .paper-box-image {
         > div {
             aspect-ratio: 16 / 9;
+            border-radius: 5px;
             box-shadow: 3px 3px 6px #888;
             max-width: 400px;
             overflow: hidden;
@@ -202,6 +203,7 @@
     .paper-box-image img:not(.venue-mark) {
         aspect-ratio: 16 / 9;
         background: #f7f7f7;
+        border-radius: 5px;
         display: block;
         height: auto;
         object-fit: contain;
