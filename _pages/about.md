@@ -95,7 +95,7 @@ Code: [GitHub](https://github.com/amir-sbg/Behavior-Analysis-of-Car-Drivers-Base
 # 📖 Educations
 
 - *2025.01 – Present*, **[TReNDS](https://trendscenter.org/)** — PhD in Computer Science  
-  GPA: 4.0 / 4.0  
+  GPA: 3.93 / 4.0
   Research Focus: Fixed-point self-attention and looped transformers for structured reasoning — recasting attention as a DEQ-style fixed-point iteration, analyzing convergence/gradient behavior and inference efficiency, and testing controlled PyTorch ablations on tasks such as ARC and Sudoku.  
 
 
