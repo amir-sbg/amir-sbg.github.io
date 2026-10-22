@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Answer or Defer? Testing VLMs' Stated Confidence on Brain MRI</title>
+    <meta
+      name="description"
+      content="A selective-prediction audit of whether vision-language models' stated confidence can support answer-or-defer decisions on brain MRI.">
+    <meta property="og:title" content="Answer or Defer?">
+    <meta
+      property="og:description"
+      content="Testing whether stated VLM confidence can safely decide when to answer and when to defer brain-MRI questions to a clinician.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/figures/overview.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Helvetica&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">Answer or Defer?</h1>
+              <h2 class="subtitle is-3 publication-subtitle">
+                Testing VLMs' Stated Confidence on Brain MRI
+              </h2>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">
+                  <a href="https://amir-sbg.github.io/">Amir Sabbaghziarani</a>
+                </span>
+              </div>
+
+              <div class="is-size-5 publication-authors publication-affiliations">
+                <span class="author-block">TReNDS Center · Georgia State University</span>
+              </div>
+
+              <p class="venue-kicker">
+                <a href="https://wacv.thecvf.com/">WACV 2027</a> ·
+                <a href="https://sites.google.com/view/fabric-wacv">FABRIC Workshop</a>
+              </p>
+
+              <div class="affiliation-logos" aria-label="Institution logos">
+                <img src="assets/logos/trends.png" alt="TReNDS Center">
+                <img src="/FlexSplat/assets/logos/gsu.png" alt="Georgia State University">
+              </div>
+
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://github.com/amir-sbg/VLM-Answer-or-Defer" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fa-brands fa-github"></i></span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://wacv.thecvf.com/" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fa-solid fa-calendar-days"></i></span>
+                    <span>WACV 2027</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://sites.google.com/view/fabric-wacv" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fa-solid fa-brain"></i></span>
+                    <span>FABRIC Workshop</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <span class="button is-normal is-rounded is-light pending-link" aria-disabled="true" title="arXiv link coming soon">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span>
+                    <span>arXiv · Soon</span>
+                  </span>
+                </span>
+                <span class="link-block">
+                  <a href="#citation" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fa-solid fa-quote-left"></i></span>
+                    <span>BibTeX</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero teaser">
+      <div class="container is-max-fullhd">
+        <div class="hero-body">
+          <figure class="overview-figure">
+            <img src="assets/figures/overview.png" alt="Answer-or-defer VLM confidence audit for brain MRI">
+            <figcaption>
+              <strong>Study overview.</strong> Eight open-weight VLMs answer a binary brain-MRI
+              question and state confidence. A threshold gate either accepts the answer or defers
+              the slice to a clinician, while four analyses test selective risk, confidence
+              structure, case-mix sensitivity, and lesion-size effects.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                Vision-language models can report confidence alongside an answer, but that number
+                is useful for selective prediction only if it ranks reliable answers above errors.
+                This work audits stated confidence from eight open-weight VLMs on 3,888 brain MRI
+                slices drawn from post-treatment glioma volumes and healthy volunteers.
+              </p>
+              <p>
+                We evaluate coverage at fixed error budgets, separate answer-level confidence bias
+                from within-answer signal, test sensitivity to population composition, and measure
+                whether confidence tracks lesion area. The results show that high stated confidence
+                often reflects which answer a model gives more than whether that answer is correct,
+                limiting confidence-only answer-or-defer policies.
+              </p>
+            </div>
+
+            <div class="tldr-card has-text-left">
+              <h3>TL;DR</h3>
+              <div class="tldr-grid">
+                <article class="tldr-item">
+                  <h4>Selective prediction</h4>
+                  <p>Thresholds are judged by both accepted-slice coverage and empirical error, not confidence alone.</p>
+                </article>
+                <article class="tldr-item">
+                  <h4>Confidence structure</h4>
+                  <p>Answer preference can dominate the within-answer signal that should separate correct from incorrect cases.</p>
+                </article>
+                <article class="tldr-item">
+                  <h4>Clinical deferral</h4>
+                  <p>A high score is not treated as permission to automate; unsupported cases remain deferred for review.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section evaluation-section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Evaluation Design</h2>
+            <div class="content has-text-justified">
+              <p>
+                BraTS supplies glioma-positive and glioma-negative slices; IXI supplies a healthy
+                comparison population. Each model returns an answer and stated confidence, then the
+                same outputs are examined through four complementary questions rather than a single
+                aggregate accuracy score.
+              </p>
+            </div>
+          </div>
+        </div>
+        <figure class="scientific-figure">
+          <img src="assets/figures/study-design.png" alt="Study pipeline and four research questions">
+          <figcaption>
+            <strong>Answer-or-defer evaluation.</strong> Q1 measures attainable coverage at 5%, 10%,
+            and 20% error; Q2 decomposes answer-level and within-answer confidence; Q3 evaluates
+            case-mix dependence; and Q4 tests whether confidence responds to lesion size.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section results-section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Key Findings</h2>
+          </div>
+        </div>
+
+        <div class="columns is-centered metric-row">
+          <div class="column has-text-centered">
+            <p class="metric-value">7 / 8</p>
+            <p class="metric-label">models retain no nonempty BraTS subset at 5% error</p>
+          </div>
+          <div class="column has-text-centered">
+            <p class="metric-value">24%</p>
+            <p class="metric-label">best retained coverage at a 10% error budget</p>
+          </div>
+          <div class="column has-text-centered">
+            <p class="metric-value">0.969 / 0.970</p>
+            <p class="metric-label">Gemma-4 confidence on true vs. false positive answers</p>
+          </div>
+        </div>
+
+        <div class="result-callouts">
+          <article class="result-callout">
+            <h3>Case mix changes the story</h3>
+            <p>Gates that look safe on healthy brains can favor models that are highly specific but miss many tumor slices.</p>
+          </article>
+          <article class="result-callout">
+            <h3>Recalibration is not enough</h3>
+            <p>Strictly monotone recalibration cannot improve selective coverage because it does not change confidence ranking.</p>
+          </article>
+        </div>
+
+        <figure class="scientific-figure qualitative-figure">
+          <img src="assets/figures/confidence-failure-example.png" alt="Qwen model gives the same high confidence to correct and incorrect brain MRI answers">
+          <figcaption>
+            <strong>High confidence does not imply correctness.</strong> The same model reports 0.95
+            confidence for healthy, lesion-negative, small-lesion, and large-lesion slices while
+            producing both false positives, a false negative, and a correct positive answer.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Reproducibility</h2>
+            <div class="content has-text-justified">
+              <p>
+                The repository contains the complete evaluation pipeline: slice-level reference
+                construction, resumable inference, response parsing, selective-risk analysis,
+                covariance decomposition, case-mix experiments, subject-clustered bootstrap, and
+                paper table/figure regeneration. Medical images and raw model transcripts are not
+                redistributed.
+              </p>
+              <pre><code>git clone https://github.com/amir-sbg/VLM-Answer-or-Defer.git
+cd VLM-Answer-or-Defer
+
+conda env create -f environment.yml
+conda activate deferral
+export PYTHONPATH="$PWD"
+
+make test
+make paper</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="citation" class="section citation-section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">BibTeX</h2>
+            <pre><code>@inproceedings{sabbaghziarani2027answer,
+  title     = {Answer or Defer? Testing {VLMs}' Stated Confidence on Brain {MRI}},
+  author    = {Sabbaghziarani, Amir},
+  booktitle = {IEEE/CVF Winter Conference on Applications of Computer Vision},
+  year      = {2027},
+  note      = {Under review}
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            Answer or Defer? project page ·
+            <a href="https://github.com/amir-sbg/VLM-Answer-or-Defer">Code</a> ·
+            <a href="https://wacv.thecvf.com/">WACV 2027</a> ·
+            <a href="https://sites.google.com/view/fabric-wacv">FABRIC Workshop</a> ·
+            <a href="https://amir-sbg.github.io/">Homepage</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

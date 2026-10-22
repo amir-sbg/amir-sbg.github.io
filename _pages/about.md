@@ -41,6 +41,19 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 
 # 💻 Projects and Publications
 
+<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">WACV 2027 · FABRIC Workshop</div><a href="/VLM-Answer-or-Defer/"><img src='/VLM-Answer-or-Defer/assets/figures/overview.png' alt="Answer or Defer VLM confidence audit on brain MRI" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Answer or Defer? Testing VLMs' Stated Confidence on Brain MRI**](/VLM-Answer-or-Defer/)<br>
+Submitted to [WACV 2027](https://wacv.thecvf.com/) ([FABRIC Workshop](https://sites.google.com/view/fabric-wacv))<br>
+*2026.10* · First author<br>
+Project: [Website](/VLM-Answer-or-Defer/)<br>
+Code: [GitHub](https://github.com/amir-sbg/VLM-Answer-or-Defer)<br>
+arXiv: Coming soon
+
+</div>
+</div>
+
 <div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted NeurIPS 2026 (AIM Workshop)</div><a href="/Label-Agreement-Does-Not-Measure-Authorization/"><img src='/images/projects/repo-media/label-agreement-aim-diagram.png' alt="Label Agreement Does Not Measure Authorization diagram" width="100%"></a><img class="venue-mark" src='/images/projects/repo-media/neurips-2026.png' alt="NeurIPS 2026 logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
