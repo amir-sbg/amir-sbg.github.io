@@ -90,6 +90,19 @@ figcaption {
   width: auto;
 }
 
+.venue-logo-row {
+  margin: 0.35rem auto 0.85rem;
+}
+
+.venue-logo-row img {
+  border-radius: 5px;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 230px;
+  width: 42vw;
+}
+
 .publication-links {
   margin-top: 0.55rem;
 }
@@ -267,6 +280,33 @@ figcaption strong {
   max-width: 1120px;
 }
 
+.analysis-heading {
+  margin-top: 2.8rem;
+}
+
+.analysis-grid {
+  align-items: start;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.analysis-figure {
+  margin-top: 0.5rem;
+}
+
+.analysis-figure figcaption {
+  font-size: 0.96rem;
+  text-align: left;
+}
+
+.lesion-figure {
+  margin-top: 2.4rem;
+  max-width: 850px;
+}
+
 pre {
   background: #f3f5f8;
   border-radius: 8px;
@@ -314,7 +354,13 @@ code {
   }
 
   .tldr-grid,
-  .result-callouts {
+  .result-callouts,
+  .analysis-grid {
     grid-template-columns: 1fr;
+  }
+
+  .venue-logo-row img {
+    max-width: 190px;
+    width: 58vw;
   }
 }

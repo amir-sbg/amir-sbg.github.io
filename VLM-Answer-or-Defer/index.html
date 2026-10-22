@@ -33,12 +33,15 @@
 
               <div class="is-size-5 publication-authors">
                 <span class="author-block">
-                  <a href="https://amir-sbg.github.io/">Amir Sabbaghziarani</a>
+                  <a href="https://amir-sbg.github.io/">Amir Sabbaghziarani</a><sup>1</sup>
+                </span>
+                <span class="author-block">
+                  <a href="https://trendscenter.org/sergey-plis/">Sergey Plis</a><sup>1</sup>
                 </span>
               </div>
 
               <div class="is-size-5 publication-authors publication-affiliations">
-                <span class="author-block">TReNDS Center · Georgia State University</span>
+                <span class="author-block"><sup>1</sup>TReNDS Center, Georgia State University</span>
               </div>
 
               <p class="venue-kicker">
@@ -49,6 +52,12 @@
               <div class="affiliation-logos" aria-label="Institution logos">
                 <img src="assets/logos/trends.png" alt="TReNDS Center">
                 <img src="/FlexSplat/assets/logos/gsu.png" alt="Georgia State University">
+              </div>
+
+              <div class="venue-logo-row" aria-label="Venue logo">
+                <a href="https://wacv.thecvf.com/" aria-label="WACV 2027 website">
+                  <img src="assets/logos/wacv-2027.png" alt="WACV 2027, Orlando, Florida">
+                </a>
               </div>
 
               <div class="publication-links">
@@ -216,6 +225,50 @@
             producing both false positives, a false negative, and a correct positive answer.
           </figcaption>
         </figure>
+
+        <div class="columns is-centered has-text-centered analysis-heading">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Why Stated Confidence Fails</h2>
+            <div class="content has-text-justified">
+              <p>
+                The failure is structured rather than random. Confidence is strongly tied to the
+                answer a model produces, shifts with the evaluation population, and remains nearly
+                unchanged across lesion sizes even when detection sensitivity changes substantially.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="analysis-grid">
+          <figure class="scientific-figure analysis-figure">
+            <img src="assets/figures/outcome-level-confidence.png" alt="Mean stated confidence by true-positive, false-positive, true-negative, and false-negative outcome">
+            <figcaption>
+              <strong>Confidence follows the answer more than correctness.</strong> For each model,
+              true and false positives receive nearly the same confidence, as do true and false
+              negatives. The larger separation is between positive and negative answers.
+            </figcaption>
+          </figure>
+
+          <figure class="scientific-figure analysis-figure">
+            <img src="assets/figures/population-correlation-shift.png" alt="Confidence-correctness correlation changes sign between BraTS and IXI populations">
+            <figcaption>
+              <strong>The association reverses across populations.</strong> Every model changes sign
+              between the BraTS glioma cohort and IXI healthy volunteers. Because IXI contains only
+              negative reference labels, its sign mainly reflects which answer is stated with greater
+              confidence—not a transferable measure of reliability.
+            </figcaption>
+          </figure>
+        </div>
+
+        <figure class="scientific-figure lesion-figure">
+          <img src="assets/figures/lesion-area-sensitivity.png" alt="Sensitivity increases with in-plane lesion area for eight VLMs on BraTS positive slices">
+          <figcaption>
+            <strong>Detection improves with lesion size, but confidence barely responds.</strong>
+            Sensitivity rises steeply across in-plane lesion-area bins for most models, while mean
+            stated confidence changes little. Confidence therefore gives limited warning on the
+            small lesions that are most likely to be missed.
+          </figcaption>
+        </figure>
       </div>
     </section>
 
@@ -254,7 +307,7 @@ make paper</code></pre>
             <h2 class="title is-3 has-text-centered">BibTeX</h2>
             <pre><code>@inproceedings{sabbaghziarani2027answer,
   title     = {Answer or Defer? Testing {VLMs}' Stated Confidence on Brain {MRI}},
-  author    = {Sabbaghziarani, Amir},
+  author    = {Sabbaghziarani, Amir and Plis, Sergey},
   booktitle = {IEEE/CVF Winter Conference on Applications of Computer Vision},
   year      = {2027},
   note      = {Under review}

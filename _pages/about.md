@@ -41,7 +41,7 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 
 # 💻 Projects and Publications
 
-<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">WACV 2027 · FABRIC Workshop</div><a href="/VLM-Answer-or-Defer/"><img src='/VLM-Answer-or-Defer/assets/figures/overview.png' alt="Answer or Defer VLM confidence audit on brain MRI" width="100%"></a></div></div>
+<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">WACV 2027 · FABRIC Workshop</div><a href="/VLM-Answer-or-Defer/"><img src='/VLM-Answer-or-Defer/assets/figures/overview.png' alt="Answer or Defer VLM confidence audit on brain MRI" width="100%"></a><img class="venue-mark venue-mark-wacv" src='/VLM-Answer-or-Defer/assets/logos/wacv-2027.png' alt="WACV 2027 logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Answer or Defer? Testing VLMs' Stated Confidence on Brain MRI**](/VLM-Answer-or-Defer/)<br>
