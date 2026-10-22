@@ -60,6 +60,11 @@ a {
   margin-top: 0.25rem;
 }
 
+.affiliation-line {
+  display: block;
+  margin: 0.15rem auto 0.3rem;
+}
+
 .publication-venue {
   font-family: "Google Sans", sans-serif;
   color: #555;
