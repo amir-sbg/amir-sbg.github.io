@@ -72,11 +72,12 @@ arXiv: Coming soon
 <div class='paper-box-text' markdown="1">
 
 [**Label Agreement Does Not Measure Authorization**](/Label-Agreement-Does-Not-Measure-Authorization/)<br>
-Accepted to [NeurIPS 2026](https://neurips.cc/virtual/2026/loc/atlanta/177929) ([AIM Workshop](https://aim-neurips26.github.io/))<br>
+Accepted to [NeurIPS 2026](https://neurips.cc/virtual/2026/loc/atlanta/workshop/137564) ([AIM Workshop](https://aim-neurips26.github.io/))<br>
 *2026.10* · First author<br>
 Project: [Website](/Label-Agreement-Does-Not-Measure-Authorization/)<br>
 Code: [GitHub](https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization)<br>
-NeurIPS page: [Official listing](https://neurips.cc/virtual/2026/loc/atlanta/177929)<br>
+NeurIPS page: [Official workshop listing](https://neurips.cc/virtual/2026/loc/atlanta/workshop/137564)<br>
+OpenReview: [Paper](https://openreview.net/forum?id=X1mYBTqag6)<br>
 arXiv: [2610.04544](https://arxiv.org/abs/2610.04544)
 
 </div>
@@ -89,6 +90,7 @@ arXiv: [2610.04544](https://arxiv.org/abs/2610.04544)
 Accepted to [ACM AI 2026](https://aisummit.acm.org/)<br>
 *2026.07* · First author<br>
 Code: [GitHub](https://github.com/amir-sbg/confident-unreliable-vlm-brain-mri-audit)<br>
+DOI: [10.1145/3806096.3844866](https://doi.org/10.1145/3806096.3844866)<br>
 arXiv: [2608.02790](https://arxiv.org/abs/2608.02790)
 
 </div>
