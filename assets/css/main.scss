@@ -246,9 +246,10 @@
 
 .paper-box .paper-box-image img.venue-mark-wacv {
     background: #f45120;
-    max-width: 116px;
+    box-shadow: 0 5px 16px rgba(20, 24, 34, .32);
+    max-width: 108px;
     padding: .2em .3em;
-    width: 31%;
+    width: 28%;
 }
 
 .experience-card {
