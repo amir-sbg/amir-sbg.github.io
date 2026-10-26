@@ -1,8 +1,12 @@
 @import url("/VLM-Answer-or-Defer/style.css");
 
 .publication-title {
-  color: #173b67;
+  background: linear-gradient(90deg, #55c9ef 0%, #168fca 46%, #173f76 100%);
+  background-clip: text;
+  color: #173f76;
   font-size: 4rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .publication-subtitle {
