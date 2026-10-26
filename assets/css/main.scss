@@ -232,10 +232,10 @@
 .paper-box .paper-box-image img.venue-mark {
     aspect-ratio: auto;
     background: rgba(255, 255, 255, .94);
-    border: 1px solid rgba(0, 0, 0, .08);
+    border: 1px solid rgba(20, 32, 48, .34);
     border-radius: 3px;
     bottom: .6em;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .16);
+    box-shadow: 0 4px 12px rgba(12, 24, 42, .28);
     max-width: 105px;
     object-fit: contain;
     padding: .25em .35em;
@@ -247,7 +247,6 @@
 
 .paper-box .paper-box-image img.venue-mark-wacv {
     background: #f45120;
-    box-shadow: 0 5px 16px rgba(20, 24, 34, .32);
     max-width: 108px;
     padding: .2em .3em;
     width: 28%;
