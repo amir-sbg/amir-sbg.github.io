@@ -25,7 +25,7 @@
   year: "2026"
   label: "ACM AI 2026"
   group: "ai"
-  image: "/images/projects/repo-media/acmai.png"
+  image: "/Confident-but-Unreliable/assets/figures/overview.png"
   venue_image: "/images/projects/repo-media/acm-ai-2026-logo.png"
   venue_alt: "ACM AI 2026 logo"
   stack: "Python, Vision-Language Models, Brain MRI, Calibration, Safety Evaluation"

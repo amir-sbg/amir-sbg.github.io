@@ -22,8 +22,7 @@
 }
 
 .affiliation-logos img {
-  height: 45px;
-  max-width: 235px;
+  height: 48px;
 }
 
 .venue-logo-row {
@@ -38,12 +37,6 @@
   width: auto;
 }
 
-.pipeline-figure {
-  margin: 1.6rem auto 0;
-  max-width: 1120px;
-}
-
-.pipeline-figure img,
 .result-figure img {
   border: 1px solid #dde4ee;
   border-radius: 10px;
@@ -52,7 +45,6 @@
   width: 100%;
 }
 
-.pipeline-figure figcaption,
 .result-figure figcaption {
   color: #4c5564;
   font-family: "Google Sans", "Noto Sans", sans-serif;
@@ -146,11 +138,6 @@
 
   .affiliation-logos {
     gap: 1rem;
-  }
-
-  .affiliation-logos img {
-    height: 36px;
-    max-width: 180px;
   }
 
   .result-callouts {
