@@ -4,12 +4,14 @@
   background: linear-gradient(90deg, #55c9ef 0%, #168fca 46%, #173f76 100%);
   background-clip: text;
   color: #173f76;
-  font-size: 4rem;
+  font-size: 5rem;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .publication-subtitle {
+  font-size: 2.15rem;
+  line-height: 1.25;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -137,7 +139,11 @@
 
 @media (max-width: 768px) {
   .publication-title {
-    font-size: 2.65rem;
+    font-size: 3rem;
+  }
+
+  .publication-subtitle {
+    font-size: 1.6rem;
   }
 
   .affiliation-logos {
