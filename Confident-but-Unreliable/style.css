@@ -1,0 +1,159 @@
+@import url("/VLM-Answer-or-Defer/style.css");
+
+.publication-title {
+  color: #173b67;
+  font-size: 4rem;
+}
+
+.publication-subtitle {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.affiliation-line {
+  display: block;
+  margin: 0.16rem auto;
+}
+
+.venue-kicker,
+.venue-kicker a {
+  color: #17649b;
+}
+
+.affiliation-logos img {
+  height: 45px;
+  max-width: 235px;
+}
+
+.venue-logo-row {
+  margin: 0.25rem auto 0.8rem;
+}
+
+.venue-logo-row img {
+  display: block;
+  height: 64px;
+  max-width: min(430px, 78vw);
+  object-fit: contain;
+  width: auto;
+}
+
+.pipeline-figure {
+  margin: 1.6rem auto 0;
+  max-width: 1120px;
+}
+
+.pipeline-figure img,
+.result-figure img {
+  border: 1px solid #dde4ee;
+  border-radius: 10px;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.pipeline-figure figcaption,
+.result-figure figcaption {
+  color: #4c5564;
+  font-family: "Google Sans", "Noto Sans", sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.5;
+  margin: 0.8rem auto 0;
+  text-align: center;
+}
+
+.method-section {
+  background: #fafcff;
+  border-bottom: 1px solid #edf1f6;
+  border-top: 1px solid #edf1f6;
+}
+
+.audit-facts {
+  margin: 0.6rem 0 1.4rem;
+}
+
+.metric-value {
+  color: #194f82;
+  font-size: 1.65rem;
+  font-weight: 750;
+  margin-bottom: 0.2rem;
+}
+
+.metric-label {
+  color: #596474;
+  font-size: 0.94rem;
+}
+
+.results-section {
+  background: #fff;
+}
+
+.result-layout {
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.result-figure {
+  margin: 0 auto;
+  max-width: 510px;
+}
+
+.result-callouts {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.result-callout {
+  background: #f8fbff;
+  border: 1px solid #dce7f3;
+  border-radius: 9px;
+  min-height: 142px;
+  padding: 1.05rem;
+}
+
+.result-callout p:last-child {
+  color: #4c5666;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.table-wrap {
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+.results-table th {
+  color: #173b67;
+  white-space: nowrap;
+}
+
+.scope-note {
+  background: #fff8e8;
+  border: 1px solid #f0d69c;
+  border-radius: 9px;
+  color: #55472b;
+  line-height: 1.55;
+  margin: 1.5rem auto 0;
+  max-width: 900px;
+  padding: 1rem 1.15rem;
+}
+
+@media (max-width: 768px) {
+  .publication-title {
+    font-size: 2.65rem;
+  }
+
+  .affiliation-logos {
+    gap: 1rem;
+  }
+
+  .affiliation-logos img {
+    height: 36px;
+    max-width: 180px;
+  }
+
+  .result-callouts {
+    grid-template-columns: 1fr;
+  }
+}

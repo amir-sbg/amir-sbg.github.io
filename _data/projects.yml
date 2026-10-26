@@ -26,7 +26,7 @@
   label: "ACM AI 2026"
   group: "ai"
   image: "/images/projects/repo-media/acmai.png"
-  venue_image: "/images/acm.png"
+  venue_image: "/images/projects/repo-media/acm-ai-2026-logo.png"
   venue_alt: "ACM AI 2026 logo"
   stack: "Python, Vision-Language Models, Brain MRI, Calibration, Safety Evaluation"
   description: "Accepted ACM AI 2026 safety-audit framework for vision-language models on brain MRI, measuring slice-level accuracy, calibration, confident errors, hallucination, and abstention behavior."

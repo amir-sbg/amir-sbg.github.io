@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Confident but Unreliable | VLM Safety Audit on Brain MRI</title>
+    <meta
+      name="description"
+      content="ACM AI 2026 project page for a behavioral safety audit of vision-language models on brain MRI, covering calibration, confident errors, hallucination, and abstention.">
+    <meta property="og:title" content="Confident but Unreliable">
+    <meta
+      property="og:description"
+      content="A behavioral safety audit showing that higher VLM accuracy does not imply reliable confidence on brain MRI.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/figures/overview.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Helvetica&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">Confident but Unreliable</h1>
+              <h2 class="subtitle is-4 publication-subtitle">
+                A Behavioral Safety Audit of Vision-Language Models on Brain MRI
+              </h2>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"><a href="https://amir-sbg.github.io/">Amir Sabbaghziarani</a><sup>1,2</sup></span>
+                <span class="author-block"><a href="https://sajadabvi.github.io/">Mohammadsajad Abavisani</a><sup>1,3</sup></span>
+                <span class="author-block"><a href="https://trendscenter.org/sergey-plis/">Sergey Plis</a><sup>1,2</sup></span>
+              </div>
+
+              <div class="is-size-5 publication-authors publication-affiliations">
+                <span class="affiliation-line"><sup>1</sup>Joint Georgia Institute of Technology / Georgia State University / Emory University Center for Translational Research in Data Science and Neuroimaging</span>
+                <span class="affiliation-line"><sup>2</sup>Georgia State University</span>
+                <span class="affiliation-line"><sup>3</sup>Georgia Institute of Technology</span>
+              </div>
+
+              <p class="venue-kicker">
+                Accepted to <a href="https://aisummit.acm.org/">ACM AI 2026</a>
+              </p>
+
+              <div class="affiliation-logos" aria-label="Institution logos">
+                <img src="assets/logos/trends.png" alt="TReNDS Center">
+                <img src="assets/logos/georgia-state.jpg" alt="Georgia State University">
+                <img src="assets/logos/georgia-tech.png" alt="Georgia Tech">
+              </div>
+
+              <div class="venue-logo-row" aria-label="Conference logo">
+                <a href="https://aisummit.acm.org/">
+                  <img src="assets/logos/acm-ai-2026.png" alt="ACM AI 2026">
+                </a>
+              </div>
+
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://github.com/amir-sbg/confident-unreliable-vlm-brain-mri-audit" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fa-brands fa-github"></i></span><span>Code</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2608.02790" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span><span>arXiv</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://doi.org/10.1145/3806096.3844866" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fa-solid fa-file-lines"></i></span><span>DOI</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://aisummit.acm.org/" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fa-solid fa-calendar-days"></i></span><span>ACM AI</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="#citation" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fa-solid fa-quote-left"></i></span><span>BibTeX</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero teaser">
+      <div class="container is-max-fullhd">
+        <div class="hero-body">
+          <figure class="overview-figure">
+            <img src="assets/figures/overview.png" alt="Behavioral audit of six vision-language models on brain MRI">
+            <figcaption>
+              <strong>Behavioral safety audit.</strong> Brain-MRI inputs are evaluated with six
+              general and medical VLMs, then analyzed across competence, verbalized-confidence
+              calibration, confident errors, hallucination, and abstention.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                Vision-language models are increasingly considered for medical imaging, yet their
+                stated confidence is rarely evaluated independently from correctness. This work
+                uses brain MRI as a controlled, high-stakes testbed for a broader failure mode:
+                models can appear capable while lacking reliable self-knowledge.
+              </p>
+              <p>
+                The audit evaluates six instruction-tuned VLMs on 4,102 images, including 4,032
+                MRI slices from 250 subjects and 70 non-brain or noise controls. Labels are derived
+                from public metadata, slice geometry, and released segmentation masks, enabling
+                automatic grading without new clinical annotation.
+              </p>
+            </div>
+
+            <div class="tldr-card has-text-left">
+              <h3>TL;DR</h3>
+              <div class="tldr-grid">
+                <article class="tldr-item">
+                  <h4>Confidence is not competence</h4>
+                  <p>The most accurate audited model is also the most confident when it is wrong.</p>
+                </article>
+                <article class="tldr-item">
+                  <h4>Errors remain high-confidence</h4>
+                  <p>Mean confidence on incorrect answers reaches 0.82–0.97 across the model panel.</p>
+                </article>
+                <article class="tldr-item">
+                  <h4>Safety is multidimensional</h4>
+                  <p>Accuracy, calibration, hallucination, and abstention behave as distinct axes.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section method-section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Audit Design</h2>
+            <div class="content has-text-justified">
+              <p>
+                The inference-only pipeline preserves provenance from slice extraction through
+                grading. Multiple-choice and open-ended prompts test MRI sequence, imaging plane,
+                brain recognition, tumor presence, lesion laterality, and behavior on unsupported
+                inputs. Subject-clustered bootstrap intervals account for correlated slices.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns is-centered metric-row audit-facts">
+          <div class="column has-text-centered"><p class="metric-value">4,102</p><p class="metric-label">Images in the audit</p></div>
+          <div class="column has-text-centered"><p class="metric-value">250</p><p class="metric-label">MRI subjects</p></div>
+          <div class="column has-text-centered"><p class="metric-value">6</p><p class="metric-label">Reported VLMs</p></div>
+          <div class="column has-text-centered"><p class="metric-value">5</p><p class="metric-label">Auto-graded MRI tasks</p></div>
+        </div>
+
+        <figure class="pipeline-figure">
+          <img src="assets/figures/audit-pipeline.png" alt="Reproducible brain-MRI VLM audit pipeline">
+          <figcaption>
+            <strong>Reproducible evaluation pipeline.</strong> Controlled 2D views and derived
+            labels feed resumable model runners; parsing, grading, calibration, hallucination, and
+            abstention are kept as separate auditable stages.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section results-section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Key Results</h2>
+            <div class="content has-text-justified">
+              <p>
+                Answer coverage is nearly complete, but calibration is poor. Expected calibration
+                error ranges from 0.27 to 0.40, and 33–46% of answered items are both wrong and
+                high-confidence. Medical adaptation improves tumor-presence recognition in the
+                examined family comparison without improving confidence reliability.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns is-centered result-layout">
+          <div class="column is-half">
+            <figure class="result-figure">
+              <img src="assets/figures/accuracy-vs-confidence.png" alt="Accuracy versus mean confidence on wrong answers">
+              <figcaption>
+                <strong>Accuracy does not imply safer confidence.</strong> Gemma-4-12B is the most
+                accurate model, yet it reports the highest mean confidence on its errors.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="column is-half">
+            <div class="result-callouts">
+              <article class="result-callout"><p class="metric-value">0.27–0.40</p><p>Expected calibration error across models.</p></article>
+              <article class="result-callout"><p class="metric-value">0.82–0.97</p><p>Mean stated confidence on incorrect answers.</p></article>
+              <article class="result-callout"><p class="metric-value">33–46%</p><p>Answered items that are confidently wrong.</p></article>
+              <article class="result-callout"><p class="metric-value">0.37–0.75</p><p>Abstention rate on non-brain controls.</p></article>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table class="table is-fullwidth is-striped results-table">
+            <thead><tr><th>Model</th><th>Accuracy</th><th>ECE ↓</th><th>Conf. wrong ↓</th><th>Confidently wrong ↓</th></tr></thead>
+            <tbody>
+              <tr><td>InternVL2.5-8B</td><td>0.567</td><td>0.361</td><td>0.917</td><td>0.426</td></tr>
+              <tr><td>Qwen2.5-VL-3B</td><td>0.514</td><td>0.361</td><td>0.844</td><td>0.357</td></tr>
+              <tr><td>Qwen2.5-VL-7B</td><td>0.563</td><td>0.272</td><td>0.819</td><td>0.360</td></tr>
+              <tr><td>Gemma-3-4B</td><td>0.531</td><td>0.404</td><td>0.922</td><td>0.462</td></tr>
+              <tr><td>Gemma-4-12B</td><td>0.670</td><td>0.307</td><td>0.968</td><td>0.330</td></tr>
+              <tr><td>MedGemma-4B</td><td>0.571</td><td>0.381</td><td>0.949</td><td>0.428</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="scope-note">
+          <strong>Scope.</strong> This is a behavioral audit on public, de-identified brain-MRI-derived
+          images. It does not establish clinical diagnostic performance or authorize autonomous use.
+        </div>
+      </div>
+    </section>
+
+    <section id="citation" class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">BibTeX</h2>
+            <pre><code>@inproceedings{sabbaghziarani2026confident,
+  title     = {Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain {MRI}},
+  author    = {Sabbaghziarani, Amir and Abavisani, Mohammadsajad and Plis, Sergey},
+  booktitle = {ACM AI Summit},
+  year      = {2026},
+  doi       = {10.1145/3806096.3844866},
+  url       = {https://arxiv.org/abs/2608.02790}
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            Confident but Unreliable project page ·
+            <a href="https://github.com/amir-sbg/confident-unreliable-vlm-brain-mri-audit">Code</a> ·
+            <a href="https://arxiv.org/abs/2608.02790">arXiv</a> ·
+            <a href="https://doi.org/10.1145/3806096.3844866">DOI</a> ·
+            <a href="https://aisummit.acm.org/">ACM AI 2026</a> ·
+            <a href="https://amir-sbg.github.io/">Homepage</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

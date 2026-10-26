@@ -83,12 +83,13 @@ arXiv: [2610.04544](https://arxiv.org/abs/2610.04544)
 </div>
 </div>
 
-<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted ACM AI 2026</div><img src='/images/projects/repo-media/acmai.png' alt="Confident but Unreliable brain MRI VLM audit pipeline" width="100%"><img class="venue-mark" src='/images/acm.png' alt="ACM AI 2026 logo"></div></div>
+<div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted ACM AI 2026</div><a href="/Confident-but-Unreliable/"><img src='/images/projects/repo-media/acmai.png' alt="Confident but Unreliable brain MRI VLM audit pipeline" width="100%"></a><img class="venue-mark" src='/images/projects/repo-media/acm-ai-2026-logo.png' alt="ACM AI 2026 logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI**<br>
+[**Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI**](/Confident-but-Unreliable/)<br>
 Accepted to [ACM AI 2026](https://aisummit.acm.org/)<br>
 *2026.07* · First author<br>
+Project: [Website](/Confident-but-Unreliable/)<br>
 Code: [GitHub](https://github.com/amir-sbg/confident-unreliable-vlm-brain-mri-audit)<br>
 DOI: [10.1145/3806096.3844866](https://doi.org/10.1145/3806096.3844866)<br>
 arXiv: [2608.02790](https://arxiv.org/abs/2608.02790)
