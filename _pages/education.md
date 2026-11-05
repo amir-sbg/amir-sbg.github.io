@@ -32,7 +32,7 @@ My academic background combines computer science, artificial intelligence, compu
           <img src="/images/education/gsu.png" alt="Georgia State University">
         </a>
         <a href="https://www.emory.edu/" aria-label="Emory University">
-          <img src="/images/education/emory-university.svg" alt="Emory University">
+          <img src="/images/education/emory-university.png" alt="Emory University">
         </a>
       </div>
     </div>
