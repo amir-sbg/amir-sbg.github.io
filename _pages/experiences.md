@@ -21,8 +21,10 @@ Research and industry experience across machine learning, computer vision, data 
   <div class="work-experience-period">Jan. 2025 – Present</div>
   <div class="work-experience-content">
     <h2>Graduate Research Assistant</h2>
-    <p class="work-experience-organization"><a href="https://trendscenter.org/">TReNDS Center, Georgia State University</a> <span>· Atlanta, GA</span></p>
+    <p class="work-experience-organization"><a href="https://trendscenter.org/">TReNDS Center</a> <span>· Atlanta, GA</span></p>
+    <p class="work-experience-affiliation">Joint Georgia Institute of Technology / Georgia State University / Emory University Center for Translational Research in Data Science and Neuroimaging</p>
     <p>Developing machine-learning and computer-vision systems for 3D reconstruction, structured reasoning, and neuroimaging. Current work includes feed-forward 3D Gaussian Splatting and looped transformer architectures, with controlled evaluation of accuracy, convergence, robustness, and computational efficiency.</p>
+    <p class="work-experience-skills"><strong>Skills:</strong> Python · PyTorch · JAX · Computer Vision · 3D Gaussian Splatting · Transformers · Neuroimaging</p>
   </div>
 </article>
 
@@ -30,8 +32,9 @@ Research and industry experience across machine learning, computer vision, data 
   <div class="work-experience-period">Jan. 2024 – Dec. 2024</div>
   <div class="work-experience-content">
     <h2>Data Scientist &amp; Backend Developer</h2>
-    <p class="work-experience-organization">Mazrae <span>· Agri-tech startup · Tehran, Iran</span></p>
+    <p class="work-experience-organization">Snapp <span>(Iran's largest super app) → Mazrae Startup · Tehran, Iran</span></p>
     <p>Built machine-learning models for fertilization analysis and model-driven decision support, then integrated them into production services using FastAPI and Django. Worked with MLflow, Docker, and Kubernetes for experiment tracking and deployment.</p>
+    <p class="work-experience-skills"><strong>Skills:</strong> Python · Machine Learning · FastAPI · Django · MLflow · Docker · Kubernetes</p>
   </div>
 </article>
 
@@ -41,6 +44,7 @@ Research and industry experience across machine learning, computer vision, data 
     <h2>Researcher &amp; Developer</h2>
     <p class="work-experience-organization">New Technologies Research Center, Tehran Polytechnic <span>· Tehran, Iran</span></p>
     <p>Conducted applied computer-vision research on Industry 4.0 technologies in mining and developed a driver-behavior analysis system for operational safety using Python, PyTorch, and OpenCV.</p>
+    <p class="work-experience-skills"><strong>Skills:</strong> Python · PyTorch · OpenCV · Computer Vision · Industry 4.0</p>
   </div>
 </article>
 
@@ -50,6 +54,7 @@ Research and industry experience across machine learning, computer vision, data 
     <h2>Data Science Intern</h2>
     <p class="work-experience-organization"><a href="https://myket.ir/">Myket International</a> <span>· Dubai, UAE</span></p>
     <p>Analyzed large-scale application and user data with Python and SQL, developed predictive machine-learning models, and applied reproducible experiment tracking and evaluation workflows.</p>
+    <p class="work-experience-skills"><strong>Skills:</strong> Python · SQL · PyTorch · Machine Learning · Data Analysis · MLOps</p>
   </div>
 </article>
 
@@ -59,6 +64,7 @@ Research and industry experience across machine learning, computer vision, data 
     <h2>Researcher &amp; Developer</h2>
     <p class="work-experience-organization">InoTec, Tehran Polytechnic <span>· Tehran, Iran</span></p>
     <p>Developed a methodology for integrating AI models into real-time automotive ECU systems, with embedded-system prototyping and system-level modeling in SystemC and Linux.</p>
+    <p class="work-experience-skills"><strong>Skills:</strong> SystemC · Linux · Embedded AI · ECU Systems · Real-Time Modeling</p>
   </div>
 </article>
 

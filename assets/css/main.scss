@@ -709,6 +709,56 @@ h1:before, .anchor:before {
     max-height: 118px;
 }
 
+.education-logo-stack {
+    width: 145px;
+}
+
+.education-logo-stack__trends {
+    display: block;
+    width: 100%;
+
+    img {
+        height: auto;
+        max-height: none;
+        width: 100%;
+    }
+}
+
+.education-logo-stack__divider {
+    background: #111;
+    height: 2px;
+    margin: 8px 0 7px;
+    width: 100%;
+}
+
+.education-logo-stack__institutions {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+
+    a {
+        align-items: center;
+        display: flex;
+        height: 31px;
+        justify-content: center;
+        min-width: 0;
+        padding: 0 5px;
+    }
+
+    a + a {
+        border-left: 1px solid #8b8b8b;
+    }
+
+    img {
+        height: auto;
+        max-height: 26px;
+        max-width: 100%;
+        object-fit: contain;
+        width: auto;
+    }
+}
+
 .education-logo--aut img {
     max-height: 128px;
     max-width: 145px;
@@ -839,6 +889,21 @@ h1:before, .anchor:before {
         color: #6a7580;
         font-weight: 500;
     }
+}
+
+.work-experience-affiliation {
+    color: #5c6873 !important;
+    font-size: .92em;
+    font-style: italic;
+}
+
+.work-experience-skills {
+    background: #f3f7fa;
+    border-radius: 5px;
+    color: #31516d !important;
+    font-size: .88em;
+    margin-top: .8em !important;
+    padding: .55em .7em;
 }
 
 @media (max-width: 680px) {

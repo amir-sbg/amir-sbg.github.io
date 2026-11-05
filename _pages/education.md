@@ -19,9 +19,23 @@ My academic background combines computer science, artificial intelligence, compu
 
 <article class="education-card education-card--trends">
   <div class="education-logo education-logo--trends">
-    <a href="https://trendscenter.org/" aria-label="Visit the TReNDS Center website">
-      <img src="/images/education/trends-joint-center.png" alt="TReNDS, Georgia State University, Georgia Tech, and Emory University">
-    </a>
+    <div class="education-logo-stack">
+      <a class="education-logo-stack__trends" href="https://trendscenter.org/" aria-label="Visit the TReNDS Center website">
+        <img src="/images/education/trends-logo.png" alt="TReNDS Center">
+      </a>
+      <div class="education-logo-stack__divider" aria-hidden="true"></div>
+      <div class="education-logo-stack__institutions">
+        <a href="https://www.gatech.edu/" aria-label="Georgia Institute of Technology">
+          <img src="/images/education/georgia-tech.png" alt="Georgia Tech">
+        </a>
+        <a href="https://www.gsu.edu/" aria-label="Georgia State University">
+          <img src="/images/education/gsu.png" alt="Georgia State University">
+        </a>
+        <a href="https://www.emory.edu/" aria-label="Emory University">
+          <img src="/images/education/emory-university.svg" alt="Emory University">
+        </a>
+      </div>
+    </div>
   </div>
   <div class="education-content">
     <div class="education-date">January 2025 – Present</div>
