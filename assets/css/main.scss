@@ -645,3 +645,206 @@ h1:before, .anchor:before {
     font-size: .8em;
     z-index: 3;
 }
+
+/* Education */
+.education-page {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.education-intro {
+    margin-bottom: 1.5em;
+
+    h1 {
+        color: #173f67;
+        margin-bottom: .35em;
+    }
+
+    p {
+        color: #5a6672;
+        font-size: 1.02em;
+        line-height: 1.65;
+        margin-top: 0;
+    }
+}
+
+.education-card {
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dfe6ed;
+    border-left: 5px solid #1c5d93;
+    border-radius: 10px;
+    box-shadow: 0 5px 18px rgba(24, 58, 91, .08);
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: 190px minmax(0, 1fr);
+    margin: 0 0 1.5em;
+    padding: 1.4em 1.55em;
+}
+
+.education-card--trends {
+    border-left-color: #e2a900;
+}
+
+.education-logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    a {
+        border: 0;
+    }
+
+    img {
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        max-height: 135px;
+        max-width: 100%;
+        object-fit: contain;
+    }
+}
+
+.education-logo--trends img {
+    max-height: 118px;
+}
+
+.education-logo--aut img {
+    max-height: 128px;
+    max-width: 145px;
+}
+
+.education-content {
+    h2 {
+        color: #173f67;
+        font-size: 1.45em;
+        margin: .12em 0 .25em;
+    }
+
+    p {
+        color: #424c56;
+        line-height: 1.58;
+        margin: .38em 0;
+    }
+}
+
+.education-date {
+    color: #6a7580;
+    font-size: .88em;
+    font-weight: 700;
+    letter-spacing: .035em;
+    text-transform: uppercase;
+}
+
+.education-institution {
+    font-size: 1.08em;
+    font-weight: 700;
+
+    span {
+        color: #68737d;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 680px) {
+    .education-card {
+        gap: 1em;
+        grid-template-columns: 1fr;
+        padding: 1.2em;
+    }
+
+    .education-logo img {
+        max-height: 105px;
+    }
+
+    .education-logo--trends img {
+        max-height: 92px;
+    }
+}
+
+/* Professional experience */
+.work-experience-page {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.work-experience-intro {
+    margin-bottom: 1.5em;
+
+    h1 {
+        color: #173f67;
+        margin-bottom: .35em;
+    }
+
+    p {
+        color: #5a6672;
+        font-size: 1.02em;
+        line-height: 1.65;
+        margin-top: 0;
+    }
+}
+
+.work-experience-card {
+    background: #fff;
+    border: 1px solid #dfe6ed;
+    border-radius: 9px;
+    box-shadow: 0 4px 16px rgba(24, 58, 91, .07);
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: 165px minmax(0, 1fr);
+    margin: 0 0 1.25em;
+    overflow: hidden;
+    padding: 1.3em 1.45em;
+    position: relative;
+}
+
+.work-experience-card::before {
+    background: #245d8f;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 4px;
+}
+
+.work-experience-period {
+    color: #52677a;
+    font-size: .88em;
+    font-weight: 750;
+    letter-spacing: .025em;
+    padding-top: .3em;
+    text-transform: uppercase;
+}
+
+.work-experience-content {
+    h2 {
+        color: #173f67;
+        font-size: 1.35em;
+        margin: 0 0 .22em;
+    }
+
+    p {
+        color: #424c56;
+        line-height: 1.58;
+        margin: .42em 0 0;
+    }
+}
+
+.work-experience-organization {
+    font-size: 1.02em;
+    font-weight: 700;
+
+    span {
+        color: #6a7580;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 680px) {
+    .work-experience-card {
+        gap: .45em;
+        grid-template-columns: 1fr;
+        padding: 1.15em 1.2em;
+    }
+}

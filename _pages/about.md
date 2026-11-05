@@ -18,7 +18,6 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 </div>
 </div>
 
-
 # 🔥 News
 
 - *2026.10*: &nbsp;📥 One paper submitted to [WACV 2027](https://wacv.thecvf.com/) ([FABRIC Workshop](https://sites.google.com/view/fabric-wacv)).
@@ -33,7 +32,7 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 - *2026.06*: &nbsp;📝 Completed two paper reviews for [IEEE MLSP 2026](https://mlsp26.ieeesps.org/).
 - *2026.05*: &nbsp;📥 One paper submitted to [ACM AI 2026](https://aisummit.acm.org/).
 - *2026.04*: &nbsp;📥 One paper submitted to [BMVC 2026](https://bmvc2026.bmva.org/).
-- *2025.06*: &nbsp;🎉 [Experience](https://amir-sbg.github.io/experiences/) - Attended [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025).
+- *2025.06*: &nbsp;🎉 [Research activity](https://amir-sbg.github.io/research-activities/) - Attended [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025).
 - *2025.01*: &nbsp;🎉 Started my Ph.D. studies at Georgia State University.
 - *2023.08*: &nbsp;🎉 Graduated from Amirkabir University of Technology (Tehran Polytechnic).
 {% endcomment %}
@@ -106,16 +105,3 @@ Code: [GitHub](https://github.com/amir-sbg/Behavior-Analysis-of-Car-Drivers-Base
 
 </div>
 </div>
-
-
-# 📖 Educations
-
-- *2025.01 – Present*, **[TReNDS](https://trendscenter.org/)** — PhD in Computer Science  
-  GPA: 3.93 / 4.0
-  Research Focus: Fixed-point self-attention and looped transformers for structured reasoning — recasting attention as a DEQ-style fixed-point iteration, analyzing convergence/gradient behavior and inference efficiency, and testing controlled PyTorch ablations on tasks such as ARC and Sudoku.  
-
-
-- *2018.09 – 2023.07*, **Amirkabir University of Technology (Tehran Polytechnic)** — BSc in Computer Engineering  
-  Major: Artificial Intelligence | Minor: Computer Networks  
-  BS Thesis: [Behavior Analysis of Car Drivers Based-on Computer Vision](/driver-behavior/)  
-  GPA: 3.9 / 4.0

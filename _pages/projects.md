@@ -23,16 +23,23 @@ This page highlights selected public GitHub projects, ordered by technical depth
   <div class='paper-box-image'>
     <div>
       <div class="badge">{{ project.label }}</div>
-      <img src='{{ project.image }}' alt="{{ project.title }} preview" width="400" height="225" loading="lazy">
+      {% if project.project_url %}<a href="{{ project.project_url }}">{% endif %}<img src='{{ project.image }}' alt="{{ project.title }} preview" width="400" height="225" loading="lazy">{% if project.project_url %}</a>{% endif %}
       {% if project.venue_image %}
       <img class="venue-mark" src='{{ project.venue_image }}' alt="{{ project.venue_alt | default: project.label }}" loading="lazy">
       {% endif %}
     </div>
   </div>
   <div class='paper-box-text'>
-    <h2 class="project-entry-title"><a href="{{ project.repo }}">{{ project.title }}</a></h2>
+    <h2 class="project-entry-title"><a href="{{ project.project_url | default: project.repo }}">{{ project.title }}</a></h2>
     <div class="project-entry-meta">{{ project.year }} &nbsp;|&nbsp; {{ project.stack }}</div>
     <p>{{ project.description }}</p>
+    {% if project.project_url %}
+    <p class="project-publication-links">
+      {{ project.venue_status }} <a href="{{ project.venue_url }}">{{ project.venue_name }}</a>{% if project.workshop_url %} (<a href="{{ project.workshop_url }}">{{ project.workshop_name }}</a>){% endif %}{% if project.acceptance %} &middot; Acceptance ratio: {{ project.acceptance }}{% endif %}<br>
+      <em>{{ project.date }}</em> &middot; First author<br>
+      Project: <a href="{{ project.project_url }}">Website</a> &middot; Code: <a href="{{ project.repo }}">GitHub</a>{% if project.arxiv_url %} &middot; arXiv: <a href="{{ project.arxiv_url }}">{{ project.arxiv_label }}</a>{% elsif project.arxiv_label %} &middot; arXiv: {{ project.arxiv_label }}{% endif %}{% if project.openreview_url %} &middot; <a href="{{ project.openreview_url }}">OpenReview</a>{% endif %}{% if project.doi_url %} &middot; DOI: <a href="{{ project.doi_url }}">{{ project.doi_label }}</a>{% endif %}
+    </p>
+    {% endif %}
   </div>
 </div>
 {% endfor %}
