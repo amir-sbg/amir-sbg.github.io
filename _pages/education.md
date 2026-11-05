@@ -29,7 +29,7 @@ My academic background combines computer science, artificial intelligence, compu
           <img src="/images/education/georgia-tech-attached.png" alt="Georgia Tech">
         </a>
         <a href="https://www.gsu.edu/" aria-label="Georgia State University">
-          <img src="/images/education/gsu-attached.png" alt="Georgia State University">
+          <img src="/images/education/gsu-panthers-attached.png" alt="Georgia State University">
         </a>
         <a href="https://www.emory.edu/" aria-label="Emory University">
           <img src="/images/education/emory-university-attached.png" alt="Emory University">
