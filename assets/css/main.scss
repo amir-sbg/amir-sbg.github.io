@@ -869,6 +869,26 @@ h1:before, .anchor:before {
     width: 4px;
 }
 
+.work-experience-card:nth-of-type(1)::before {
+    background: #245d8f;
+}
+
+.work-experience-card:nth-of-type(2)::before {
+    background: #2f7d63;
+}
+
+.work-experience-card:nth-of-type(3)::before {
+    background: #b7791f;
+}
+
+.work-experience-card:nth-of-type(4)::before {
+    background: #7656a6;
+}
+
+.work-experience-card:nth-of-type(5)::before {
+    background: #b44d5e;
+}
+
 .work-experience-period {
     color: #52677a;
     font-size: .88em;

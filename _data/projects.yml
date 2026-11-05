@@ -1,11 +1,13 @@
 - title: "FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence"
   repo: "https://github.com/amir-sbg/FlexSplat"
   project_url: "/FlexSplat/"
+  publication: true
   year: "2026"
   date: "2026.07"
   label: "Accepted BMVC 2026"
   group: "ai"
   image: "/FlexSplat/assets/figures/architecture-flexsplat.jpg"
+  animated_image: "/FlexSplat/assets/figures/flexsplat-wf-card.gif"
   venue_image: "/images/projects/repo-media/bmvc-2026-transparent.png"
   venue_alt: "BMVC 2026"
   venue_name: "BMVC 2026"
@@ -20,6 +22,7 @@
 - title: "Answer or Defer? Testing VLMs' Stated Confidence on Brain MRI"
   repo: "https://github.com/amir-sbg/VLM-Answer-or-Defer"
   project_url: "/VLM-Answer-or-Defer/"
+  publication: true
   year: "2026"
   date: "2026.10"
   label: "WACV 2027 · FABRIC Workshop"
@@ -39,6 +42,7 @@
 - title: "Label Agreement Does Not Measure Authorization"
   repo: "https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization"
   project_url: "/Label-Agreement-Does-Not-Measure-Authorization/"
+  publication: true
   year: "2026"
   date: "2026.10"
   label: "Accepted NeurIPS 2026 (AIM Workshop)"
@@ -60,6 +64,7 @@
 - title: "Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI"
   repo: "https://github.com/amir-sbg/confident-unreliable-vlm-brain-mri-audit"
   project_url: "/Confident-but-Unreliable/"
+  publication: true
   year: "2026"
   date: "2026.07"
   label: "Accepted ACM AI 2026"
@@ -214,8 +219,9 @@
 
 - title: "Behavior Analysis of Car Drivers Based on Computer Vision"
   repo: "https://github.com/amir-sbg/Behavior-Analysis-of-Car-Drivers-Based-on-Computer-Vision"
+  project_url: "/driver-behavior/"
   year: "2023"
-  label: "Computer Vision"
+  label: "BSc Project"
   group: "ai"
   image: "/images/driver-behavior/adas-workflow-card.gif"
   stack: "PyTorch, ADAS, YOLOv8, Optical Flow, SSD Face Detection"
