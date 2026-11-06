@@ -81,7 +81,7 @@ Research and industry experience across machine learning, computer vision, data 
 <article class="work-experience-card">
   <div class="work-experience-meta">
     <div class="work-experience-period">Sep. 2020 – Jul. 2021</div>
-    <a class="work-experience-logo" href="https://inotec.aut.ac.ir/index.php?slc_lang=en&amp;sid=42" aria-label="InoTec, Tehran Polytechnic">
+    <a class="work-experience-logo work-experience-logo--inotec" href="https://inotec.aut.ac.ir/index.php?slc_lang=en&amp;sid=42" aria-label="InoTec, Tehran Polytechnic">
       <img src="/images/experience-organizations/inotec.png" alt="InoTec, Tehran Polytechnic">
     </a>
   </div>

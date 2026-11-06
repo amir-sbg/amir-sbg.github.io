@@ -915,7 +915,7 @@ h1:before, .anchor:before {
 }
 
 .work-experience-meta {
-    align-self: start;
+    align-self: center;
 }
 
 .work-experience-logo {
@@ -927,13 +927,24 @@ h1:before, .anchor:before {
     max-width: 120px;
 
     img {
-        border-radius: 7px;
+        border-radius: 10px;
         display: block;
         max-height: 64px;
         max-width: 120px;
         object-fit: contain;
+        transition: transform .2s ease;
         width: auto;
     }
+
+    &:hover img,
+    &:focus-visible img {
+        transform: scale(1.06);
+    }
+}
+
+.work-experience-logo--inotec img {
+    max-height: 45px;
+    max-width: 88px;
 }
 
 .work-experience-content {
@@ -999,6 +1010,15 @@ h1:before, .anchor:before {
     }
 
     .work-experience-card:hover {
+        transform: none;
+    }
+
+    .work-experience-logo img {
+        transition: none;
+    }
+
+    .work-experience-logo:hover img,
+    .work-experience-logo:focus-visible img {
         transform: none;
     }
 }
