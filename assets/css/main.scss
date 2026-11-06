@@ -914,6 +914,28 @@ h1:before, .anchor:before {
     text-transform: uppercase;
 }
 
+.work-experience-meta {
+    align-self: start;
+}
+
+.work-experience-logo {
+    align-items: center;
+    border: 0;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin-top: .85em;
+    max-width: 120px;
+
+    img {
+        border-radius: 7px;
+        display: block;
+        max-height: 64px;
+        max-width: 120px;
+        object-fit: contain;
+        width: auto;
+    }
+}
+
 .work-experience-content {
     h2 {
         color: #173f67;
@@ -958,6 +980,16 @@ h1:before, .anchor:before {
         gap: .45em;
         grid-template-columns: 1fr;
         padding: 1.15em 1.2em;
+    }
+
+    .work-experience-meta {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .work-experience-logo {
+        margin-top: 0;
     }
 }
 
