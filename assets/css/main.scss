@@ -734,29 +734,29 @@ h1:before, .anchor:before {
 
 .education-logo-stack__institutions {
     align-items: center;
-    column-gap: 5px;
+    column-gap: 2px;
     display: grid;
-    grid-template-columns: repeat(3, 62px);
+    grid-template-columns: repeat(3, 66px);
     justify-content: center;
     width: 100%;
 
     a {
         align-items: center;
         display: flex;
-        height: 62px;
+        height: 66px;
         justify-content: center;
         min-width: 0;
         padding: 0;
-        width: 62px;
+        width: 66px;
     }
 
     img {
         border-radius: 7px;
-        height: 62px;
+        height: 66px;
         max-height: none;
         max-width: none;
         object-fit: cover;
-        width: 62px;
+        width: 66px;
     }
 }
 
