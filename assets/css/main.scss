@@ -1025,15 +1025,15 @@ h1:before, .anchor:before {
     margin-left: auto;
     margin-right: auto;
     margin-top: .85em;
-    min-height: 64px;
-    max-width: 120px;
-    width: 120px;
+    min-height: 78px;
+    max-width: 145px;
+    width: 145px;
 
     img {
         border-radius: 10px;
         display: block;
-        max-height: 64px;
-        max-width: 120px;
+        max-height: 78px;
+        max-width: 145px;
         object-fit: contain;
         transition: transform .2s ease;
         width: auto;
@@ -1047,11 +1047,6 @@ h1:before, .anchor:before {
 
 .work-experience-logo--snapp img {
     border-radius: 0;
-}
-
-.work-experience-logo--inotec img {
-    max-height: 54px;
-    max-width: 102px;
 }
 
 .work-experience-content {
