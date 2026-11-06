@@ -26,13 +26,13 @@ My academic background combines computer science, artificial intelligence, compu
       <div class="education-logo-stack__divider" aria-hidden="true"></div>
       <div class="education-logo-stack__institutions">
         <a href="https://www.gatech.edu/" aria-label="Georgia Institute of Technology">
-          <img src="/images/education/georgia-tech-attached.png" alt="Georgia Tech">
+          <img src="/images/education/georgia-tech-blue.png" alt="Georgia Tech">
         </a>
         <a href="https://www.gsu.edu/" aria-label="Georgia State University">
-          <img src="/images/education/gsu.jpg" alt="Georgia State University">
+          <img src="/images/education/georgia-state-blue.png" alt="Georgia State University">
         </a>
         <a href="https://www.emory.edu/" aria-label="Emory University">
-          <img src="/images/education/emory-university-attached.png" alt="Emory University">
+          <img src="/images/education/emory-blue.png" alt="Emory University">
         </a>
       </div>
     </div>
