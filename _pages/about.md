@@ -22,6 +22,8 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 
 - *2026.10*: &nbsp;📥 One paper submitted to [WACV 2027](https://wacv.thecvf.com/) ([FABRIC Workshop](https://sites.google.com/view/fabric-wacv)).
 - *2026.09*: &nbsp;📥 Two papers submitted to [ICLR 2027](https://iclr.cc/).
+    - [Loop Attention, not the Block](https://openreview.net/forum?id=Laa8I1vVBg)
+    - [Recurrent Reasoning with Fixed Point Attention](https://openreview.net/forum?id=24jagwDpAK)
 
 {% comment %}
 - **2026.10 — First author:** &nbsp;🎉 Our paper, *"Label Agreement Does Not Measure Authorization"*, was accepted to [NeurIPS 2026](https://neurips.cc/) ([AIM Workshop](https://aim-neurips26.github.io/)).
