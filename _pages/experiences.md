@@ -36,7 +36,7 @@ Research and industry experience across machine learning, computer vision, data 
 <article class="work-experience-card">
   <div class="work-experience-meta">
     <div class="work-experience-period">Jan. 2024 – Dec. 2024</div>
-    <a class="work-experience-logo" href="https://en.wikipedia.org/wiki/Snapp!" aria-label="Snapp">
+    <a class="work-experience-logo work-experience-logo--snapp" href="https://en.wikipedia.org/wiki/Snapp!" aria-label="Snapp">
       <img src="/images/experience-organizations/snapp.png" alt="Snapp">
     </a>
   </div>
