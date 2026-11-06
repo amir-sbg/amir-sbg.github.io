@@ -15,6 +15,52 @@ This page highlights selected public GitHub projects, ordered by technical depth
 
 </div>
 
+<section class="project-toolkit" aria-labelledby="project-toolkit-title">
+  <div class="project-toolkit-heading">
+    <h2 id="project-toolkit-title">Tools used across my projects</h2>
+    <p>Languages, frameworks, and infrastructure I have used in research and software projects.</p>
+  </div>
+
+  <div class="project-toolkit-groups">
+    <div class="project-toolkit-group">
+      <h3>Machine Learning &amp; Vision</h3>
+      <div class="project-toolkit-grid">
+        <div class="project-tool"><img src="/images/technology-icons/pytorch.svg" alt="" aria-hidden="true"><span>PyTorch</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/jax.svg" alt="" aria-hidden="true"><span>JAX</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/tensorflow.svg" alt="" aria-hidden="true"><span>TensorFlow</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/hugging-face.svg" alt="" aria-hidden="true"><span>Hugging Face</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/scikit-learn.svg" alt="" aria-hidden="true"><span>scikit-learn</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/opencv.svg" alt="" aria-hidden="true"><span>OpenCV</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/cuda.svg" alt="" aria-hidden="true"><span>CUDA</span></div>
+      </div>
+    </div>
+
+    <div class="project-toolkit-group">
+      <h3>Data &amp; Scientific Computing</h3>
+      <div class="project-toolkit-grid">
+        <div class="project-tool"><img src="/images/technology-icons/python.svg" alt="" aria-hidden="true"><span>Python</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/numpy.svg" alt="" aria-hidden="true"><span>NumPy</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/pandas.svg" alt="" aria-hidden="true"><span>pandas</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/jupyter.svg" alt="" aria-hidden="true"><span>Jupyter</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/spark.svg" alt="" aria-hidden="true"><span>Apache Spark</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/mlflow.svg" alt="" aria-hidden="true"><span>MLflow</span></div>
+      </div>
+    </div>
+
+    <div class="project-toolkit-group">
+      <h3>Deployment &amp; Engineering</h3>
+      <div class="project-toolkit-grid">
+        <div class="project-tool"><img src="/images/technology-icons/fastapi.svg" alt="" aria-hidden="true"><span>FastAPI</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/docker.svg" alt="" aria-hidden="true"><span>Docker</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/kubernetes.svg" alt="" aria-hidden="true"><span>Kubernetes</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/github-actions.svg" alt="" aria-hidden="true"><span>GitHub Actions</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/postgresql.svg" alt="" aria-hidden="true"><span>PostgreSQL</span></div>
+        <div class="project-tool"><img src="/images/technology-icons/cplusplus.svg" alt="" aria-hidden="true"><span>C++</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <div class="project-section-title">AI, Machine Learning, Computer Vision, NLP, Scientific Computing, and GPU Programming</div>
 
 {% assign ai_projects = site.data.projects | where: "group", "ai" %}
