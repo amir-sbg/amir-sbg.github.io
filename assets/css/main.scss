@@ -867,6 +867,12 @@ h1:before, .anchor:before {
     overflow: hidden;
     padding: 1.3em 1.45em;
     position: relative;
+    transform-origin: center;
+    transition: transform .2s ease;
+}
+
+.work-experience-card:hover {
+    transform: scale(1.012);
 }
 
 .work-experience-card::before {
@@ -952,5 +958,15 @@ h1:before, .anchor:before {
         gap: .45em;
         grid-template-columns: 1fr;
         padding: 1.15em 1.2em;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .work-experience-card {
+        transition: none;
+    }
+
+    .work-experience-card:hover {
+        transform: none;
     }
 }
