@@ -32,7 +32,7 @@ Research and industry experience across machine learning, computer vision, data 
   <div class="work-experience-period">Jan. 2024 – Dec. 2024</div>
   <div class="work-experience-content">
     <h2>Data Scientist &amp; Backend Developer</h2>
-    <p class="work-experience-organization">Snapp <span>(Iran's largest super app) → Mazrae Startup · Tehran, Iran</span></p>
+    <p class="work-experience-organization"><a href="https://en.wikipedia.org/wiki/Snapp!">Snapp</a> <span>(Iran's largest super app) → Mazrae Startup · Tehran, Iran</span></p>
     <p>Built machine-learning models for fertilization analysis and model-driven decision support, then integrated them into production services using FastAPI and Django. Worked with MLflow, Docker, and Kubernetes for experiment tracking and deployment.</p>
     <p class="work-experience-skills"><strong>Skills:</strong> Python · Machine Learning · FastAPI · Django · MLflow · Docker · Kubernetes</p>
   </div>
@@ -52,7 +52,7 @@ Research and industry experience across machine learning, computer vision, data 
   <div class="work-experience-period">Mar. 2021 – Aug. 2021</div>
   <div class="work-experience-content">
     <h2>Data Science Intern</h2>
-    <p class="work-experience-organization"><a href="https://myket.ir/">Myket International</a> <span>· Dubai, UAE</span></p>
+    <p class="work-experience-organization"><a href="https://myket.ir/about?lang=en">Myket International</a> <span>· Dubai, UAE</span></p>
     <p>Analyzed large-scale application and user data with Python and SQL, developed predictive machine-learning models, and applied reproducible experiment tracking and evaluation workflows.</p>
     <p class="work-experience-skills"><strong>Skills:</strong> Python · SQL · PyTorch · Machine Learning · Data Analysis · MLOps</p>
   </div>
