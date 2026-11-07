@@ -194,11 +194,9 @@
 }
 
 .project-toolkit {
-    background: linear-gradient(145deg, #f8fbfe, #f3f6f9);
-    border: 1px solid #dde6ee;
-    border-radius: 12px;
-    margin: 0 0 2em;
-    padding: 1.25em 1.35em 1.4em;
+    border-bottom: 1px solid #efefef;
+    margin: 0 0 1.8em;
+    padding: 0 0 1.5em;
 }
 
 .project-toolkit-heading {
@@ -206,16 +204,18 @@
 
     h2 {
         border: 0;
-        color: #173f67;
-        font-size: 1.18em;
+        color: #494e52;
+        font-size: 1.28em;
         margin: 0 0 .25em;
         padding: 0;
+        text-align: center;
     }
 
     p {
-        color: #65717d;
-        font-size: .88em;
+        color: #6a737d;
+        font-size: .82em;
         margin: 0;
+        text-align: center;
     }
 }
 
@@ -229,8 +229,8 @@
     min-width: 0;
 
     h3 {
-        color: #42566a;
-        font-size: .78em;
+        color: #5a6269;
+        font-size: .72em;
         font-weight: 800;
         letter-spacing: .04em;
         margin: 0 0 .75em;
@@ -240,33 +240,33 @@
 
 .project-toolkit-grid {
     display: grid;
-    gap: .65em .45em;
+    gap: .55em .4em;
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .project-tool {
     align-items: center;
-    background: rgba(255, 255, 255, .82);
-    border: 1px solid rgba(205, 216, 226, .85);
-    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #e6e9ec;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 82px;
-    padding: .65em .3em .5em;
+    min-height: 70px;
+    padding: .5em .25em .4em;
     text-align: center;
 
     img {
         display: block;
-        height: 38px;
-        margin: 0 auto .45em;
+        height: 31px;
+        margin: 0 auto .35em;
         object-fit: contain;
-        width: 46px;
+        width: 38px;
     }
 
     span {
         color: #34495d;
-        font-size: .7em;
+        font-size: .63em;
         font-weight: 700;
         line-height: 1.15;
     }
@@ -284,7 +284,7 @@
 
 @media (max-width: 620px) {
     .project-toolkit {
-        padding: 1.05em;
+        padding-bottom: 1.25em;
     }
 
     .project-toolkit-grid {
