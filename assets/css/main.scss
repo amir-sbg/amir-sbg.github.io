@@ -676,6 +676,22 @@
 }
 
 .driver-behavior-page {
+    .project-intro {
+        img {
+            border-radius: 8px;
+            transition: transform .2s ease;
+            will-change: transform;
+
+            &:hover {
+                transform: scale(1.025);
+            }
+        }
+
+        @include breakpoint($medium) {
+            grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr);
+        }
+    }
+
     .project-section-title:not(.project-hero-title) {
         color: #183b62;
         font-size: clamp(1.75em, 3vw, 2.05em);
@@ -737,6 +753,16 @@
         line-height: 1.65;
         margin-top: .9em;
         max-width: 98%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .driver-behavior-page .project-intro img {
+        transition: none;
+    }
+
+    .driver-behavior-page .project-intro img:hover {
+        transform: none;
     }
 }
 
