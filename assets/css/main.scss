@@ -399,6 +399,7 @@
 
         img {
             background: #f7f7f7;
+            border-radius: 7px;
             box-shadow: 3px 3px 6px #888;
             display: block;
             max-width: 320px;
@@ -436,6 +437,7 @@
     }
 
     img {
+        border-radius: 7px;
         object-fit: cover;
     }
 
