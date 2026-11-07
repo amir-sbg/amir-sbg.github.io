@@ -985,23 +985,23 @@ h1:before, .anchor:before {
 }
 
 .work-experience-card:nth-of-type(1)::before {
-    background: #245d8f;
+    background: #0b5a9e;
 }
 
 .work-experience-card:nth-of-type(2)::before {
-    background: #2f7d63;
+    background: #00d96f;
 }
 
 .work-experience-card:nth-of-type(3)::before {
-    background: #b7791f;
+    background: #315ed3;
 }
 
 .work-experience-card:nth-of-type(4)::before {
-    background: #7656a6;
+    background: #0d91e8;
 }
 
 .work-experience-card:nth-of-type(5)::before {
-    background: #b44d5e;
+    background: #111;
 }
 
 .work-experience-period {
@@ -1010,11 +1010,18 @@ h1:before, .anchor:before {
     font-weight: 750;
     letter-spacing: .025em;
     padding-top: .3em;
+    text-align: center;
     text-transform: uppercase;
 }
 
 .work-experience-meta {
+    align-items: center;
     align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
 }
 
 .work-experience-logo {
@@ -1028,19 +1035,23 @@ h1:before, .anchor:before {
     min-height: 78px;
     max-width: 145px;
     width: 145px;
+    box-shadow: none;
 
     img {
         border-radius: 10px;
+        box-shadow: none;
         display: block;
         max-height: 78px;
         max-width: 145px;
         object-fit: contain;
         transition: transform .2s ease;
+        will-change: transform;
         width: auto;
     }
 
     &:hover img,
     &:focus-visible img {
+        box-shadow: none;
         transform: scale(1.06);
     }
 }
@@ -1110,7 +1121,8 @@ h1:before, .anchor:before {
     .work-experience-meta {
         align-items: center;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .work-experience-logo {
