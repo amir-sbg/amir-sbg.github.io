@@ -961,7 +961,7 @@ h1:before, .anchor:before {
     box-shadow: 0 4px 16px rgba(24, 58, 91, .07);
     display: grid;
     gap: 1.5em;
-    grid-template-columns: 165px minmax(0, 1fr);
+    grid-template-columns: 190px minmax(0, 1fr);
     margin: 0 0 1.25em;
     overflow: hidden;
     padding: 1.3em 1.45em;
@@ -1062,14 +1062,20 @@ h1:before, .anchor:before {
 
 .work-experience-logo--large,
 .work-experience-logo--inotec {
-    min-height: 92px;
-    max-width: 158px;
-    width: 158px;
+    min-height: 110px;
+    max-width: 180px;
+    width: 180px;
 
     img {
-        max-height: 92px;
-        max-width: 158px;
+        max-height: 110px;
+        max-width: 180px;
     }
+}
+
+.work-experience-meta .work-experience-logo:hover img,
+.work-experience-meta .work-experience-logo:focus-visible img {
+    box-shadow: none;
+    transform: scale(1.06);
 }
 
 .work-experience-content {
