@@ -20,7 +20,7 @@ Research and industry experience across machine learning, computer vision, data 
 <article class="work-experience-card">
   <div class="work-experience-meta">
     <div class="work-experience-period">Jan. 2025 – Present</div>
-    <a class="work-experience-logo" href="https://trendscenter.org/" aria-label="TReNDS Center">
+    <a class="work-experience-logo work-experience-logo--large" href="https://trendscenter.org/" aria-label="TReNDS Center">
       <img src="/images/experience-organizations/trends.png" alt="TReNDS Center">
     </a>
   </div>
@@ -51,7 +51,7 @@ Research and industry experience across machine learning, computer vision, data 
 <article class="work-experience-card">
   <div class="work-experience-meta">
     <div class="work-experience-period">Jun. 2021 – Mar. 2022</div>
-    <a class="work-experience-logo" href="https://amirkabirpark.ir/en/" aria-label="Amirkabir University Science and Technology Park">
+    <a class="work-experience-logo work-experience-logo--large" href="https://amirkabirpark.ir/en/" aria-label="Amirkabir University Science and Technology Park">
       <img src="/images/experience-organizations/amirkabir-science-technology-park.png" alt="Amirkabir University Science and Technology Park">
     </a>
   </div>
