@@ -26,10 +26,10 @@ figcaption {
 }
 
 .publication-title {
-  background: linear-gradient(90deg, #bba5ff 0%, #7652c7 48%, #35145f 100%);
+  background: linear-gradient(90deg, #ddd3ff 0%, #8d6ddd 48%, #35145f 100%);
   background-clip: text;
   color: #35145f;
-  font-size: clamp(5rem, 8vw, 7.4rem);
+  font-size: clamp(5.35rem, 8.6vw, 7.9rem);
   font-weight: 900;
   letter-spacing: -0.045em;
   line-height: 1;
@@ -40,7 +40,7 @@ figcaption {
 
 .publication-subtitle {
   color: #39475c;
-  font-size: 2.05rem;
+  font-size: 1.85rem;
   font-weight: 500;
   line-height: 1.3;
   margin-bottom: 0.85rem;
@@ -347,11 +347,11 @@ code {
 
 @media screen and (max-width: 768px) {
   .publication-title {
-    font-size: 3.25rem;
+    font-size: 3.45rem;
   }
 
   .publication-subtitle {
-    font-size: 1.48rem;
+    font-size: 1.35rem;
   }
 
   .affiliation-logos {
