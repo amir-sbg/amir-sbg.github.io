@@ -49,6 +49,9 @@
       {% if author.google_plus %}
         <li><a href="https://plus.google.com/+{{ author.google_plus }}"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i> Google+</a></li>
       {% endif %}
+      {% if author.trends_profile %}
+        <li><a class="author-trends-link" href="{{ author.trends_profile }}"><img class="author-trends-mark" src="{{ author.trends_icon }}" alt="" aria-hidden="true"><span>TReNDS Profile</span></a></li>
+      {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
@@ -76,9 +79,6 @@
       {% endif %}
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-      {% endif %}
-      {% if page.url == "/" and author.trends_profile %}
-        <li><a class="author-trends-link" href="{{ author.trends_profile }}"><span class="author-trends-mark" style="background-image: url('{{ author.trends_icon }}')" aria-hidden="true"></span><span>TReNDS Profile</span></a></li>
       {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
@@ -157,6 +157,9 @@
       {% if author.google_plus %}
         <a href="https://plus.google.com/+{{ author.google_plus }}"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i></a>
       {% endif %}
+      {% if author.trends_profile %}
+        <a class="author-trends-link" href="{{ author.trends_profile }}" aria-label="TReNDS Center profile"><img class="author-trends-mark" src="{{ author.trends_icon }}" alt="" aria-hidden="true"></a>
+      {% endif %}
       {% if author.googlescholar %}
         <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
       {% endif %}
@@ -184,9 +187,6 @@
       {% endif %}
       {% if author.github %}
         <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if page.url == "/" and author.trends_profile %}
-        <a class="author-trends-link" href="{{ author.trends_profile }}" aria-label="TReNDS Center profile"><span class="author-trends-mark" style="background-image: url('{{ author.trends_icon }}')" aria-hidden="true"></span></a>
       {% endif %}
       {% if author.stackoverflow %}
         <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i></a>

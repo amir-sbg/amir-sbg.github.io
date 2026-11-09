@@ -171,14 +171,13 @@
   width: 1em;
 }
 
-.author-trends-mark {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+.author__urls img.author-trends-mark {
   display: inline-block;
   flex: 0 0 1.4em;
   height: 1em;
   margin: 0;
+  max-width: 1.4em;
+  object-fit: contain;
   width: 1.4em;
 }
 
@@ -321,10 +320,11 @@
   .author-email-mark--gatech {
     width: 1.2em;
   }
-  .author-trends-mark {
+  img.author-trends-mark {
     flex-basis: 1.2em;
     height: .85em;
     margin: 0;
+    max-width: 1.2em;
     width: 1.2em;
   }
   @include breakpoint($large) {
