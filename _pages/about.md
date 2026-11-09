@@ -20,7 +20,7 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 
 # 🔥 News
 
-- *2026.10*: &nbsp;🎉 Our paper, **“Answer or Defer? Testing VLMs' Stated Confidence on Brain MRI,”** was accepted to [WACV 2027](https://wacv.thecvf.com/) ([FABRIC Workshop](https://sites.google.com/view/fabric-wacv)).
+- *2026.11*: &nbsp;🎉 Our paper, **“Answer or Defer? Testing VLMs' Stated Confidence on Brain MRI,”** was accepted to [WACV 2027](https://wacv.thecvf.com/) ([FABRIC Workshop](https://sites.google.com/view/fabric-wacv)).
 - *2026.09*: &nbsp;📥 Two papers submitted to [ICLR 2027](https://iclr.cc/).
     - [Loop Attention, not the Block](https://openreview.net/forum?id=Laa8I1vVBg)
     - [Recurrent Reasoning with Fixed Point Attention](https://openreview.net/forum?id=24jagwDpAK)

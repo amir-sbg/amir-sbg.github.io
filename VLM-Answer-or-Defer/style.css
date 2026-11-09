@@ -26,12 +26,16 @@ figcaption {
 }
 
 .publication-title {
+  background: linear-gradient(90deg, #bba5ff 0%, #7652c7 48%, #35145f 100%);
+  background-clip: text;
   color: #35145f;
-  font-size: 4.35rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.04;
+  font-size: clamp(5rem, 8vw, 7.4rem);
+  font-weight: 900;
+  letter-spacing: -0.045em;
+  line-height: 1;
   margin-bottom: 0.55rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .publication-subtitle {
@@ -343,7 +347,7 @@ code {
 
 @media screen and (max-width: 768px) {
   .publication-title {
-    font-size: 2.8rem;
+    font-size: 3.25rem;
   }
 
   .publication-subtitle {
