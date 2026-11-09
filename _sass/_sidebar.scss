@@ -172,12 +172,10 @@
 }
 
 .author-trends-mark {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
   display: inline-block;
   height: 1.15em;
   margin-right: .25em;
+  object-fit: contain;
   vertical-align: -.24em;
   width: 1.35em;
 }
