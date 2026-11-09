@@ -61,7 +61,7 @@ arXiv: [2608.07937](https://arxiv.org/abs/2608.07937)
 
 [**Answer or Defer? Testing VLMs' Stated Confidence on Brain MRI**](/VLM-Answer-or-Defer/)<br>
 Accepted to [WACV 2027](https://wacv.thecvf.com/) ([FABRIC Workshop](https://sites.google.com/view/fabric-wacv))<br>
-*2026.10* · First author<br>
+*2026.11* · First author<br>
 Project: [Website](/VLM-Answer-or-Defer/)<br>
 Code: [GitHub](https://github.com/amir-sbg/VLM-Answer-or-Defer)<br>
 arXiv: Coming soon
