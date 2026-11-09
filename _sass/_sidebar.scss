@@ -171,6 +171,17 @@
   width: 1em;
 }
 
+.author-trends-mark {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 1.15em;
+  margin-right: .25em;
+  vertical-align: -.24em;
+  width: 1.35em;
+}
+
 .author__urls-wrapper {
   position: relative;
   display: table-cell;
@@ -303,6 +314,12 @@
   }
   .author-email-mark--gatech {
     width: 1.2em;
+  }
+  .author-trends-mark {
+    height: .9em;
+    margin-right: 0;
+    vertical-align: -.08em;
+    width: 1.05em;
   }
   @include breakpoint($large) {
     display: none;
