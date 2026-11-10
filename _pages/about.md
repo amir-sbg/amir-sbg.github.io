@@ -46,7 +46,7 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 <div class='paper-box-text' markdown="1">
 
 [**FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence**](https://amir-sbg.github.io/FlexSplat/)<br>
-Accepted to [BMVC 2026](https://bmvc2026.bmva.org/)<br>
+Accepted to [BMVC 2026](https://bmvc2026.bmva.org/) · [Official listing](https://bmvc2026.bmva.org/programme/accepted_papers/#:~:text=FlexSplat)<br>
 Acceptance ratio: 28%<br>
 *2026.07* · First author<br>
 Project: [Website](https://amir-sbg.github.io/FlexSplat/)<br>
