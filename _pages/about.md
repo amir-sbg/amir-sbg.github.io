@@ -64,7 +64,7 @@ Accepted to [WACV 2027](https://wacv.thecvf.com/) ([FABRIC Workshop](https://sit
 *2026.11* · First author<br>
 Project: [Website](/VLM-Answer-or-Defer/)<br>
 Code: [GitHub](https://github.com/amir-sbg/VLM-Answer-or-Defer)<br>
-arXiv: Coming soon
+arXiv: [2611.11833](https://arxiv.org/abs/2611.11833)
 
 </div>
 </div>

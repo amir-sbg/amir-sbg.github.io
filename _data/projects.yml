@@ -35,7 +35,8 @@
   venue_status: "Accepted to"
   workshop_name: "FABRIC Workshop"
   workshop_url: "https://sites.google.com/view/fabric-wacv"
-  arxiv_label: "Coming soon"
+  arxiv_url: "https://arxiv.org/abs/2611.11833"
+  arxiv_label: "2611.11833"
   stack: "Vision-Language Models, Brain MRI, Selective Prediction, Confidence Auditing"
   description: "A systematic study of whether stated VLM confidence can support answer-or-defer decisions on brain MRI across error targets, case mix, and lesion size."
 
