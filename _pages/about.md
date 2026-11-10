@@ -88,7 +88,7 @@ arXiv: [2610.04544](https://arxiv.org/abs/2610.04544)
 <div class='paper-box-text' markdown="1">
 
 [**Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI**](/Confident-but-Unreliable/)<br>
-Accepted to [ACM AI 2026](https://aisummit.acm.org/)<br>
+Accepted to [ACM AI 2026](https://aisummit.acm.org/) · [Official listing](https://aisummit.acm.org/accepted-papers#:~:text=Confident%20but%20Unreliable)<br>
 *2026.07* · First author<br>
 Project: [Website](/Confident-but-Unreliable/)<br>
 Code: [GitHub](https://github.com/amir-sbg/confident-unreliable-vlm-brain-mri-audit)<br>
@@ -102,6 +102,7 @@ arXiv: [2608.02790](https://arxiv.org/abs/2608.02790)
 <div class='paper-box-text' markdown="1">
 
 **[Behavior Analysis of Car Drivers Based on Computer Vision](/driver-behavior/)**<br>
+*2023* · BSc Project<br>
 Computer-vision system for analyzing real-world driver behavior.<br>
 Code: [GitHub](https://github.com/amir-sbg/Behavior-Analysis-of-Car-Drivers-Based-on-Computer-Vision)
 
