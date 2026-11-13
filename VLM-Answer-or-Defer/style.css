@@ -144,11 +144,17 @@ figcaption {
   padding-top: 0.7rem;
 }
 
+.workflow-figure {
+  margin: 0 auto 2.25rem;
+  max-width: 1040px;
+}
+
 .overview-figure {
   margin: 0 auto;
   max-width: 1120px;
 }
 
+.workflow-figure img,
 .overview-figure img,
 .scientific-figure img {
   border: 1px solid #e2e7ef;
