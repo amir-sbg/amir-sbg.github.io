@@ -167,6 +167,17 @@ figcaption {
 .workflow-figure img {
   border-color: #e4e8f0;
   border-radius: 8px;
+  box-shadow:
+    0 2px 5px rgba(20, 31, 52, 0.12),
+    0 12px 28px rgba(20, 31, 52, 0.15);
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+
+.workflow-figure img:hover {
+  box-shadow:
+    0 4px 8px rgba(20, 31, 52, 0.14),
+    0 17px 34px rgba(20, 31, 52, 0.19);
+  transform: translateY(-3px);
 }
 
 .workflow-figure figcaption {
