@@ -14,6 +14,28 @@ This page collects conferences, workshops, research presentations, academic even
 
 <div class="experience-card" markdown="1">
 
+## Shaping AI for the Public Good: Lecture by David A. Patterson
+
+<div class="experience-card-description" markdown="1">
+
+*November 2026*
+
+I was happy to attend **“Shaping AI for the Public Good”** and hear from Professor [David A. Patterson](https://scholar.google.com/citations?user=Wj4ZBFIAAAAJ). Beyond his perspective on the future and public impact of AI, it was especially meaningful to hear the personal and professional lessons he shared from his life and career.
+
+Professor Patterson is a recipient of the **2017 ACM A.M. Turing Award** and the **2022 Charles Stark Draper Prize for Engineering**—two of computing and engineering’s highest honors.
+
+</div>
+
+<div class="experience-media-row">
+  <img src="/images/experiences/david-patterson-lecture-2026/david-patterson-lecture-01.jpg" alt="David Patterson sharing career and life lessons during the lecture">
+  <img src="/images/experiences/david-patterson-lecture-2026/david-patterson-lecture-02.jpg" alt="Audience attending David Patterson's Shaping AI for the Public Good lecture">
+  <img src="/images/experiences/david-patterson-lecture-2026/david-patterson-lecture-03.jpg" alt="David Patterson speaking about AI and his professional experiences">
+</div>
+
+</div>
+
+<div class="experience-card" markdown="1">
+
 ## ACM AI 2026 - <span class="experience-heading-small">Leadership summit</span>
 
 <div class="experience-card-description" markdown="1">
