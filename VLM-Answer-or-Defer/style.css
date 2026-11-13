@@ -164,6 +164,18 @@ figcaption {
   width: 100%;
 }
 
+.workflow-figure img {
+  border-color: #e4e8f0;
+  border-radius: 8px;
+}
+
+.workflow-figure figcaption {
+  font-family: "Google Sans", "Noto Sans", sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.5;
+  max-width: 900px;
+}
+
 figcaption {
   color: #4c5564;
   font-size: 1.04rem;
