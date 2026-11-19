@@ -124,7 +124,13 @@
             display: block;
             height: 100%;
             object-fit: fill;
+            transition: transform .2s ease;
             width: 100%;
+        }
+
+        a:hover img,
+        a:focus-visible img {
+            transform: scale(1.035);
         }
     }
 }
@@ -142,7 +148,15 @@
     .media-swap-static,
     .media-swap-animated {
         display: block;
+        transition: transform .2s ease;
         width: 100%;
+    }
+
+    &:hover .media-swap-static,
+    &:hover .media-swap-animated,
+    &:focus-visible .media-swap-static,
+    &:focus-visible .media-swap-animated {
+        transform: scale(1.035);
     }
 
     .media-swap-animated {
@@ -151,7 +165,7 @@
         opacity: 0;
         position: absolute;
         top: 0;
-        transition: opacity .25s ease;
+        transition: opacity .25s ease, transform .2s ease;
     }
 
     &.is-loaded {
