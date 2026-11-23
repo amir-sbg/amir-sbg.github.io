@@ -45,13 +45,11 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 <div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted BMVC 2026</div><a class="paper-box-media-swap" href="https://amir-sbg.github.io/FlexSplat/"><img class="media-swap-static" src='/FlexSplat/assets/figures/architecture-flexsplat.jpg' alt="FlexSplat flexible feed-forward 3D Gaussian splatting architecture" width="100%"><img class="media-swap-animated" src='/FlexSplat/assets/figures/flexsplat-wf-card.gif' alt="" aria-hidden="true" width="100%" loading="lazy" onload="this.parentElement.classList.add('is-loaded')"></a><img class="venue-mark" src='/images/projects/repo-media/bmvc-2026-transparent.png' alt="BMVC 2026 logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence**](https://amir-sbg.github.io/FlexSplat/)<br>
+**FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence**<br>
 Accepted to [BMVC 2026](https://bmvc2026.bmva.org/) · [Official listing](https://bmvc2026.bmva.org/programme/accepted_papers/#:~:text=FlexSplat)<br>
 Acceptance ratio: 28%<br>
-*2026.07* · First author<br>
-Project: [Website](https://amir-sbg.github.io/FlexSplat/)<br>
-Code: [GitHub](https://github.com/amir-sbg/FlexSplat)<br>
-arXiv: [2608.07937](https://arxiv.org/abs/2608.07937)
+First author<br>
+[Project](https://amir-sbg.github.io/FlexSplat/) &nbsp; [Paper](https://arxiv.org/abs/2608.07937) &nbsp; [Code](https://github.com/amir-sbg/FlexSplat)
 
 </div>
 </div>
@@ -59,12 +57,10 @@ arXiv: [2608.07937](https://arxiv.org/abs/2608.07937)
 <div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted WACV 2027 · FABRIC Workshop</div><a href="/VLM-Answer-or-Defer/"><img src='/VLM-Answer-or-Defer/assets/figures/overview.png' alt="Answer or Defer VLM confidence audit on brain MRI" width="100%"></a><img class="venue-mark venue-mark-wacv" src='/VLM-Answer-or-Defer/assets/logos/wacv-2027.png' alt="WACV 2027 logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Answer or Defer? Testing VLMs' Stated Confidence on Brain MRI**](/VLM-Answer-or-Defer/)<br>
+**Answer or Defer? Testing VLMs' Stated Confidence on Brain MRI**<br>
 Accepted to [WACV 2027](https://wacv.thecvf.com/) ([FABRIC Workshop](https://sites.google.com/view/fabric-wacv))<br>
-*2026.11* · First author<br>
-Project: [Website](/VLM-Answer-or-Defer/)<br>
-Code: [GitHub](https://github.com/amir-sbg/VLM-Answer-or-Defer)<br>
-arXiv: [2611.11833](https://arxiv.org/abs/2611.11833)
+First author<br>
+[Project](/VLM-Answer-or-Defer/) &nbsp; [Paper](https://arxiv.org/abs/2611.11833) &nbsp; [Code](https://github.com/amir-sbg/VLM-Answer-or-Defer)
 
 </div>
 </div>
@@ -72,14 +68,10 @@ arXiv: [2611.11833](https://arxiv.org/abs/2611.11833)
 <div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted NeurIPS 2026 (AIM Workshop)</div><a href="/Label-Agreement-Does-Not-Measure-Authorization/"><img src='/images/projects/repo-media/label-agreement-aim-diagram.png' alt="Label Agreement Does Not Measure Authorization diagram" width="100%"></a><img class="venue-mark" src='/images/projects/repo-media/neurips-2026.png' alt="NeurIPS 2026 logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Label Agreement Does Not Measure Authorization**](/Label-Agreement-Does-Not-Measure-Authorization/)<br>
+**Label Agreement Does Not Measure Authorization**<br>
 Accepted to [NeurIPS 2026](https://neurips.cc/virtual/2026/loc/atlanta/workshop/137564) ([AIM Workshop](https://aim-neurips26.github.io/))<br>
-*2026.10* · First author<br>
-Project: [Website](/Label-Agreement-Does-Not-Measure-Authorization/)<br>
-Code: [GitHub](https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization)<br>
-NeurIPS page: [Official workshop listing](https://neurips.cc/virtual/2026/loc/atlanta/workshop/137564)<br>
-OpenReview: [Paper](https://openreview.net/forum?id=X1mYBTqag6)<br>
-arXiv: [2610.04544](https://arxiv.org/abs/2610.04544)
+First author<br>
+[Project](/Label-Agreement-Does-Not-Measure-Authorization/) &nbsp; [Paper](https://openreview.net/forum?id=X1mYBTqag6) &nbsp; [Code](https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization)
 
 </div>
 </div>
@@ -87,13 +79,10 @@ arXiv: [2610.04544](https://arxiv.org/abs/2610.04544)
 <div class='paper-box paper-box-publication'><div class='paper-box-image'><div><div class="badge">Accepted ACM AI 2026</div><a href="/Confident-but-Unreliable/"><img src='/Confident-but-Unreliable/assets/figures/overview.png' alt="Confident but Unreliable brain MRI VLM audit pipeline" width="100%"></a><img class="venue-mark" src='/images/projects/repo-media/acm-ai-2026-logo.png' alt="ACM AI 2026 logo"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI**](/Confident-but-Unreliable/)<br>
+**Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI**<br>
 Accepted to [ACM AI 2026](https://aisummit.acm.org/) · [Official listing](https://aisummit.acm.org/accepted-papers#:~:text=Confident%20but%20Unreliable)<br>
-*2026.07* · First author<br>
-Project: [Website](/Confident-but-Unreliable/)<br>
-Code: [GitHub](https://github.com/amir-sbg/confident-unreliable-vlm-brain-mri-audit)<br>
-DOI: [10.1145/3806096.3844866](https://doi.org/10.1145/3806096.3844866)<br>
-arXiv: [2608.02790](https://arxiv.org/abs/2608.02790)
+First author<br>
+[Project](/Confident-but-Unreliable/) &nbsp; [Paper](https://doi.org/10.1145/3806096.3844866) &nbsp; [Code](https://github.com/amir-sbg/confident-unreliable-vlm-brain-mri-audit)
 
 </div>
 </div>
@@ -101,10 +90,10 @@ arXiv: [2608.02790](https://arxiv.org/abs/2608.02790)
 <div class='paper-box paper-box-bsc'><div class='paper-box-image'><div><div class="badge">BSc Project</div><a href="/driver-behavior/"><img src='/images/driver-behavior/adas-workflow-card.gif' alt="Driver-behavior analysis workflow" width="100%" loading="lazy"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Behavior Analysis of Car Drivers Based on Computer Vision](/driver-behavior/)**<br>
+**Behavior Analysis of Car Drivers Based on Computer Vision**<br>
 *2023* · BSc Project<br>
 Computer-vision system for analyzing real-world driver behavior.<br>
-Code: [GitHub](https://github.com/amir-sbg/Behavior-Analysis-of-Car-Drivers-Based-on-Computer-Vision)
+[Project](/driver-behavior/) &nbsp; [Code](https://github.com/amir-sbg/Behavior-Analysis-of-Car-Drivers-Based-on-Computer-Vision)
 
 </div>
 </div>
