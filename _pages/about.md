@@ -46,10 +46,10 @@ I am a second-year Ph.D. student in Computer Science, supervised by [Dr. Sergey 
 <div class='paper-box-text' markdown="1">
 
 **FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence**<br>
-Accepted to [BMVC 2026](https://bmvc2026.bmva.org/) · [Official listing](https://bmvc2026.bmva.org/programme/accepted_papers/#:~:text=FlexSplat)<br>
+Accepted to [BMVC 2026](https://bmvc2026.bmva.org/)<br>
 Acceptance ratio: 28%<br>
 First author<br>
-[Project](https://amir-sbg.github.io/FlexSplat/) &nbsp; [Paper](https://arxiv.org/abs/2608.07937) &nbsp; [Code](https://github.com/amir-sbg/FlexSplat)
+<a href="https://amir-sbg.github.io/FlexSplat/">[Project]</a> &nbsp; <a href="https://arxiv.org/abs/2608.07937">[Paper]</a> &nbsp; <a href="https://github.com/amir-sbg/FlexSplat">[Code]</a> &nbsp; <a href="https://bmvc2026.bmva.org/programme/accepted_papers/#:~:text=FlexSplat">[Official listing]</a>
 
 </div>
 </div>
@@ -60,7 +60,7 @@ First author<br>
 **Answer or Defer? Testing VLMs' Stated Confidence on Brain MRI**<br>
 Accepted to [WACV 2027](https://wacv.thecvf.com/) ([FABRIC Workshop](https://sites.google.com/view/fabric-wacv))<br>
 First author<br>
-[Project](/VLM-Answer-or-Defer/) &nbsp; [Paper](https://arxiv.org/abs/2611.11833) &nbsp; [Code](https://github.com/amir-sbg/VLM-Answer-or-Defer)
+<a href="/VLM-Answer-or-Defer/">[Project]</a> &nbsp; <a href="https://arxiv.org/abs/2611.11833">[Paper]</a> &nbsp; <a href="https://github.com/amir-sbg/VLM-Answer-or-Defer">[Code]</a>
 
 </div>
 </div>
@@ -71,7 +71,7 @@ First author<br>
 **Label Agreement Does Not Measure Authorization**<br>
 Accepted to [NeurIPS 2026](https://neurips.cc/virtual/2026/loc/atlanta/workshop/137564) ([AIM Workshop](https://aim-neurips26.github.io/))<br>
 First author<br>
-[Project](/Label-Agreement-Does-Not-Measure-Authorization/) &nbsp; [Paper](https://openreview.net/forum?id=X1mYBTqag6) &nbsp; [Code](https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization)
+<a href="/Label-Agreement-Does-Not-Measure-Authorization/">[Project]</a> &nbsp; <a href="https://openreview.net/forum?id=X1mYBTqag6">[Paper]</a> &nbsp; <a href="https://github.com/amir-sbg/Label-Agreement-Does-Not-Measure-Authorization">[Code]</a> &nbsp; <a href="https://neurips.cc/virtual/2026/loc/atlanta/workshop/137564">[Official listing]</a>
 
 </div>
 </div>
@@ -80,9 +80,9 @@ First author<br>
 <div class='paper-box-text' markdown="1">
 
 **Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI**<br>
-Accepted to [ACM AI 2026](https://aisummit.acm.org/) · [Official listing](https://aisummit.acm.org/accepted-papers#:~:text=Confident%20but%20Unreliable)<br>
+Accepted to [ACM AI 2026](https://aisummit.acm.org/)<br>
 First author<br>
-[Project](/Confident-but-Unreliable/) &nbsp; [Paper](https://doi.org/10.1145/3806096.3844866) &nbsp; [Code](https://github.com/amir-sbg/confident-unreliable-vlm-brain-mri-audit)
+<a href="/Confident-but-Unreliable/">[Project]</a> &nbsp; <a href="https://doi.org/10.1145/3806096.3844866">[Paper]</a> &nbsp; <a href="https://github.com/amir-sbg/confident-unreliable-vlm-brain-mri-audit">[Code]</a> &nbsp; <a href="https://aisummit.acm.org/accepted-papers#:~:text=Confident%20but%20Unreliable">[Official listing]</a>
 
 </div>
 </div>
@@ -93,7 +93,7 @@ First author<br>
 **Behavior Analysis of Car Drivers Based on Computer Vision**<br>
 *2023* · BSc Project<br>
 Computer-vision system for analyzing real-world driver behavior.<br>
-[Project](/driver-behavior/) &nbsp; [Code](https://github.com/amir-sbg/Behavior-Analysis-of-Car-Drivers-Based-on-Computer-Vision)
+<a href="/driver-behavior/">[Project]</a> &nbsp; <a href="https://github.com/amir-sbg/Behavior-Analysis-of-Car-Drivers-Based-on-Computer-Vision">[Code]</a>
 
 </div>
 </div>
